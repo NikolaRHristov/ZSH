@@ -30,4 +30,4 @@ These settings need to be set in your zshrc file, before Oh My Zsh is sourced.
 ## Author
 
 Adapted from an original version by
-[`Jean-Philippe Ouellet`](HTTPS://GitHub.Com/jpouellet).
+[`Jean-Philippe Ouellet`](https://GitHub.Com/jpouellet).

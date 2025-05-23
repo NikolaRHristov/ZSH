@@ -33,7 +33,7 @@ by line. These functions have the same name except using `ndjson` instead of
 
 ```console
 # curl json data and pretty print the results
-curl HTTPS://coderwall.com/bobwilliams.json | pp_json
+curl https://coderwall.com/bobwilliams.json | pp_json
 ```
 
 -   **is_json**:

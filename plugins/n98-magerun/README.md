@@ -4,7 +4,7 @@ The swiss army knife for Magento developers, sysadmins and devops. The tool
 provides a huge set of well tested command line commands which save hours of
 work time.
 
-The [`n98-magerun plugin`](HTTPS://GitHub.Com/netz98/n98-magerun) provides many
+The [`n98-magerun plugin`](https://GitHub.Com/netz98/n98-magerun) provides many
 [`useful aliases`](#aliases) as well as completion for the `n98-magerun` command.
 
 Enable it by adding `n98-magerun` to the plugins array in your zshrc file:
@@ -19,5 +19,5 @@ plugins=(... n98-magerun)
 | --------- | -------------------------------------------------- | --------------------------------------------------------------------------------- |
 | n98       | `n98-magerun.phar`                                 | The N98-Magerun phar-file (Version 1)                                             |
 | n98-2     | `n98-magerun2.phar`                                | The N98-Magerun phar-file (Version 2)                                             |
-| mage-get  | `wget HTTPS://files.magerun.net/n98-magerun.phar`  | Download the latest stable N98-Magerun phar-file from the file-server (Version 1) |
-| mage2-get | `wget HTTPS://files.magerun.net/n98-magerun2.phar` | Download the latest stable N98-Magerun phar-file from the file-server (Version 2) |
+| mage-get  | `wget https://files.magerun.net/n98-magerun.phar`  | Download the latest stable N98-Magerun phar-file from the file-server (Version 1) |
+| mage2-get | `wget https://files.magerun.net/n98-magerun2.phar` | Download the latest stable N98-Magerun phar-file from the file-server (Version 2) |

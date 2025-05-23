@@ -10,10 +10,10 @@ To use it, add `droplr` to the `$plugins` variable in your zshrc file:
 plugins=(... droplr)
 ```
 
-Author: [`Fabio Fernandes`](HTTPS://GitHub.Com/fabiofl)
+Author: [`Fabio Fernandes`](https://GitHub.Com/fabiofl)
 
 ## Examples
 
 -   Upload a file: `droplr ./path/to/file/`
 
--   Shorten a link: `droplr HTTPS://example.com`
+-   Shorten a link: `droplr https://example.com`

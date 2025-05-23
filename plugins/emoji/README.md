@@ -86,7 +86,7 @@ PROMPT="$surfer  > "
 
 The emoji names and codes are sourced from Unicode Technical Report \#51, which
 provides information on emoji support in Unicode. It can be found at
-HTTPS://www.unicode.org/reports/tr51/index.html.
+https://www.unicode.org/reports/tr51/index.html.
 
 The group definitions are added by this OMZ plugin. They are not based on
 external definitions.
@@ -155,7 +155,7 @@ for details.
 
 #### Gemoji support
 
-The [`gemoji project`](HTTPS://GitHub.Com/github/gemoji) seems to be the de facto
+The [`gemoji project`](https://GitHub.Com/github/gemoji) seems to be the de facto
 main source for short names and other emoji-related metadata that isn't included
 in the official Unicode reports. So, our list of emojis incorporates some of
 their aliases to make your life more convenient:

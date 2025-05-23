@@ -19,4 +19,4 @@ plugins=(... kitty)
 
 ## Contributors
 
--   [`Ian Chesal`](HTTPS://GitHub.Com/ianchesal)
+-   [`Ian Chesal`](https://GitHub.Com/ianchesal)

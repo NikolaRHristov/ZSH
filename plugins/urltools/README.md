@@ -9,7 +9,7 @@ To start using it, add the `urltools` plugin to your plugins array in
 plugins=(... urltools)
 ```
 
-Original author: [`Ian Chesal`](HTTPS://GitHub.Com/ianchesal) Original idea and
+Original author: [`Ian Chesal`](https://GitHub.Com/ianchesal) Original idea and
 aliases:
 [`Ruslan Spivak`](https://ruslanspivak.wordpress.com/2010/06/02/urlencode-and-urldecode-from-a-command-line/)
 
@@ -23,9 +23,9 @@ aliases:
 ## Examples
 
 ```zsh
-urlencode 'HTTPS://github.com/ohmyzsh/ohmyzsh/search?q=urltools&type=Code'
+urlencode 'https://github.com/ohmyzsh/ohmyzsh/search?q=urltools&type=Code'
 # returns https%3A%2F%2Fgithub.com%2Fohmyzsh%2Fohmyzsh%2Fsearch%3Fq%3Durltools%26type%3DCode
 
 urldecode 'https%3A%2F%2Fgithub.com%2Fohmyzsh%2Fohmyzsh%2Fsearch%3Fq%3Durltools%26type%3DCode'
-# returns HTTPS://github.com/ohmyzsh/ohmyzsh/search?q=urltools&type=Code
+# returns https://github.com/ohmyzsh/ohmyzsh/search?q=urltools&type=Code
 ```

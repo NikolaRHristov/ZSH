@@ -1,7 +1,7 @@
 # JetBrains Qodana CLI plugin
 
 This plugin adds completion for the
-[`JetBrains Qodana CLI`](HTTPS://GitHub.Com/JetBrains/qodana-cli).
+[`JetBrains Qodana CLI`](https://GitHub.Com/JetBrains/qodana-cli).
 
 To use it, add `qodana` to the plugins array in your zshrc file:
 

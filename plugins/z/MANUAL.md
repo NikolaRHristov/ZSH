@@ -2,7 +2,7 @@
 
 [![MIT License](img/mit_license.svg)](https://opensource.org/licenses/MIT)
 ![`Zsh version 4.3.11 and higher`](img/zsh_4.3.11_plus.svg)
-[![GitHub stars](https://img.shields.io/github/stars/agkozak/zsh-z.svg)](HTTPS://GitHub.Com/agkozak/zsh-z/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/agkozak/zsh-z.svg)](https://GitHub.Com/agkozak/zsh-z/stargazers)
 
 ![`Zsh-z demo`](img/demo.gif)
 
@@ -18,7 +18,7 @@ and how much time you have been using Zsh-z to build up a database. After using
 Zsh-z for a little while, you will get to where you want to be by typing
 considerably less than you would need if you were using `cd`.
 
-Zsh-z is a native Zsh port of [`rupa/z`](HTTPS://GitHub.Com/rupa/z), a tool
+Zsh-z is a native Zsh port of [`rupa/z`](https://GitHub.Com/rupa/z), a tool
 written for `bash` and Zsh that uses embedded `awk` scripts to do the heavy
 lifting. It was quite possibly my most used command line tool for a couple of
 years. I decided to translate it, `awk` parts and all, into pure Zsh script, to
@@ -34,7 +34,7 @@ been a problem with `rupa/z`, and users of that utility will occasionally lose
 their `.z` databases. By having Zsh-z only use Zsh (`rupa/z` uses a hybrid shell
 code that works on `bash` as well), I have been able to implement a
 `zsh/system`-based file-locking mechanism similar to
-[`the one @mafredri once proposed for `rupa/z`](HTTPS://GitHub.Com/rupa/z/pull/199).
+[`the one @mafredri once proposed for `rupa/z`](https://GitHub.Com/rupa/z/pull/199).
 It is now nearly impossible to crash the database, even through extreme testing.
 
 There are other, smaller improvements which I try to document in
@@ -85,7 +85,7 @@ database (`~/.z`), so you can go on using `rupa/z` when you launch `bash`.
         @mafredri).
 -   June 27, 2022
     -   A bug was fixed which was preventing paths with spaces in them from
-        being updated ([`#61`](HTTPS://GitHub.Com/agkozak/zsh-z/issues/61)).
+        being updated ([`#61`](https://GitHub.Com/agkozak/zsh-z/issues/61)).
     -   If writing to the temporary database file fails, the database will not
         be clobbered (props @mafredri).
 -   December 19, 2021
@@ -157,7 +157,7 @@ database (`~/.z`), so you can go on using `rupa/z` when you launch `bash`.
     -   I have corrected the frecency routine so that it matches `rupa/z`'s
         math, but for the present, Zsh-z will continue to display ranks as
         1/10000th of what they are in `rupa/z` --
-        [`they had to multiply theirs by 10000`](HTTPS://GitHub.Com/rupa/z/commit/f1f113d9bae9effaef6b1e15853b5eeb445e0712)
+        [`they had to multiply theirs by 10000`](https://GitHub.Com/rupa/z/commit/f1f113d9bae9effaef6b1e15853b5eeb445e0712)
         to work around `bash`'s inadequacies at dealing with decimal fractions.
 -   January 5, 2021
     -   If you try `z foo`, and `foo` is not in the database but `${PWD}/foo` is
@@ -200,7 +200,7 @@ If you add
 to your `.zshrc`, your completion menus will look very nice. This `zstyle`
 invocation should work with any of the frameworks below as well.
 
-### For [`antigen`](HTTPS://GitHub.Com/zsh-users/antigen) users
+### For [`antigen`](https://GitHub.Com/zsh-users/antigen) users
 
 Add the line
 
@@ -221,16 +221,16 @@ It is as simple as that.
 If, however, you prefer always to use the latest version of Zsh-z from the
 `agkozak/zsh-z` repo, you may install it thus:
 
-    git clone HTTPS://github.com/agkozak/zsh-z ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-z
+    git clone https://github.com/agkozak/zsh-z ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-z
 
 and activate it by adding `zsh-z` to the line of your `.zshrc` that specifies
 `plugins=()`, e.g., `plugins=( git zsh-z )`.
 
-### For [`prezto`](HTTPS://GitHub.Com/sorin-ionescu/prezto) users
+### For [`prezto`](https://GitHub.Com/sorin-ionescu/prezto) users
 
 Execute the following command:
 
-    git clone HTTPS://github.com/agkozak/zsh-z.git ~/.zprezto-contrib/zsh-z
+    git clone https://github.com/agkozak/zsh-z.git ~/.zprezto-contrib/zsh-z
 
 Then edit your `~/.zpreztorc` file. Make sure the line that says
 
@@ -266,7 +266,7 @@ Add a backslash to the end of the last line add `'zsh-z'` to the list, e.g.,
 
 Then relaunch `zsh`.
 
-### For [`zcomet`](HTTPS://GitHub.Com/agkozak/zcomet) users
+### For [`zcomet`](https://GitHub.Com/agkozak/zcomet) users
 
 Simply add
 
@@ -275,7 +275,7 @@ Simply add
 to your `.zshrc` (below where you source `zcomet.zsh` and above where you run
 `zcomet compinit`).
 
-### For [`zgen`](HTTPS://GitHub.Com/tarjoilija/zgen) users
+### For [`zgen`](https://GitHub.Com/tarjoilija/zgen) users
 
 Add the line
 
@@ -288,11 +288,11 @@ somewhere above the line that says `zgen save`. Then run
 
 to refresh your init script.
 
-### For [`Zim`](HTTPS://GitHub.Com/zimfw/zimfw)
+### For [`Zim`](https://GitHub.Com/zimfw/zimfw)
 
 Add the following line to your `.zimrc`:
 
-    zmodule HTTPS://github.com/agkozak/zsh-z
+    zmodule https://github.com/agkozak/zsh-z
 
 Then run
 
@@ -300,7 +300,7 @@ Then run
 
 and restart your shell.
 
-### For [`Zinit`](HTTPS://GitHub.Com/zdharma-continuum/zinit) users
+### For [`Zinit`](https://GitHub.Com/zdharma-continuum/zinit) users
 
 Add the line
 
@@ -312,7 +312,7 @@ to your `.zshrc`.
 `zinit unload agkozak/zshz` to restore the shell to its state before `zsh-z` was
 loaded.
 
-### For [`Znap`](HTTPS://GitHub.Com/marlonrichert/zsh-snap) users
+### For [`Znap`](https://GitHub.Com/marlonrichert/zsh-snap) users
 
 Add the line
 
@@ -320,7 +320,7 @@ Add the line
 
 somewhere below the line where you `source` Znap itself.
 
-### For [`zplug`](HTTPS://GitHub.Com/zplug/zplug) users
+### For [`zplug`](https://GitHub.Com/zplug/zplug) users
 
 Add the line
 
@@ -469,7 +469,7 @@ database format, but it stores it by default in `~/.fasd`, so you will have to
 
 If you are coming to Zsh-z (or even to the original `rupa/z`, for that matter)
 from `autojump`, try using my
-[`jumpstart-z`](HTTPS://GitHub.Com/agkozak/jumpstart-z/blob/master/jumpstart-z)
+[`jumpstart-z`](https://GitHub.Com/agkozak/jumpstart-z/blob/master/jumpstart-z)
 tool to convert your old database to the Zsh-z format, or simply run
 
     awk -F "\t" '{printf("%s|%0.f|%s\n", $2, $1, '"$(date +%s)"')}' < /path/to/autojump.txt > ~/.z

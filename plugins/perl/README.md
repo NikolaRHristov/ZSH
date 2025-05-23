@@ -36,4 +36,4 @@ plugins=(... perl)
 ## Requirements
 
 In order to make this work, you will need to have perl installed. More info on
-the usage and install: HTTPS://www.perl.org/get.html
+the usage and install: https://www.perl.org/get.html

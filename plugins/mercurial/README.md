@@ -69,5 +69,5 @@ this to work.
 
 ## Maintainers
 
--   [`ptrv`](HTTPS://GitHub.Com/ptrv): original creator
--   [`oshybystyi`](HTTPS://GitHub.Com/oshybystyi)
+-   [`ptrv`](https://GitHub.Com/ptrv): original creator
+-   [`oshybystyi`](https://GitHub.Com/oshybystyi)

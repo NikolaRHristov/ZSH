@@ -22,7 +22,7 @@ zstyle :omz:plugins:iterm2 shell-integration yes
 
 -   `_iterm2_command <iterm2-command>` executes an arbitrary iTerm2 command via
     an escape code sequence. See
-    HTTPS://iterm2.com/documentation-escape-codes.html for all supported
+    https://iterm2.com/documentation-escape-codes.html for all supported
     commands.
 
 -   `iterm2_profile <profile-name>` changes the current terminal window's
@@ -40,4 +40,4 @@ For shell integration features see the
 
 ## Contributors
 
--   [`Aviv Rosenberg`](HTTPS://GitHub.Com/avivrosenberg)
+-   [`Aviv Rosenberg`](https://GitHub.Com/avivrosenberg)

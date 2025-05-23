@@ -38,7 +38,7 @@ plugins=(... common-aliases)
 | duf\* | `du -sh`              | Display the size of files in current location in human-readable form            |
 | t     | `tail -f`             | Shorthand for tail which outputs the last part of a file                        |
 
-\* Only if the [`duf`](HTTPS://GitHub.Com/muesli/duf) command isn't installed.
+\* Only if the [`duf`](https://GitHub.Com/muesli/duf) command isn't installed.
 
 ### find and grep
 
@@ -49,7 +49,7 @@ plugins=(... common-aliases)
 | grep  | `grep --color`                                     | Searches for a query string          |
 | sgrep | `grep -R -n -H -C 5 --exclude-dir={.git,.svn,CVS}` | Useful for searching within files    |
 
-\* Only if the [`fd`](HTTPS://GitHub.Com/sharkdp/fd) command isn't installed.
+\* Only if the [`fd`](https://GitHub.Com/sharkdp/fd) command isn't installed.
 
 ### Other Aliases
 

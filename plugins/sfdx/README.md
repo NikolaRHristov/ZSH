@@ -9,4 +9,4 @@ To use it, add `sfdx` to the plugins array in your zshrc file:
 plugins=(... sfdx)
 ```
 
-Original repository: HTTPS://github.com/wadewegner/salesforce-cli-zsh-completion
+Original repository: https://github.com/wadewegner/salesforce-cli-zsh-completion

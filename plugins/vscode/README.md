@@ -32,7 +32,7 @@ Shell Command:
 
 > Shell Command: Install 'code' command in PATH
 
-[`For VSCodium`](HTTPS://GitHub.Com/VSCodium/vscodium/blob/master/DOCS.md#how-do-i-open-vscodium-from-the-terminal),
+[`For VSCodium`](https://GitHub.Com/VSCodium/vscodium/blob/master/DOCS.md#how-do-i-open-vscodium-from-the-terminal),
 open the Command Palette via (F1 or ⇧⌘P) and type shell command to find the
 Shell Command:
 

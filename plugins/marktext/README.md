@@ -4,7 +4,7 @@ Plugin for MarkText, a previewer for Markdown files on Mac OS X
 
 ### Requirements
 
--   [`MarkText`](HTTPS://GitHub.Com/marktext/marktext)
+-   [`MarkText`](https://GitHub.Com/marktext/marktext)
 
 ### 🛠️ Usage
 

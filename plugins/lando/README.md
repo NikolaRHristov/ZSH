@@ -68,4 +68,4 @@ following criteria:
 
 -   Author: Joshua Bedford
 -   URL:
-    [`HTTPS://github.com/joshuabedford/lando-zsh`](HTTPS://GitHub.Com/joshuabedford/lando-zsh)
+    [`https://github.com/joshuabedford/lando-zsh`](https://GitHub.Com/joshuabedford/lando-zsh)

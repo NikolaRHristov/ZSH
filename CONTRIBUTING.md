@@ -38,7 +38,7 @@ already covering your problem.
 If you find one, comment on it, so we know more people are experiencing it.
 
 If not, look at the
-[`Troubleshooting`](HTTPS://GitHub.Com/ohmyzsh/ohmyzsh/wiki/Troubleshooting) page
+[`Troubleshooting`](https://GitHub.Com/ohmyzsh/ohmyzsh/wiki/Troubleshooting) page
 for instructions on how to gather data to better debug your problem.
 
 Then, you can go ahead and create an issue with as much detail as you can
@@ -72,7 +72,7 @@ in your message.
 You should be familiar with the basics of
 [`contributing on GitHub`](https://help.github.com/articles/using-pull-requests)
 and have a fork
-[`properly set up`](HTTPS://GitHub.Com/ohmyzsh/ohmyzsh/wiki/Contribution-Technical-Practices).
+[`properly set up`](https://GitHub.Com/ohmyzsh/ohmyzsh/wiki/Contribution-Technical-Practices).
 
 You MUST always create PRs with _a dedicated branch_ based on the latest
 upstream tree.
@@ -99,7 +99,7 @@ your message.
 ### You have an addition
 
 Please
-[`do not`](HTTPS://GitHub.Com/ohmyzsh/ohmyzsh/wiki/Themes#dont-send-us-your-theme-for-now)
+[`do not`](https://GitHub.Com/ohmyzsh/ohmyzsh/wiki/Themes#dont-send-us-your-theme-for-now)
 send themes for now.
 
 Please be so kind as to [`search`](#use-the-search-luke) for any pending, merged
@@ -150,7 +150,7 @@ search before making any contribution, it avoids duplicates and eases
 maintenance. Trust me, that works 90% of the time.
 
 You can also take a look at the
-[`FAQ`](HTTPS://GitHub.Com/ohmyzsh/ohmyzsh/wiki/FAQ) to be sure your contribution
+[`FAQ`](https://GitHub.Com/ohmyzsh/ohmyzsh/wiki/FAQ) to be sure your contribution
 has not already come up.
 
 If all fails, your thing has probably not been reported yet, so you can go ahead
@@ -267,5 +267,5 @@ users will know what changed by just looking at the changelog.
 Very nice!! :)
 
 Please have a look at the
-[`Volunteer`](HTTPS://GitHub.Com/ohmyzsh/ohmyzsh/wiki/Volunteers) page for
+[`Volunteer`](https://GitHub.Com/ohmyzsh/ohmyzsh/wiki/Volunteers) page for
 instructions on where to start and more.

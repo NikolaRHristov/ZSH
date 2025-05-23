@@ -27,30 +27,30 @@ Available search contexts are:
 
 | Context               | URL                                             |
 | --------------------- | ----------------------------------------------- |
-| `bing`                | `HTTPS://www.bing.com/search?q=`                |
-| `google`              | `HTTPS://www.google.com/search?q=`              |
-| `brs` or `brave`      | `HTTPS://search.brave.com/search?q=`            |
-| `yahoo`               | `HTTPS://search.yahoo.com/search?p=`            |
-| `ddg` or `duckduckgo` | `HTTPS://www.duckduckgo.com/?q=`                |
-| `sp` or `startpage`   | `HTTPS://www.startpage.com/do/search?q=`        |
-| `yandex`              | `HTTPS://yandex.ru/yandsearch?text=`            |
-| `github`              | `HTTPS://github.com/search?q=`                  |
-| `baidu`               | `HTTPS://www.baidu.com/s?wd=`                   |
-| `ecosia`              | `HTTPS://www.ecosia.org/search?q=`              |
-| `goodreads`           | `HTTPS://www.goodreads.com/search?q=`           |
-| `qwant`               | `HTTPS://www.qwant.com/?q=`                     |
-| `givero`              | `HTTPS://www.givero.com/search?q=`              |
-| `stackoverflow`       | `HTTPS://stackoverflow.com/search?q=`           |
-| `wolframalpha`        | `HTTPS://wolframalpha.com/input?i=`             |
-| `archive`             | `HTTPS://web.archive.org/web/*/`                |
-| `scholar`             | `HTTPS://scholar.google.com/scholar?q=`         |
-| `ask`                 | `HTTPS://www.ask.com/web?q=`                    |
-| `youtube`             | `HTTPS://www.youtube.com/results?search_query=` |
-| `deepl`               | `HTTPS://www.deepl.com/translator#auto/auto/`   |
-| `dockerhub`           | `HTTPS://hub.docker.com/search?q=`              |
-| `npmpkg`              | `HTTPS://www.npmjs.com/search?q=`               |
-| `packagist`           | `HTTPS://packagist.org/?query=`                 |
-| `gopkg`               | `HTTPS://pkg.go.dev/search?m=package&q=`        |
+| `bing`                | `https://www.bing.com/search?q=`                |
+| `google`              | `https://www.google.com/search?q=`              |
+| `brs` or `brave`      | `https://search.brave.com/search?q=`            |
+| `yahoo`               | `https://search.yahoo.com/search?p=`            |
+| `ddg` or `duckduckgo` | `https://www.duckduckgo.com/?q=`                |
+| `sp` or `startpage`   | `https://www.startpage.com/do/search?q=`        |
+| `yandex`              | `https://yandex.ru/yandsearch?text=`            |
+| `github`              | `https://github.com/search?q=`                  |
+| `baidu`               | `https://www.baidu.com/s?wd=`                   |
+| `ecosia`              | `https://www.ecosia.org/search?q=`              |
+| `goodreads`           | `https://www.goodreads.com/search?q=`           |
+| `qwant`               | `https://www.qwant.com/?q=`                     |
+| `givero`              | `https://www.givero.com/search?q=`              |
+| `stackoverflow`       | `https://stackoverflow.com/search?q=`           |
+| `wolframalpha`        | `https://wolframalpha.com/input?i=`             |
+| `archive`             | `https://web.archive.org/web/*/`                |
+| `scholar`             | `https://scholar.google.com/scholar?q=`         |
+| `ask`                 | `https://www.ask.com/web?q=`                    |
+| `youtube`             | `https://www.youtube.com/results?search_query=` |
+| `deepl`               | `https://www.deepl.com/translator#auto/auto/`   |
+| `dockerhub`           | `https://hub.docker.com/search?q=`              |
+| `npmpkg`              | `https://www.npmjs.com/search?q=`               |
+| `packagist`           | `https://packagist.org/?query=`                 |
+| `gopkg`               | `https://pkg.go.dev/search?m=package&q=`        |
 
 Also there are aliases for bang-searching DuckDuckGo:
 
@@ -79,7 +79,7 @@ where `<context>` is the name of the search context, and `<URL>` a URL of the
 same type as the search contexts above. For example, to add `reddit`, you'd do:
 
 ```zsh
-ZSH_WEB_SEARCH_ENGINES=(reddit "HTTPS://www.reddit.com/search/?q=")
+ZSH_WEB_SEARCH_ENGINES=(reddit "https://www.reddit.com/search/?q=")
 ```
 
 These custom search engines will also be turned to aliases, so you can both do

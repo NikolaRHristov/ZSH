@@ -1,6 +1,6 @@
 # mise
 
-Adds integration with [`mise`](HTTPS://GitHub.Com/jdx/mise) (formerly `rtx`), a
+Adds integration with [`mise`](https://GitHub.Com/jdx/mise) (formerly `rtx`), a
 runtime executor compatible with npm, nodenv, pyenv, etc. mise is written in
 rust and is very fast. 20x-200x faster than asdf. With that being said, mise is
 compatible with asdf plugins and .tool-versions files. It can be used as a
@@ -8,14 +8,14 @@ drop-in replacement.
 
 ## Installation 🚀
 
-1. [`Download & install mise`](HTTPS://GitHub.Com/jdx/mise#installation) by
+1. [`Download & install mise`](https://GitHub.Com/jdx/mise#installation) by
    running the following:
 
 ```bash
-curl HTTPS://mise.jdx.dev/install.sh | sh
+curl https://mise.jdx.dev/install.sh | sh
 ```
 
-2. [`Enable mise`](HTTPS://GitHub.Com/jdx/mise#quickstart) by adding it to your
+2. [`Enable mise`](https://GitHub.Com/jdx/mise#quickstart) by adding it to your
    `plugins` definition in `~/.zshrc`.
 
 ```bash
@@ -24,7 +24,7 @@ plugins=(mise)
 
 ## 🛠️ Usage
 
-See the [`mise readme`](HTTPS://GitHub.Com/jdx/mise#table-of-contents) for
+See the [`mise readme`](https://GitHub.Com/jdx/mise#table-of-contents) for
 information on how to use mise. Here are a few examples:
 
 ```bash

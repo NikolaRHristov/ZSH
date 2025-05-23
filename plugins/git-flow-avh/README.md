@@ -1,7 +1,7 @@
 # git-flow (AVH Edition) plugin
 
 This plugin adds completion for the
-[`git-flow (AVH Edition)](HTTPS://GitHub.Com/petervanderdoes/gitflow-avh). The
+[`git-flow (AVH Edition)](https://GitHub.Com/petervanderdoes/gitflow-avh). The
 AVH Edition of the git extensions that provides high-level repository operations
 for
 [`Vincent Driessen's branching model`](https://nvie.com/posts/a-successful-git-branching-model/).
@@ -15,7 +15,7 @@ plugins=(... git-flow-avh)
 ## Requirements
 
 1. The git-flow tool has to be
-   [`installed`](HTTPS://GitHub.Com/petervanderdoes/gitflow-avh#installing-git-flow)
+   [`installed`](https://GitHub.Com/petervanderdoes/gitflow-avh#installing-git-flow)
    separately.
 
 2. You have to use zsh's git completion instead of the git project's git

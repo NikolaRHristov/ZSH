@@ -12,7 +12,7 @@ plugins=(... mvn)
 ## Aliases
 
 The plugin aliases mvn to a function that calls `mvnw` (the
-[`Maven Wrapper`](HTTPS://GitHub.Com/takari/maven-wrapper)) if it's found, or the
+[`Maven Wrapper`](https://GitHub.Com/takari/maven-wrapper)) if it's found, or the
 mvn command otherwise.
 
 | Alias         | Command                                       |
@@ -62,4 +62,4 @@ plugin.
 
 It has a bug where it will swallow mvn prompts for user input, _e.g._ when using
 `archetype:generate`. See
-[`#5052`](HTTPS://GitHub.Com/ohmyzsh/ohmyzsh/issues/5052).
+[`#5052`](https://GitHub.Com/ohmyzsh/ohmyzsh/issues/5052).

@@ -1,7 +1,7 @@
 # meteor plugin
 
 The
-[`meteor plugin`](HTTPS://GitHub.Com/ohmyzsh/ohmyzsh/tree/master/plugins/meteor)
+[`meteor plugin`](https://GitHub.Com/ohmyzsh/ohmyzsh/tree/master/plugins/meteor)
 provides many [`useful aliases`](#aliases) as well as completion for the `meteor`
 command.
 

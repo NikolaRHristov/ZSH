@@ -42,5 +42,5 @@ Spelling and formatting fixes: grok@resist.ca
 
 Original quotes from:
 
--   HTTPS://web.archive.org/web/20120106083254/HTTP://tatooine.fortunecity.com/vonnegut/29/hitch/parhaat.html
--   HTTPS://web.archive.org/web/20011112065737/HTTP://www-personal.umd.umich.edu/~nhughes/dna/faqs/quotedir.html
+-   https://web.archive.org/web/20120106083254/HTTP://tatooine.fortunecity.com/vonnegut/29/hitch/parhaat.html
+-   https://web.archive.org/web/20011112065737/HTTP://www-personal.umd.umich.edu/~nhughes/dna/faqs/quotedir.html

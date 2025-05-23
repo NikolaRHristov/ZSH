@@ -1,7 +1,7 @@
 # Generic Colouriser plugin
 
 This plugin adds wrappers for commands supported by
-[`Generic Colouriser`](HTTPS://GitHub.Com/garabik/grc):
+[`Generic Colouriser`](https://GitHub.Com/garabik/grc):
 
 To use it, add `grc` to the plugins array in your zshrc file:
 

@@ -52,10 +52,10 @@ otherwise.
 
 ## Authors:
 
--   [`@AlexBio`](HTTPS://GitHub.Com/AlexBio)
--   [`@dbb`](HTTPS://GitHub.Com/dbb)
--   [`@Mappleconfusers`](HTTPS://GitHub.Com/Mappleconfusers)
--   [`@trinaldi`](HTTPS://GitHub.Com/trinaldi)
+-   [`@AlexBio`](https://GitHub.Com/AlexBio)
+-   [`@dbb`](https://GitHub.Com/dbb)
+-   [`@Mappleconfusers`](https://GitHub.Com/Mappleconfusers)
+-   [`@trinaldi`](https://GitHub.Com/trinaldi)
 -   [`Nicolas Jonas`](https://nextgenthemes.com)
--   [`@loctauxphilippe`](HTTPS://GitHub.Com/loctauxphilippe)
--   [`@HaraldNordgren`](HTTPS://GitHub.Com/HaraldNordgren)
+-   [`@loctauxphilippe`](https://GitHub.Com/loctauxphilippe)
+-   [`@HaraldNordgren`](https://GitHub.Com/HaraldNordgren)

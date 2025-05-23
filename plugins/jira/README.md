@@ -72,7 +72,7 @@ For example:
 
 ```
 cd to/my/project
-echo "HTTPS://jira.atlassian.com" >> .jira-url
+echo "https://jira.atlassian.com" >> .jira-url
 ```
 
 (Note: The current implementation only looks in the current directory for

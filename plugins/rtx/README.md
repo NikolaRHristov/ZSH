@@ -1,20 +1,20 @@
 ## rtx
 
-Adds integration with [`rtx`](HTTPS://GitHub.Com/jdx/rtx), a runtime executor
+Adds integration with [`rtx`](https://GitHub.Com/jdx/rtx), a runtime executor
 compatible with npm, nodenv, pyenv, etc. rtx is written in rust and is very
 fast. 20x-200x faster than asdf. With that being said, rtx is compatible with
 asdf plugins and .tool-versions files. It can be used as a drop-in replacement.
 
 ### Installation 🚀
 
-1. [`Download & install rtx`](HTTPS://GitHub.Com/jdx/rtx#installation) by running
+1. [`Download & install rtx`](https://GitHub.Com/jdx/rtx#installation) by running
    the following:
 
 ```
-curl HTTPS://rtx.pub/install.sh | sh
+curl https://rtx.pub/install.sh | sh
 ```
 
-2. [`Enable rtx`](HTTPS://GitHub.Com/jdx/rtx#quickstart) by adding it to your
+2. [`Enable rtx`](https://GitHub.Com/jdx/rtx#quickstart) by adding it to your
    `plugins` definition in `~/.zshrc`.
 
 ```
@@ -23,7 +23,7 @@ plugins=(rtx)
 
 ### 🛠️ Usage
 
-See the [`rtx readme`](HTTPS://GitHub.Com/jdx/rtx#table-of-contents) for
+See the [`rtx readme`](https://GitHub.Com/jdx/rtx#table-of-contents) for
 information on how to use rtx. Here are a few examples:
 
 ```sh

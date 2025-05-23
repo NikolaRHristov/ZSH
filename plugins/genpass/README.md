@@ -31,7 +31,7 @@ capital letter to satisfy most password security requirements.
     vydpig-fucnul-3ukpog-voggom-zygNad-jepgad
     zocmez-byznis-hegTaj-jecdyq-qiqmiq-5enwom
 
-[1]: HTTPS://developer.apple.com/password-rules/
+[1]: https://developer.apple.com/password-rules/
 
 ## genpass-monkey
 
@@ -46,7 +46,7 @@ base32][2].
     r2n3f5s6vbqs2yx7xjnmahqewy
     296w9y9rts3p5r9yay0raek8e5
 
-[2]: HTTPS://www.crockford.com/base32.html
+[2]: https://www.crockford.com/base32.html
 
 ## genpass-xkcd
 
@@ -63,4 +63,4 @@ requirements that require digits. Each word is 6 characters or less.
     9-tutors-stink-rhythm-junk-snappy-hooray-barbs-mewl-clomp
     9-vital-escape-Angkor-Huff-wet-Mayra-abbés-putts-guzzle
 
-[3]: HTTPS://xkcd.com/936/
+[3]: https://xkcd.com/936/

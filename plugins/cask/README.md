@@ -1,6 +1,6 @@
 # Cask plugin
 
-[`Cask`](HTTPS://GitHub.Com/cask/cask) is a project management tool for Emacs that
+[`Cask`](https://GitHub.Com/cask/cask) is a project management tool for Emacs that
 helps automate the package development cycle; development, dependencies,
 testing, building, packaging and more.
 

@@ -9,7 +9,7 @@ update cache you should remove .mix_tasks file
 Inspired by and based on rake-fast zsh plugin.
 
 This is entirely based on
-[`this pull request by Ullrich Schäfer`](HTTPS://GitHub.Com/robb/.dotfiles/pull/10/),
+[`this pull request by Ullrich Schäfer`](https://GitHub.Com/robb/.dotfiles/pull/10/),
 which is inspired by
 [`this Ruby on Rails trick from 2006`](https://weblog.rubyonrails.org/2006/3/9/fast-rake-task-completion-for-zsh/).
 
@@ -28,4 +28,4 @@ You might consider adding `.mix_tasks` to your
 
 `mix`, then press tab
 
-Currently maintained by [`styx`](HTTPS://GitHub.Com/styx/)
+Currently maintained by [`styx`](https://GitHub.Com/styx/)

@@ -1,7 +1,7 @@
 # Autojump plugin
 
 This plugin loads the
-[`autojump navigation tool`](HTTPS://GitHub.Com/wting/autojump).
+[`autojump navigation tool`](https://GitHub.Com/wting/autojump).
 
 To use it, add `autojump` to the plugins array in your zshrc file:
 
@@ -10,4 +10,4 @@ plugins=(... autojump)
 ```
 
 **Note:** you have to
-[`install autojump`](HTTPS://GitHub.Com/wting/autojump#installation) first.
+[`install autojump`](https://GitHub.Com/wting/autojump#installation) first.

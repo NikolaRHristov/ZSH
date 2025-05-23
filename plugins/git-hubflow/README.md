@@ -6,7 +6,7 @@ git extension to make it easy to use GitFlow with GitHub. Based on the original
 gitflow extension for git.
 
 The hubflow tool has to be
-[`installed`](HTTPS://GitHub.Com/datasift/gitflow#installation) separately.
+[`installed`](https://GitHub.Com/datasift/gitflow#installation) separately.
 
 To use it, add `git-hubflow` to the plugins array in your zshrc file:
 

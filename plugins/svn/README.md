@@ -1,7 +1,7 @@
 # `svn` plugin
 
 This plugin adds some utility functions to display additional information
-regarding your current svn repository. See HTTPS://subversion.apache.org/ for
+regarding your current svn repository. See https://subversion.apache.org/ for
 the full svn documentation.
 
 To use it, add `svn` to your plugins array:

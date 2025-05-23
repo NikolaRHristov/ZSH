@@ -10,7 +10,7 @@ plugins=(... emotty)
 ```
 
 **NOTE:** it requires the
-[`emoji plugin`](HTTPS://GitHub.Com/ohmyzsh/ohmyzsh/tree/master/plugins/emoji).
+[`emoji plugin`](https://GitHub.Com/ohmyzsh/ohmyzsh/tree/master/plugins/emoji).
 
 ## 🛠️ Usage
 

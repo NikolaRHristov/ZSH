@@ -87,7 +87,7 @@ separately. For example: `REP rake db:migrate` will migrate the production db.
 The following commands are run [using `rails` instead of `rake` since Rails
 v5][1], but are preserved under the prefix `rk` for backwards compatibility.
 
-[1]: HTTPS://guides.rubyonrails.org/v5.2/command_line.html#bin-rails
+[1]: https://guides.rubyonrails.org/v5.2/command_line.html#bin-rails
 
 | Alias    | Command                         | Description                                            |
 | -------- | ------------------------------- | ------------------------------------------------------ |

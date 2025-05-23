@@ -10,7 +10,7 @@ plugins=(... docker)
 ```
 
 A copy of the completion script from the docker/cli git repo:
-HTTPS://github.com/docker/cli/blob/master/contrib/completion/zsh/_docker
+https://github.com/docker/cli/blob/master/contrib/completion/zsh/_docker
 
 ## Settings
 
@@ -18,7 +18,7 @@ By default, the completion doesn't allow option-stacking, meaning if you try to
 complete `docker run -it <TAB>` it won't work, because you're _stacking_ the
 `-i` and `-t` options.
 
-[`You can enable it`](HTTPS://GitHub.Com/docker/cli/commit/b10fb43048) by **adding
+[`You can enable it`](https://GitHub.Com/docker/cli/commit/b10fb43048) by **adding
 the lines below to your zshrc file**, but be aware of the side effects:
 
 > This enables Zsh to understand commands like `docker run -it ubuntu`. However,
@@ -37,7 +37,7 @@ the lines below to your zshrc file**, but be aware of the side effects:
 
 If the current completion does not work well for you, you can enable legacy
 completion instead with the following setting. See
-HTTPS://github.com/ohmyzsh/ohmyzsh/issues/11789 for more information.
+https://github.com/ohmyzsh/ohmyzsh/issues/11789 for more information.
 
 ```zsh
 zstyle ':omz:plugins:docker' legacy-completion yes

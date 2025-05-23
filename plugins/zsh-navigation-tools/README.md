@@ -20,13 +20,13 @@ plugins=(... zsh-navigation-tools)
 ```
 
 Also check out
-[![ZCA](https://imageshack.com/a/img911/8084/qSpO8a.png) Zsh Command Architect`](HTTPS://GitHub.Com/zdharma-continuum/zsh-cmd-architect)
-and [`Zconvey`](HTTPS://GitHub.Com/zdharma-continuum/zconvey)
+[![ZCA](https://imageshack.com/a/img911/8084/qSpO8a.png) Zsh Command Architect`](https://GitHub.Com/zdharma-continuum/zsh-cmd-architect)
+and [`Zconvey`](https://GitHub.Com/zdharma-continuum/zconvey)
 
 Videos:
 
--   [`HTTPS://youtu.be/QwZ8IJEgXRE`](https://youtu.be/QwZ8IJEgXRE)
--   [`HTTPS://youtu.be/DN9QqssAYB8`](https://youtu.be/DN9QqssAYB8)
+-   [`https://youtu.be/QwZ8IJEgXRE`](https://youtu.be/QwZ8IJEgXRE)
+-   [`https://youtu.be/DN9QqssAYB8`](https://youtu.be/DN9QqssAYB8)
 
 Screenshots:
 
@@ -237,7 +237,7 @@ Zsh Navigation Tools installation.
 ## More
 
 -   be aware of
-    [`this`](HTTPS://GitHub.Com/zdharma-continuum/zsh-navigation-tools/blob/f49f910d239ae5bc6e1a5bb34930307b4f4e3ffe/zsh-navigation-tools.plugin.zsh#L35-L49)
+    [`this`](https://GitHub.Com/zdharma-continuum/zsh-navigation-tools/blob/f49f910d239ae5bc6e1a5bb34930307b4f4e3ffe/zsh-navigation-tools.plugin.zsh#L35-L49)
 
 # Fixing tmux, screen and linux vt
 
@@ -267,5 +267,5 @@ It will not display underline properly, but will instead highlight by a color,
 which is quite nice. The same will not work for FreeBSD's vt, `ZNT` will detect
 if that vt is used and will revert to highlighting elements via `reverse` mode.
 
-[gitter-image]: HTTPS://badges.gitter.im/zdharma-continuum/community.svg
-[gitter-link]: HTTPS://gitter.im/zdharma-continuum/community
+[gitter-image]: https://badges.gitter.im/zdharma-continuum/community.svg
+[gitter-link]: https://gitter.im/zdharma-continuum/community

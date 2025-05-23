@@ -10,7 +10,7 @@ To use it, add `isodate` to the plugins array in your zshrc file:
 plugins=(... isodate)
 ```
 
-**Maintainer:** [`@Frani`](HTTPS://GitHub.Com/frani)
+**Maintainer:** [`@Frani`](https://GitHub.Com/frani)
 
 ## Aliases
 

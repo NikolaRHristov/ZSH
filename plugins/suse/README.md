@@ -9,7 +9,7 @@ To use it add `suse` to the plugins array in you zshrc file.
 plugins=(... suse)
 ```
 
-**Maintainer**: [`r-darwish`](HTTPS://GitHub.Com/r-darwish)
+**Maintainer**: [`r-darwish`](https://GitHub.Com/r-darwish)
 
 ## Main commands
 
@@ -65,7 +65,7 @@ NOTE: `--no-refresh` is passed to zypper for speeding up the calls and avoid
 errors due to lack of root privileges. If you need to refresh the repositories,
 call `sudo zypper ref` (`zref` alias) before running these aliases.
 
-Related: [`#9798`](HTTPS://GitHub.Com/ohmyzsh/ohmyzsh/pull/9798).
+Related: [`#9798`](https://GitHub.Com/ohmyzsh/ohmyzsh/pull/9798).
 
 ## Repositories commands
 

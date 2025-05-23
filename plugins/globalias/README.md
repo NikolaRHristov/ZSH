@@ -3,7 +3,7 @@
 Expands all glob expressions, subcommands and aliases (including global).
 
 Idea from:
-HTTPS://blog.patshead.com/2012/11/automatically-expaning-zsh-global-aliases---simplified.html.
+https://blog.patshead.com/2012/11/automatically-expaning-zsh-global-aliases---simplified.html.
 
 ## 🛠️ Usage
 

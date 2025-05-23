@@ -49,6 +49,6 @@ On ubuntu get a working environment with :
 
 ```
 apt install -y curl jq zsh git vim
-sh -c "$(curl -fsSL HTTPS://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-curl -sL HTTPS://aka.ms/InstallAzureCLIDeb | bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+curl -sL https://aka.ms/InstallAzureCLIDeb | bash
 ```

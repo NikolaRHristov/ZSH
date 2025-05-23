@@ -45,6 +45,6 @@ implementation is by [`Jim Hester`][4] in September 2012.
 
 [1]: HTTP://www.compbiome.com/2010/07/bash-per-directory-bash-history.html
 [2]: HTTP://dieter.plaetinck.be/per_directory_bash
-[3]: HTTPS://www.zsh.org/mla/users/1997/msg00226.html
-[4]: HTTPS://jimhester.com
-[5]: HTTPS://github.com/jimhester/per-directory-history
+[3]: https://www.zsh.org/mla/users/1997/msg00226.html
+[4]: https://jimhester.com
+[5]: https://github.com/jimhester/per-directory-history

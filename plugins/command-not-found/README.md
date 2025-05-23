@@ -27,11 +27,11 @@ It works out of the box with the command-not-found packages for:
 -   [`Ubuntu`](https://www.porcheron.info/command-not-found-for-zsh/)
 -   [`Debian`](https://packages.debian.org/search?keywords=command-not-found)
 -   [`Arch Linux`](https://wiki.archlinux.org/index.php/Pkgfile#Command_not_found)
--   [`macOS (Homebrew)](HTTPS://GitHub.Com/Homebrew/homebrew-command-not-found)
+-   [`macOS (Homebrew)](https://GitHub.Com/Homebrew/homebrew-command-not-found)
 -   [`Fedora`](https://fedoraproject.org/wiki/Features/PackageKitCommandNotFound)
--   [`NixOS`](HTTPS://GitHub.Com/NixOS/nixpkgs/tree/master/nixos/modules/programs/command-not-found)
--   [`Termux`](HTTPS://GitHub.Com/termux/command-not-found)
+-   [`NixOS`](https://GitHub.Com/NixOS/nixpkgs/tree/master/nixos/modules/programs/command-not-found)
+-   [`Termux`](https://GitHub.Com/termux/command-not-found)
 -   [`SUSE`](https://www.unix.com/man-page/suse/1/command-not-found/)
--   [`Gentoo`](HTTPS://GitHub.Com/AndrewAmmerlaan/command-not-found-gentoo/tree/main)
+-   [`Gentoo`](https://GitHub.Com/AndrewAmmerlaan/command-not-found-gentoo/tree/main)
 
 You can add support for other platforms by submitting a Pull Request.

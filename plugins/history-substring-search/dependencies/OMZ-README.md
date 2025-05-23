@@ -6,7 +6,7 @@ What you are looking at now is Oh My Zsh's repackaging of
 zsh-history-substring-search as an OMZ module inside the Oh My Zsh distribution.
 
 The upstream repo, zsh-users/zsh-history-substring-search, can be found on
-GitHub at HTTPS://github.com/zsh-users/zsh-history-substring-search.
+GitHub at https://github.com/zsh-users/zsh-history-substring-search.
 
 Everything above this section is a copy of the original upstream's README, so
 things may differ slightly when you're using this inside OMZ. In particular, you

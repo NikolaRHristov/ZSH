@@ -11,7 +11,7 @@ plugins=(aliases)
 
 Requirements: Python needs to be installed.
 
-**Maintainer:** [`@hqingyi`](HTTPS://GitHub.Com/hqingyi)
+**Maintainer:** [`@hqingyi`](https://GitHub.Com/hqingyi)
 
 ## 🛠️ Usage
 
@@ -26,4 +26,4 @@ Requirements: Python needs to be installed.
 
 -   `als --groups`: show only group names
 
-    ![`screenshot`](HTTPS://GitHub.Com/ohmyzsh/ohmyzsh/assets/66907184/5bfa00ea-5fc3-4e97-8b22-2f74f6b948c7)
+    ![`screenshot`](https://GitHub.Com/ohmyzsh/ohmyzsh/assets/66907184/5bfa00ea-5fc3-4e97-8b22-2f74f6b948c7)

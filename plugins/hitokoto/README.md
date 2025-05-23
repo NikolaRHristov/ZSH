@@ -2,7 +2,7 @@
 
 Displays a random quote taken from [`hitokoto.cn`](https://v1.hitokoto.cn/)
 
-Created by [`Sinrimin`](HTTPS://GitHub.Com/sinrimin)
+Created by [`Sinrimin`](https://GitHub.Com/sinrimin)
 
 ## 🛠️ Usage
 

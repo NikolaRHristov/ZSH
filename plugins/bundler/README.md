@@ -70,7 +70,7 @@ being wrapped.
 ### Excluded gems
 
 These gems should not be called with `bundle exec`. Please see
-[`issue #2923`](HTTPS://GitHub.Com/ohmyzsh/ohmyzsh/pull/2923) on GitHub for
+[`issue #2923`](https://GitHub.Com/ohmyzsh/ohmyzsh/pull/2923) on GitHub for
 clarification:
 
 -   `berks`

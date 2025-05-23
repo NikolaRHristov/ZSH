@@ -5,7 +5,7 @@ added to your theme to include Ruby version and gemset information into your
 prompt.
 
 Some functionality of this plugin will not work unless you also have the rbenv
-plugin _gemset_ installed. HTTPS://github.com/jf/rbenv-gemset
+plugin _gemset_ installed. https://github.com/jf/rbenv-gemset
 
 To use it, add `rbenv` to the plugins array in your zshrc file:
 

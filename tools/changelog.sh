@@ -307,7 +307,7 @@ function display-release {
       else
         echo $text;
       fi ;;
-    md) printf '[`%s`](HTTPS://GitHub.Com/ohmyzsh/ohmyzsh/commit/%s)' "$short_hash" "$hash" ;;
+    md) printf '[`%s`](https://GitHub.Com/ohmyzsh/ohmyzsh/commit/%s)' "$short_hash" "$hash" ;;
     esac
   }
 
@@ -377,7 +377,7 @@ function display-release {
         sed -E $'s|#([0-9]+)|\e[32m#\\1\e[0m|g;s|`([^`]+)`|`\e[2m\\1\e[0m`|g' <<< "$subject"
       fi ;;
     # In markdown mode, link to (#<issue>) issues
-    md) sed -E 's|#([0-9]+)|[#\1](HTTPS://GitHub.Com/ohmyzsh/ohmyzsh/issues/\1)|g' <<< "$subject" ;;
+    md) sed -E 's|#([0-9]+)|[#\1](https://GitHub.Com/ohmyzsh/ohmyzsh/issues/\1)|g' <<< "$subject" ;;
     esac
   }
 

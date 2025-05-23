@@ -13,8 +13,8 @@ plugins=(... node)
 ## 🛠️ Usage
 
 ```zsh
-# Opens HTTPS://nodejs.org/docs/latest-v10.x/api/fs.html
+# Opens https://nodejs.org/docs/latest-v10.x/api/fs.html
 $ node-docs fs
-# Opens HTTPS://nodejs.org/docs/latest-v10.x/api/path.html
+# Opens https://nodejs.org/docs/latest-v10.x/api/path.html
 $ node-docs path
 ```

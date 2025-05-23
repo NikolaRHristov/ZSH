@@ -1,6 +1,6 @@
 # Autoenv plugin
 
-This plugin loads the [`Autoenv`](HTTPS://GitHub.Com/inishchith/autoenv).
+This plugin loads the [`Autoenv`](https://GitHub.Com/inishchith/autoenv).
 
 To use it, add `autoenv` to the plugins array in your zshrc file:
 
@@ -18,4 +18,4 @@ plugins=(... autoenv)
 In order to make this work, you will need to have the autoenv installed.
 
 More info on the usage and install at
-[`the project's homepage`](HTTPS://GitHub.Com/inishchith/autoenv).
+[`the project's homepage`](https://GitHub.Com/inishchith/autoenv).

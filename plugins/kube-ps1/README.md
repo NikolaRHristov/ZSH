@@ -24,7 +24,7 @@ $ brew install kube-ps1
 ### Arch Linux
 
 AUR Package available at
-[`HTTPS://aur.archlinux.org/packages/kube-ps1/`](https://aur.archlinux.org/packages/kube-ps1/).
+[`https://aur.archlinux.org/packages/kube-ps1/`](https://aur.archlinux.org/packages/kube-ps1/).
 
 #### Zsh
 
@@ -42,7 +42,7 @@ PS1='[\u@\h \W $(kube_ps1)]\$ '
 
 ### Zsh Plugin Managers
 
-#### Using [`zplugin`](HTTPS://GitHub.Com/zdharma/zplugin)
+#### Using [`zplugin`](https://GitHub.Com/zdharma/zplugin)
 
 Update `.zshrc` with:
 
@@ -85,14 +85,14 @@ If neither binary is available, the prompt will print the following:
 
 There are several great tools that make using kubectl very enjoyable:
 
--   [`kubectx` and `kubens`](HTTPS://GitHub.Com/ahmetb/kubectx) are great for
+-   [`kubectx` and `kubens`](https://GitHub.Com/ahmetb/kubectx) are great for
     fast switching between clusters and namespaces.
 
 ## Tmux port
 
 I have begun porting kube-ps1 to tmux as a status line plugin. If you prefer
 tmux, and like the functionality provided by kube-ps1, checkout the
-[`kube-tmux`](HTTPS://GitHub.Com/jonmosco/kube-tmux) project
+[`kube-tmux`](https://GitHub.Com/jonmosco/kube-tmux) project
 
 ## Prompt Structure
 
@@ -248,5 +248,5 @@ zsh --no-rcs
 
 ## Contributors
 
--   [`Ahmet Alp Balkan`](HTTPS://GitHub.Com/ahmetb)
+-   [`Ahmet Alp Balkan`](https://GitHub.Com/ahmetb)
 -   Jared Yanovich

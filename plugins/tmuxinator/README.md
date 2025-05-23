@@ -1,7 +1,7 @@
 # Tmuxinator plugin
 
 This plugin provides completion for
-[`tmuxinator`](HTTPS://GitHub.Com/tmuxinator/tmuxinator), as well as aliases for
+[`tmuxinator`](https://GitHub.Com/tmuxinator/tmuxinator), as well as aliases for
 frequent tmuxinator commands.
 
 To use it add `tmuxinator` to the plugins array in your zshrc file.

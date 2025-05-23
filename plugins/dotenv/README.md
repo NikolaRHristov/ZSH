@@ -106,5 +106,5 @@ does the job.
 If you need more advanced and feature-rich ENV management, check out these
 awesome projects:
 
--   [`direnv`](HTTPS://GitHub.Com/direnv/direnv)
--   [`zsh-autoenv`](HTTPS://GitHub.Com/Tarrasch/zsh-autoenv)
+-   [`direnv`](https://GitHub.Com/direnv/direnv)
+-   [`zsh-autoenv`](https://GitHub.Com/Tarrasch/zsh-autoenv)

@@ -1,7 +1,7 @@
 # JFrog CLI
 
 This plugin provides completion for
-[`JFrog CLI`](HTTPS://GitHub.Com/jfrog/jfrog-cli).
+[`JFrog CLI`](https://GitHub.Com/jfrog/jfrog-cli).
 
 JFrog CLI provides a simple interface that automates access to
 [`Artifactory](https://jfrog.com/artifactory), [Xray`](https://jfrog.com/xray),

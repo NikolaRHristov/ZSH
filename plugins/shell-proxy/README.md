@@ -60,9 +60,9 @@ SHELLPROXY_CONFIG="$HOME/.dotfiles/proxy-config"
 ## Reference
 
 -   `$GIT_SSH`:
-    <HTTPS://www.git-scm.com/docs/git#Documentation/git.txt-codeGITSSHcode>
--   OpenSSH manual: <HTTPS://man.openbsd.org/ssh>
+    <https://www.git-scm.com/docs/git#Documentation/git.txt-codeGITSSHcode>
+-   OpenSSH manual: <https://man.openbsd.org/ssh>
 
 ## Maintainer
 
--   [`@septs`](HTTPS://GitHub.Com/septs)
+-   [`@septs`](https://GitHub.Com/septs)

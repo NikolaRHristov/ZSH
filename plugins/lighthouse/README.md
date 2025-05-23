@@ -20,11 +20,11 @@ plugins=(... lighthouse)
 
     ```console
     $ cat .lighthouse-url
-    HTTPS://rails.lighthouseapp.com/projects/8994
+    https://rails.lighthouseapp.com/projects/8994
     
     $ lho 23
     Opening ticket #23
-    # The browser goes to HTTPS://rails.lighthouseapp.com/projects/8994/tickets/23
+    # The browser goes to https://rails.lighthouseapp.com/projects/8994/tickets/23
     ```
 
 See a demo: HTTP://screencast.com/t/ZDgwNDUwNT

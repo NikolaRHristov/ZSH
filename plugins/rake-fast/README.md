@@ -7,7 +7,7 @@ generates a `.rake_tasks` cache file in parallel to the Rakefile. It also checks
 the file modification time to see if it needs to regenerate the cache file.
 
 This is entirely based on
-[`this pull request by Ullrich Schäfer`](HTTPS://GitHub.Com/robb/.dotfiles/pull/10/),
+[`this pull request by Ullrich Schäfer`](https://GitHub.Com/robb/.dotfiles/pull/10/),
 which is inspired by
 [`this Ruby on Rails trick from 2006`](https://weblog.rubyonrails.org/2006/3/9/fast-rake-task-completion-for-zsh/).
 

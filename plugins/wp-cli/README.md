@@ -13,12 +13,12 @@ To use it, add `wp-cli` to the plugins array in your zshrc file:
 plugins=(... wp-cli)
 ```
 
-**Maintainer:** [`joshmedeski`](HTTPS://GitHub.Com/joshmedeski)
+**Maintainer:** [`joshmedeski`](https://GitHub.Com/joshmedeski)
 
 ## Aliases
 
 The entire list of `wp-cli` commands can be found here:
-HTTPS://developer.wordpress.org/cli/commands/
+https://developer.wordpress.org/cli/commands/
 
 | Alias        | Command                     |
 | ------------ | --------------------------- |

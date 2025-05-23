@@ -1,6 +1,6 @@
 # pyenv
 
-This plugin looks for [`pyenv`](HTTPS://GitHub.Com/pyenv/pyenv), a Simple Python
+This plugin looks for [`pyenv`](https://GitHub.Com/pyenv/pyenv), a Simple Python
 version management system, and loads it if it's found. It also loads
 pyenv-virtualenv, a pyenv plugin to manage virtualenv, if it's found. If a venv
 is found pyenv won't load.

@@ -1,7 +1,7 @@
 # Git-Flow plugin
 
 This plugin adds completion and aliases for the
-[`git-flow` command`](HTTPS://GitHub.Com/nvie/gitflow).
+[`git-flow` command`](https://GitHub.Com/nvie/gitflow).
 
 To use it, add `git-flow` to the plugins array in your zshrc file:
 
@@ -38,4 +38,4 @@ plugins=(... git-flow)
 | `gflrpc`  | `gflrp ${$(git_current_branch)#release/}` | Publish current release                        |
 | `gflrs`   | `git flow release start`                  | Start a new release: `gflrs <version>`         |
 
-[`More information about `git-flow` commands`](HTTPS://GitHub.Com/nvie/gitflow/wiki/Command-Line-Arguments).
+[`More information about `git-flow` commands`](https://GitHub.Com/nvie/gitflow/wiki/Command-Line-Arguments).

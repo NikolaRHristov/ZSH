@@ -24,4 +24,4 @@ plugins=(... dbt)
 
 ## Maintainer
 
--   [`msempere`](HTTPS://GitHub.Com/msempere)
+-   [`msempere`](https://GitHub.Com/msempere)

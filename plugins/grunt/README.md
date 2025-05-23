@@ -1,6 +1,6 @@
 # grunt plugin
 
-This plugin adds completions for [`grunt`](HTTPS://GitHub.Com/gruntjs/grunt).
+This plugin adds completions for [`grunt`](https://GitHub.Com/gruntjs/grunt).
 
 To use it, add `grunt` to the plugins array of your `.zshrc` file:
 

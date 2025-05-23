@@ -23,4 +23,4 @@ plugins=(... please)
 
 ## Maintainer
 
-[`@thought-machine`](HTTPS://GitHub.Com/thought-machine)
+[`@thought-machine`](https://GitHub.Com/thought-machine)

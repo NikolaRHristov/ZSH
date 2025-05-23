@@ -1,7 +1,7 @@
 # eza plugin
 
 This provides aliases that invoke the
-[`eza`](HTTPS://GitHub.Com/eza-community/eza) utility rather than `ls`
+[`eza`](https://GitHub.Com/eza-community/eza) utility rather than `ls`
 
 To use it add `eza` to the plugins array in your zshrc file:
 

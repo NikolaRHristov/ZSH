@@ -117,4 +117,4 @@ they are not set yet, they will use their default values:
 
 ## Author
 
--   [`Karolin Varner`](https://GitHub.Com/koraa)
+- [`Karolin Varner`](https://GitHub.Com/koraa)

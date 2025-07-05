@@ -12,10 +12,10 @@ plugins=(... gitignore)
 
 ## Plugin commands
 
--   `gi list`: List all the currently supported gitignore.io templates.
+- `gi list`: List all the currently supported gitignore.io templates.
 
--   `gi [TEMPLATENAME]`: Show git-ignore output on the command line, e.g.
-    `gi java` to exclude class and package files.
+- `gi [TEMPLATENAME]`: Show git-ignore output on the command line, e.g.
+  `gi java` to exclude class and package files.
 
--   `gi [TEMPLATENAME] >> .gitignore`: Appending programming language settings
-    to your projects .gitignore.
+- `gi [TEMPLATENAME] >> .gitignore`: Appending programming language settings to
+  your projects .gitignore.

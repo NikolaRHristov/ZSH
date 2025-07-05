@@ -28,8 +28,8 @@ plugins=(... bundler)
 
 The plugin adds a wrapper for common gems, which:
 
--   Looks for a binstub under `./bin/` and executes it if present.
--   Calls `bundle exec <gem>` otherwise.
+- Looks for a binstub under `./bin/` and executes it if present.
+- Calls `bundle exec <gem>` otherwise.
 
 Common gems wrapped by default (by name of the executable):
 
@@ -73,9 +73,9 @@ These gems should not be called with `bundle exec`. Please see
 [`issue #2923`](https://GitHub.Com/ohmyzsh/ohmyzsh/pull/2923) on GitHub for
 clarification:
 
--   `berks`
--   `foreman`
--   `mailcatcher`
--   `rails`
--   `ruby`
--   `spin`
+- `berks`
+- `foreman`
+- `mailcatcher`
+- `rails`
+- `ruby`
+- `spin`

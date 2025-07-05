@@ -10,10 +10,10 @@ plugins=(... heroku-alias)
 
 ## Requirements
 
--   [`Heroku CLI`](https://devcenter.heroku.com/articles/heroku-cli)
+- [`Heroku CLI`](https://devcenter.heroku.com/articles/heroku-cli)
 
-| 🚀 last maj | 📡 source                                                                   |
-| ----------- | --------------------------------------------------------------------------- |
+| 🚀 last maj | 📡 source                                                                     |
+| ----------- | ----------------------------------------------------------------------------- |
 | 02/06/2020  | [`heroku cli doc`](https://devcenter.heroku.com/articles/heroku-cli-commands) |
 
 ## Aliases

@@ -47,23 +47,23 @@ plugins=(... drush)
 
 ## Functions
 
--   `dren`: download and enable one or more extensions (modules or themes). Must
-    be invoked with one or more parameters, e.g.: `dren devel` or
-    `dren devel module_filter views`.
+- `dren`: download and enable one or more extensions (modules or themes). Must
+  be invoked with one or more parameters, e.g.: `dren devel` or
+  `dren devel module_filter views`.
 
--   `drf`: edit drushrc, site alias, and Drupal settings.php files. Can be
-    invoked with one or without parameters, e.g.: `drf 1`.
+- `drf`: edit drushrc, site alias, and Drupal settings.php files. Can be invoked
+  with one or without parameters, e.g.: `drf 1`.
 
--   `dris`: disable one or more extensions (modules or themes). Must be invoked
-    with one or more parameters, e.g.: `dris devel` or
-    `dris devel module_filter views`.
+- `dris`: disable one or more extensions (modules or themes). Must be invoked
+  with one or more parameters, e.g.: `dris devel` or
+  `dris devel module_filter views`.
 
--   `drpu`: uninstall one or more modules. Must be invoked with one or more
-    parameters, e.g.: `drpu devel` or `drpu devel module_filter views`.
+- `drpu`: uninstall one or more modules. Must be invoked with one or more
+  parameters, e.g.: `drpu devel` or `drpu devel module_filter views`.
 
--   `drnew`: creates a brand new drupal website. Note: as soon as the
-    installation is complete, `drush` will print a username and a random
-    password into the terminal:
+- `drnew`: creates a brand new drupal website. Note: as soon as the installation
+  is complete, `drush` will print a username and a random password into the
+  terminal:
 
     ```text
     Installation complete.  User name: admin  User password: cf7t8yqNEm

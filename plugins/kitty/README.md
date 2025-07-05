@@ -11,12 +11,12 @@ plugins=(... kitty)
 
 ## Plugin commands
 
--   `kssh` Runs a kitten ssh session that ensures your terminfo settings are
-    copied correctly to the remote hose.
--   `kssh-slow` A slower form of `kssh` that should always work. Use this if
-    `kssh` fails to set terminfo correctly for you on the remote host.
--   `kitty-theme` Browse and change the theme of your Kitty terminal.
+- `kssh` Runs a kitten ssh session that ensures your terminfo settings are
+  copied correctly to the remote hose.
+- `kssh-slow` A slower form of `kssh` that should always work. Use this if
+  `kssh` fails to set terminfo correctly for you on the remote host.
+- `kitty-theme` Browse and change the theme of your Kitty terminal.
 
 ## Contributors
 
--   [`Ian Chesal`](https://GitHub.Com/ianchesal)
+- [`Ian Chesal`](https://GitHub.Com/ianchesal)

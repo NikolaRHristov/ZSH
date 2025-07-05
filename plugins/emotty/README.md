@@ -26,12 +26,12 @@ emotty_set=nature
 
 ### Character Sets
 
--   emoji
--   loral
--   love
--   nature
--   stellar
--   zodiac
+- emoji
+- loral
+- love
+- nature
+- stellar
+- zodiac
 
 Use the `display_emotty` function to list the emojis in the current character
 set, or the character set passed as the first argument. For example:

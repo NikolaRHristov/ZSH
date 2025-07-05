@@ -22,8 +22,8 @@ plugins=(... rbenv)
 
 ## Functions
 
--   `current_ruby`: The version of Ruby currently being used.
--   `current_gemset`: The name of the current gemset.
--   `gems`: Lists installed gems with enhanced formatting and color.
--   `rbenv_prompt_info`: For adding information to your prompt. Format:
-    `<ruby version>@<current gemset>`.
+- `current_ruby`: The version of Ruby currently being used.
+- `current_gemset`: The name of the current gemset.
+- `gems`: Lists installed gems with enhanced formatting and color.
+- `rbenv_prompt_info`: For adding information to your prompt. Format:
+  `<ruby version>@<current gemset>`.

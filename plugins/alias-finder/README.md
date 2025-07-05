@@ -67,10 +67,10 @@ Running the shortest `gs` shell alias that it found:
 > In order to clarify, let's say `alias a=abc` has source 'abc' and destination
 > 'a'.
 
--   Use `--longer` or `-l` to include aliases where the source is longer than
-    the input (in other words, the source could contain the whole input).
--   Use `--exact` or `-e` to avoid aliases where the source is shorter than the
-    input (in other words, the source must be the same with the input).
--   Use `--cheaper` or `-c` to avoid aliases where the destination is longer
-    than the input (in other words, the destination must be the shorter than the
-    input).
+- Use `--longer` or `-l` to include aliases where the source is longer than the
+  input (in other words, the source could contain the whole input).
+- Use `--exact` or `-e` to avoid aliases where the source is shorter than the
+  input (in other words, the source must be the same with the input).
+- Use `--cheaper` or `-c` to avoid aliases where the destination is longer than
+  the input (in other words, the destination must be the shorter than the
+  input).

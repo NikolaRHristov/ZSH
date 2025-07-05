@@ -7,8 +7,8 @@ asdf plugins and .tool-versions files. It can be used as a drop-in replacement.
 
 ### Installation 🚀
 
-1. [`Download & install rtx`](https://GitHub.Com/jdx/rtx#installation) by running
-   the following:
+1. [`Download & install rtx`](https://GitHub.Com/jdx/rtx#installation) by
+   running the following:
 
 ```
 curl https://rtx.pub/install.sh | sh

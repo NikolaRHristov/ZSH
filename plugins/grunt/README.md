@@ -18,15 +18,15 @@ zstyle ':completion:*' use-cache yes
 
 ## Settings
 
--   Show grunt file path:
+- Show grunt file path:
     ```zsh
     zstyle ':completion::complete:grunt::options:' show_grunt_path yes
     ```
--   Cache expiration days (default: 7):
+- Cache expiration days (default: 7):
     ```zsh
     zstyle ':completion::complete:grunt::options:' expire 1
     ```
--   Not update options cache if target gruntfile is changed.
+- Not update options cache if target gruntfile is changed.
     ```zsh
     zstyle ':completion::complete:grunt::options:' no_update_options yes
     ```

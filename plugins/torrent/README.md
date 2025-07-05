@@ -11,4 +11,4 @@ plugins=(... torrent)
 
 ## Plugin commands
 
--   `magnet_to_torrent <MagnetURI>`: creates Torrent file.
+- `magnet_to_torrent <MagnetURI>`: creates Torrent file.

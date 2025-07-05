@@ -11,9 +11,9 @@ plugins=(... nodenv)
 
 ## Functions
 
--   `nodenv_prompt_info`: displays the Node version in use by nodenv; or the
-    global Node version, if nodenv wasn't found. You can use this function in
-    your prompt by adding `$(nodenv_prompt_info)` to PROMPT or RPROMPT:
+- `nodenv_prompt_info`: displays the Node version in use by nodenv; or the
+  global Node version, if nodenv wasn't found. You can use this function in your
+  prompt by adding `$(nodenv_prompt_info)` to PROMPT or RPROMPT:
 
     ```zsh
     RPROMPT='$(nodenv_prompt_info)'

@@ -17,9 +17,9 @@ available in PATH.
 
 You can install either:
 
--   VS Code (code)
--   VS Code Insiders (code-insiders)
--   VSCodium (codium)
+- VS Code (code)
+- VS Code Insiders (code-insiders)
+- VSCodium (codium)
 
 ### MacOS
 

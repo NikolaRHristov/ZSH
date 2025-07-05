@@ -13,19 +13,19 @@ plugins=(... zbell)
 
 These settings need to be set in your zshrc file, before Oh My Zsh is sourced.
 
--   `zbell_duration`: duration in seconds after which to consider notifying the
-    end of a command. Default: 15 seconds.
+- `zbell_duration`: duration in seconds after which to consider notifying the
+  end of a command. Default: 15 seconds.
 
--   `zbell_ignore`: if there are programs that you know run long that you don't
-    want to bell after, then add them to the `zbell_ignore` array. By default,
-    `$EDITOR` and `$PAGER` are ignored:
+- `zbell_ignore`: if there are programs that you know run long that you don't
+  want to bell after, then add them to the `zbell_ignore` array. By default,
+  `$EDITOR` and `$PAGER` are ignored:
 
     ```zsh
     zbell_ignore=($EDITOR $PAGER)
     ```
 
--   `zbell_use_notify_send`: If set to `true`, `notify-send` tool is used -- if
-    available -- to display a popup on the screen. Default: `true` (enabled).
+- `zbell_use_notify_send`: If set to `true`, `notify-send` tool is used -- if
+  available -- to display a popup on the screen. Default: `true` (enabled).
 
 ## Author
 

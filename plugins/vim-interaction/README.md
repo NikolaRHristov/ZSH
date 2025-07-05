@@ -20,9 +20,9 @@ The plugin presents a function called `callvim` whose usage is:
 
 There are a few aliases presented as well:
 
--   `v` A shorthand for `callvim`
--   `vvsp` Edits the passed in file but first makes a vertical split
--   `vhsp` Edits the passed in file but first makes a horizontal split
+- `v` A shorthand for `callvim`
+- `vvsp` Edits the passed in file but first makes a vertical split
+- `vhsp` Edits the passed in file but first makes a horizontal split
 
 ## Post Callout
 

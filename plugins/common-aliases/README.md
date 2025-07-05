@@ -125,8 +125,8 @@ popular Linux pdf reader), when running `file.pdf` that file will be open with
 
 ### Some other features
 
--   Opens urls in terminal using browser specified by the variable `$BROWSER`
--   Opens C, C++, Tex and text files using editor specified by the variable
-    `$EDITOR`
--   Opens images using image viewer specified by the variable `$XIVIEWER`
--   Opens videos and other media using mplayer
+- Opens urls in terminal using browser specified by the variable `$BROWSER`
+- Opens C, C++, Tex and text files using editor specified by the variable
+  `$EDITOR`
+- Opens images using image viewer specified by the variable `$XIVIEWER`
+- Opens videos and other media using mplayer

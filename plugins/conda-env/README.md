@@ -19,11 +19,11 @@ You can use this prompt function in your themes, by adding it to the `PROMPT` or
 
 It uses two variables to control how the information is shown:
 
--   `ZSH_THEME_CONDA_PREFIX`: sets the prefix of the CONDA_DEFAULT_ENV. Defaults
-    to `[`.
+- `ZSH_THEME_CONDA_PREFIX`: sets the prefix of the CONDA_DEFAULT_ENV. Defaults
+  to `[`.
 
--   `ZSH_THEME_CONDA_SUFFIX`: sets the suffix of the CONDA_DEFAULT_ENV. Defaults
-    to `]`.
+- `ZSH_THEME_CONDA_SUFFIX`: sets the suffix of the CONDA_DEFAULT_ENV. Defaults
+  to `]`.
 
 ## Example
 
@@ -44,5 +44,5 @@ You can override this behavior by adding `unset CONDA_CHANGEPS1` in your
 
 References:
 
--   https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#determining-your-current-environment
--   https://conda.io/projects/conda/en/latest/user-guide/configuration/use-condarc.html#precedence
+- https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#determining-your-current-environment
+- https://conda.io/projects/conda/en/latest/user-guide/configuration/use-condarc.html#precedence

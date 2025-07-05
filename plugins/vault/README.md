@@ -6,7 +6,8 @@ instead.
 
 ---
 
-Adds autocomplete options for all [`vault`](https://www.vaultproject.io) commands.
+Adds autocomplete options for all [`vault`](https://www.vaultproject.io)
+commands.
 
 To use it, add `vault` to the plugins array in your zshrc file:
 

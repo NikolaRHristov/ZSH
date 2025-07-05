@@ -85,8 +85,8 @@ If neither binary is available, the prompt will print the following:
 
 There are several great tools that make using kubectl very enjoyable:
 
--   [`kubectx` and `kubens`](https://GitHub.Com/ahmetb/kubectx) are great for
-    fast switching between clusters and namespaces.
+- [`kubectx` and `kubens`](https://GitHub.Com/ahmetb/kubectx) are great for fast
+  switching between clusters and namespaces.
 
 ## Tmux port
 
@@ -248,5 +248,5 @@ zsh --no-rcs
 
 ## Contributors
 
--   [`Ahmet Alp Balkan`](https://GitHub.Com/ahmetb)
--   Jared Yanovich
+- [`Ahmet Alp Balkan`](https://GitHub.Com/ahmetb)
+- Jared Yanovich

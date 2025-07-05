@@ -14,8 +14,8 @@ plugins=(... frontend-search)
 
 You can use the frontend-search plugin in these two forms:
 
--   `frontend <context> <term> [more terms if you want]`
--   `<context> <term> [more terms if you want]`
+- `frontend <context> <term> [more terms if you want]`
+- `<context> <term> [more terms if you want]`
 
 For example, these two are equivalent:
 
@@ -81,5 +81,5 @@ FRONTEND_SEARCH_FALLBACK setting unnecessary in this context.
 
 **Wilson Mendes (willmendesneto)**
 
--   <https://twitter.com/willmendesneto>
--   <https://github.com/willmendesneto>
+- <https://twitter.com/willmendesneto>
+- <https://github.com/willmendesneto>

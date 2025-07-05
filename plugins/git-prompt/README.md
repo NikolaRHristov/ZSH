@@ -15,7 +15,8 @@ You may also need to
 to change the way the prompt is built. See the
 [`OMZ wiki on customizing themes`](https://GitHub.Com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes).
 
-See the [`original repository`](https://GitHub.Com/olivierverdier/zsh-git-prompt).
+See the
+[`original repository`](https://GitHub.Com/olivierverdier/zsh-git-prompt).
 
 ## Requirements
 
@@ -25,16 +26,16 @@ This plugin uses `python3`, so your host needs to have it installed.
 
 The prompt may look like the following:
 
--   `(master↑3|✚1)`: on branch `master`, ahead of remote by 3 commits, 1 file
-    changed but not staged
--   `(status|●2)`: on branch `status`, 2 files staged
--   `(master|✚7…)`: on branch `master`, 7 files changed, some files untracked
--   `(master|✖2✚3)`: on branch `master`, 2 conflicts, 3 files changed
--   `(experimental↓2↑3|✔)`: on branch `experimental`; your branch has diverged
-    by 3 commits, remote by 2 commits; the repository is otherwise clean
--   `(:70c2952|✔)`: not on any branch; parent commit has hash `70c2952`; the
-    repository is otherwise clean
--   `(master|⚑2)`: on branch `master`, there are 2 stashed changes
+- `(master↑3|✚1)`: on branch `master`, ahead of remote by 3 commits, 1 file
+  changed but not staged
+- `(status|●2)`: on branch `status`, 2 files staged
+- `(master|✚7…)`: on branch `master`, 7 files changed, some files untracked
+- `(master|✖2✚3)`: on branch `master`, 2 conflicts, 3 files changed
+- `(experimental↓2↑3|✔)`: on branch `experimental`; your branch has diverged by
+  3 commits, remote by 2 commits; the repository is otherwise clean
+- `(:70c2952|✔)`: not on any branch; parent commit has hash `70c2952`; the
+  repository is otherwise clean
+- `(master|⚑2)`: on branch `master`, there are 2 stashed changes
 
 ## Prompt Structure
 
@@ -68,13 +69,13 @@ The symbols are as follows:
 
 ## Customisation
 
--   Set the variable `ZSH_THEME_GIT_PROMPT_CACHE` to any value in order to
-    enable caching.
--   Set the variable `ZSH_THEME_GIT_SHOW_UPSTREAM` to any value to display the
-    upstream branch.
--   You may also change a number of variables (whose name start with
-    `ZSH_THEME_GIT_PROMPT_`) to change the appearance of the prompt. Take a look
-    at the bottom of the [`plugin file`](git-prompt.plugin.zsh)` to see what
-    variables are available.
+- Set the variable `ZSH_THEME_GIT_PROMPT_CACHE` to any value in order to enable
+  caching.
+- Set the variable `ZSH_THEME_GIT_SHOW_UPSTREAM` to any value to display the
+  upstream branch.
+- You may also change a number of variables (whose name start with
+  `ZSH_THEME_GIT_PROMPT_`) to change the appearance of the prompt. Take a look
+  at the bottom of the [`plugin file`](git-prompt.plugin.zsh)` to see what
+  variables are available.
 
 **Enjoy!**

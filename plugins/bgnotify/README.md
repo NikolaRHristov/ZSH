@@ -12,13 +12,13 @@ Standalone homepage:
 
 Just add bgnotify to your plugins list in your `.zshrc`
 
--   On OS X you'll need
-    [`terminal-notifier`](https://GitHub.Com/alloy/terminal-notifier)
-    -   `brew install terminal-notifier` (or `gem install terminal-notifier`)
--   On Linux, make sure you have `notify-send` or `kdialog` installed. If you're
-    using Ubuntu you should already be all set!
--   On Windows you can use [`notifu`](https://www.paralint.com/projects/notifu/)
-    or the Cygwin Ports libnotify package
+- On OS X you'll need
+  [`terminal-notifier`](https://GitHub.Com/alloy/terminal-notifier)
+    - `brew install terminal-notifier` (or `gem install terminal-notifier`)
+- On Linux, make sure you have `notify-send` or `kdialog` installed. If you're
+  using Ubuntu you should already be all set!
+- On Windows you can use [`notifu`](https://www.paralint.com/projects/notifu/)
+  or the Cygwin Ports libnotify package
 
 ## Screenshots
 
@@ -38,11 +38,10 @@ Just add bgnotify to your plugins list in your `.zshrc`
 
 One can configure a few things:
 
--   `bgnotify_bell` enabled or disables the terminal bell (default true)
--   `bgnotify_threshold` sets the notification threshold time (default 6
-    seconds)
--   `function bgnotify_formatted` lets you change the notification. You can for
-    instance customize the message and pass in an icon.
+- `bgnotify_bell` enabled or disables the terminal bell (default true)
+- `bgnotify_threshold` sets the notification threshold time (default 6 seconds)
+- `function bgnotify_formatted` lets you change the notification. You can for
+  instance customize the message and pass in an icon.
 
 Use these by adding a function definition before the your call to source.
 Example:

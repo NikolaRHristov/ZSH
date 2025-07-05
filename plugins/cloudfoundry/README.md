@@ -51,8 +51,8 @@ cf < COMMAND_NAME > --help # Help on a specific command including arguments and 
 ```
 
 Alternatively, seek out the [`online documentation`][3]. And don't forget, there
-are loads of great [`community plugins for the cf-cli`][4] command line tool that
-can greatly extend its power and usefulness.
+are loads of great [`community plugins for the cf-cli`][4] command line tool
+that can greatly extend its power and usefulness.
 
 ## Contributors
 

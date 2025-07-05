@@ -33,9 +33,9 @@ export FZF_DEFAULT_COMMAND='<your fzf default command>'
 If not set, the plugin will try to set it to these, in the order in which
 they're found:
 
--   [`fd`](https://GitHub.Com/sharkdp/fd)
--   [`rg`](https://GitHub.Com/BurntSushi/ripgrep)
--   [`ag`](https://GitHub.Com/ggreer/the_silver_searcher)
+- [`fd`](https://GitHub.Com/sharkdp/fd)
+- [`rg`](https://GitHub.Com/BurntSushi/ripgrep)
+- [`ag`](https://GitHub.Com/ggreer/the_silver_searcher)
 
 ### `DISABLE_FZF_AUTO_COMPLETION`
 

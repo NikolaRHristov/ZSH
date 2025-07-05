@@ -42,4 +42,4 @@ Based on code from the `ssh-agent` plugin.
 
 ## References
 
--   [`Keychain`](https://www.funtoo.org/Keychain)
+- [`Keychain`](https://www.funtoo.org/Keychain)

@@ -22,8 +22,8 @@ plugins=(... colorize)
 
 This plugin requires that at least one of the following tools is installed:
 
--   [`Chroma`](https://GitHub.Com/alecthomas/chroma)
--   [`Pygments`](https://pygments.org/download/)
+- [`Chroma`](https://GitHub.Com/alecthomas/chroma)
+- [`Pygments`](https://pygments.org/download/)
 
 ### Colorize tool
 
@@ -57,11 +57,11 @@ ZSH_COLORIZE_CHROMA_FORMATTER=terminal256
 
 ## 🛠️ Usage
 
--   `ccat <file> [files]`: colorize the contents of the file (or files, if more
-    than one are provided). If no files are passed it will colorize the standard
-    input.
+- `ccat <file> [files]`: colorize the contents of the file (or files, if more
+  than one are provided). If no files are passed it will colorize the standard
+  input.
 
--   `cless [less-options] <file> [files]`: colorize the contents of the file (or
-    files, if more than one are provided) and open less. If no files are passed
-    it will colorize the standard input. The LESSOPEN and LESSCLOSE will be
-    overwritten for this to work, but only in a local scope.
+- `cless [less-options] <file> [files]`: colorize the contents of the file (or
+  files, if more than one are provided) and open less. If no files are passed it
+  will colorize the standard input. The LESSOPEN and LESSCLOSE will be
+  overwritten for this to work, but only in a local scope.

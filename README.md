@@ -29,39 +29,39 @@ To learn more, visit [`ohmyz.sh`](https://ohmyz.sh), follow
 <details>
 <summary>Table of Contents</summary>
 
--   [`Getting Started`](#getting-started)
-    -   [`Operating System Compatibility`](#operating-system-compatibility)
-    -   [`Prerequisites`](#prerequisites)
-    -   [`Basic Installation`](#basic-installation)
-        -   [`Manual Inspection`](#manual-inspection)
--   [`Using Oh My Zsh`](#using-oh-my-zsh)
-    -   [`Plugins`](#plugins)
-        -   [`Enabling Plugins`](#enabling-plugins)
-        -   [`Using Plugins`](#using-plugins)
-    -   [`Themes`](#themes)
-        -   [`Selecting A Theme`](#selecting-a-theme)
-    -   [`FAQ`](#faq)
--   [`Advanced Topics`](#advanced-topics)
-    -   [`Advanced Installation`](#advanced-installation)
-        -   [`Custom Directory`](#custom-directory)
-        -   [`Unattended Install`](#unattended-install)
-        -   [`Installing From A Forked Repository`](#installing-from-a-forked-repository)
-        -   [`Manual Installation`](#manual-installation)
-    -   [`Installation Problems`](#installation-problems)
-    -   [`Custom Plugins And Themes`](#custom-plugins-and-themes)
-    -   [`Enable GNU ls In macOS And freeBSD Systems`](#enable-gnu-ls-in-macos-and-freebsd-systems)
-    -   [`Skip Aliases`](#skip-aliases)
-    -   [`Disable async git prompt`](#disable-async-git-prompt)
--   [`Getting Updates`](#getting-updates)
-    -   [`Updates Verbosity`](#updates-verbosity)
-    -   [`Manual Updates`](#manual-updates)
--   [`Uninstalling Oh My Zsh`](#uninstalling-oh-my-zsh)
--   [`How Do I Contribute To Oh My Zsh?`](#how-do-i-contribute-to-oh-my-zsh)
-    -   [`Do Not Send Us Themes`](#do-not-send-us-themes)
--   [`Contributors`](#contributors)
--   [`Follow Us`](#follow-us)
--   [`Merchandise`](#merchandise)
--   [`About Planet Argon`](#about-planet-argon)
+- [`Getting Started`](#getting-started)
+    - [`Operating System Compatibility`](#operating-system-compatibility)
+    - [`Prerequisites`](#prerequisites)
+    - [`Basic Installation`](#basic-installation)
+        - [`Manual Inspection`](#manual-inspection)
+- [`Using Oh My Zsh`](#using-oh-my-zsh)
+    - [`Plugins`](#plugins)
+        - [`Enabling Plugins`](#enabling-plugins)
+        - [`Using Plugins`](#using-plugins)
+    - [`Themes`](#themes)
+        - [`Selecting A Theme`](#selecting-a-theme)
+    - [`FAQ`](#faq)
+- [`Advanced Topics`](#advanced-topics)
+    - [`Advanced Installation`](#advanced-installation)
+        - [`Custom Directory`](#custom-directory)
+        - [`Unattended Install`](#unattended-install)
+        - [`Installing From A Forked Repository`](#installing-from-a-forked-repository)
+        - [`Manual Installation`](#manual-installation)
+    - [`Installation Problems`](#installation-problems)
+    - [`Custom Plugins And Themes`](#custom-plugins-and-themes)
+    - [`Enable GNU ls In macOS And freeBSD Systems`](#enable-gnu-ls-in-macos-and-freebsd-systems)
+    - [`Skip Aliases`](#skip-aliases)
+    - [`Disable async git prompt`](#disable-async-git-prompt)
+- [`Getting Updates`](#getting-updates)
+    - [`Updates Verbosity`](#updates-verbosity)
+    - [`Manual Updates`](#manual-updates)
+- [`Uninstalling Oh My Zsh`](#uninstalling-oh-my-zsh)
+- [`How Do I Contribute To Oh My Zsh?`](#how-do-i-contribute-to-oh-my-zsh)
+    - [`Do Not Send Us Themes`](#do-not-send-us-themes)
+- [`Contributors`](#contributors)
+- [`Follow Us`](#follow-us)
+- [`Merchandise`](#merchandise)
+- [`About Planet Argon`](#about-planet-argon)
 
 </details>
 
@@ -81,12 +81,12 @@ To learn more, visit [`ohmyz.sh`](https://ohmyz.sh), follow
 
 ### Prerequisites
 
--   [`Zsh`](https://www.zsh.org) should be installed (v4.3.9 or more recent is
-    fine but we prefer 5.0.8 and newer). If not pre-installed (run
-    `zsh --version` to confirm), check the following wiki instructions here:
-    [`Installing ZSH`](https://GitHub.Com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
--   `curl` or `wget` should be installed
--   `git` should be installed (recommended v2.4.11 or higher)
+- [`Zsh`](https://www.zsh.org) should be installed (v4.3.9 or more recent is
+  fine but we prefer 5.0.8 and newer). If not pre-installed (run `zsh --version`
+  to confirm), check the following wiki instructions here:
+  [`Installing ZSH`](https://GitHub.Com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+- `curl` or `wget` should be installed
+- `git` should be installed (recommended v2.4.11 or higher)
 
 ### Basic Installation
 
@@ -135,8 +135,8 @@ URL for `https://install.ohmyz.sh` to be able to get the script.
 Oh My Zsh comes with a shitload of plugins for you to take advantage of. You can
 take a look in the
 [`plugins`](https://GitHub.Com/ohmyzsh/ohmyzsh/tree/master/plugins) directory
-and/or the [`wiki`](https://GitHub.Com/ohmyzsh/ohmyzsh/wiki/Plugins) to see what's
-currently available.
+and/or the [`wiki`](https://GitHub.Com/ohmyzsh/ohmyzsh/wiki/Plugins) to see
+what's currently available.
 
 #### Enabling Plugins
 
@@ -298,22 +298,22 @@ If you're in China, India, or another country that blocks
 The install script also accepts these variables to allow the installation of a
 different repository:
 
--   `REPO` (default: `ohmyzsh/ohmyzsh`): this takes the form of
-    `owner/repository`. If you set this variable, the installer will look for a
-    repository at `https://github.com/{owner}/{repository}`.
+- `REPO` (default: `ohmyzsh/ohmyzsh`): this takes the form of
+  `owner/repository`. If you set this variable, the installer will look for a
+  repository at `https://github.com/{owner}/{repository}`.
 
--   `REMOTE` (default: `https://github.com/${REPO}.git`): this is the full URL
-    of the git repository clone. You can use this setting if you want to install
-    from a fork that is not on GitHub (GitLab, Bitbucket...) or if you want to
-    clone with SSH instead of HTTPS (`git@github.com:user/project.git`).
+- `REMOTE` (default: `https://github.com/${REPO}.git`): this is the full URL of
+  the git repository clone. You can use this setting if you want to install from
+  a fork that is not on GitHub (GitLab, Bitbucket...) or if you want to clone
+  with SSH instead of HTTPS (`git@github.com:user/project.git`).
 
     _NOTE: it's incompatible with setting the `REPO` variable. This setting will
     take precedence._
 
--   `BRANCH` (default: `master`): you can use this setting if you want to change
-    the default branch to be checked out when cloning the repository. This might
-    be useful for testing a Pull Request, or if you want to use a branch other
-    than `master`.
+- `BRANCH` (default: `master`): you can use this setting if you want to change
+  the default branch to be checked out when cloning the repository. This might
+  be useful for testing a Pull Request, or if you want to use a branch other
+  than `master`.
 
 For example:
 
@@ -361,10 +361,10 @@ configuration.
 
 If you have any hiccups installing, here are a few common fixes.
 
--   You _might_ need to modify your `PATH` in `~/.zshrc` if you're not able to
-    find some commands after switching to `oh-my-zsh`.
--   If you installed manually or changed the install location, check the `ZSH`
-    environment variable in `~/.zshrc`.
+- You _might_ need to modify your `PATH` in `~/.zshrc` if you're not able to
+  find some commands after switching to `oh-my-zsh`.
+- If you installed manually or changed the install location, check the `ZSH`
+  environment variable in `~/.zshrc`.
 
 ### Custom Plugins And Themes
 
@@ -539,8 +539,8 @@ many ways to improve – if you have ideas on how to make the configuration easi
 to maintain (and faster), don't hesitate to fork and send pull requests!
 
 We also need people to test out pull requests. So take a look through
-[`the open issues`](https://GitHub.Com/ohmyzsh/ohmyzsh/issues) and help where you
-can.
+[`the open issues`](https://GitHub.Com/ohmyzsh/ohmyzsh/issues) and help where
+you can.
 
 See [`Contributing`](CONTRIBUTING.md) for more details.
 
@@ -565,12 +565,12 @@ Thank you so much!
 
 We're on social media:
 
--   [`@ohmyzsh`](https://x.com/ohmyzsh) on X (formerly Twitter). You should follow
-    it.
--   [`Facebook`](https://www.facebook.com/Oh-My-Zsh-296616263819290/) poke us.
--   [`Instagram`](https://www.instagram.com/_ohmyzsh/) tag us in your post showing
-    Oh My Zsh!
--   [`Discord`](https://discord.gg/ohmyzsh) to chat with us!
+- [`@ohmyzsh`](https://x.com/ohmyzsh) on X (formerly Twitter). You should follow
+  it.
+- [`Facebook`](https://www.facebook.com/Oh-My-Zsh-296616263819290/) poke us.
+- [`Instagram`](https://www.instagram.com/_ohmyzsh/) tag us in your post showing
+  Oh My Zsh!
+- [`Discord`](https://discord.gg/ohmyzsh) to chat with us!
 
 ## Merchandise
 

@@ -1,8 +1,8 @@
 # droplr
 
 Use [`Droplr`](https://droplr.com/) from the command line to upload files and
-shorten links. It needs to have [`Droplr.app`](https://droplr.com/apps) installed
-and logged in. MacOS only.
+shorten links. It needs to have [`Droplr.app`](https://droplr.com/apps)
+installed and logged in. MacOS only.
 
 To use it, add `droplr` to the `$plugins` variable in your zshrc file:
 
@@ -14,6 +14,6 @@ Author: [`Fabio Fernandes`](https://GitHub.Com/fabiofl)
 
 ## Examples
 
--   Upload a file: `droplr ./path/to/file/`
+- Upload a file: `droplr ./path/to/file/`
 
--   Shorten a link: `droplr https://example.com`
+- Shorten a link: `droplr https://example.com`

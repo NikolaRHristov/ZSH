@@ -12,4 +12,4 @@ plugins=(... oc)
 
 ## Contributors
 
--   [`kevinkirkup`](https://GitHub.Com/kevinkirkup) - Plugin Author
+- [`kevinkirkup`](https://GitHub.Com/kevinkirkup) - Plugin Author

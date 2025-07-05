@@ -155,10 +155,10 @@ for details.
 
 #### Gemoji support
 
-The [`gemoji project`](https://GitHub.Com/github/gemoji) seems to be the de facto
-main source for short names and other emoji-related metadata that isn't included
-in the official Unicode reports. So, our list of emojis incorporates some of
-their aliases to make your life more convenient:
+The [`gemoji project`](https://GitHub.Com/github/gemoji) seems to be the de
+facto main source for short names and other emoji-related metadata that isn't
+included in the official Unicode reports. So, our list of emojis incorporates
+some of their aliases to make your life more convenient:
 
 ```
 echo $emoji[grinning_face_with_smiling_eyes]
@@ -173,6 +173,6 @@ Gemoji's database.
 
 These are things that could be enhanced in future revisions of the plugin.
 
--   Incorporate CLDR data for ordering and groupings
--   Short :bracket: style names (from gemoji)
--   ZWJ combining function?
+- Incorporate CLDR data for ordering and groupings
+- Short :bracket: style names (from gemoji)
+- ZWJ combining function?

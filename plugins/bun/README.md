@@ -17,4 +17,4 @@ plugin is loaded, which is usually when you start up a new terminal emulator.
 
 The cache is stored at:
 
--   `$ZSH_CACHE_DIR/completions/_bun_` completions script
+- `$ZSH_CACHE_DIR/completions/_bun_` completions script

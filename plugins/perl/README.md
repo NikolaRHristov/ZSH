@@ -23,15 +23,15 @@ plugins=(... perl)
 
 ## Functions
 
--   `newpl`: creates a basic Perl script file and opens it with $EDITOR.
+- `newpl`: creates a basic Perl script file and opens it with $EDITOR.
 
--   `pgs`: Perl Global Substitution:
-    `pgs <find_pattern> <replace_pattern> <filename>` Looks for `<find_pattern>`
-    and replaces it with `<replace_pattern>` in `<filename>`.
+- `pgs`: Perl Global Substitution:
+  `pgs <find_pattern> <replace_pattern> <filename>` Looks for `<find_pattern>`
+  and replaces it with `<replace_pattern>` in `<filename>`.
 
--   `prep`: Perl grep, because 'grep -P' is terrible:
-    `prep <pattern> [<filename>]` Lets you work with pipes or files (if no
-    `<filename>` provided, use stdin).
+- `prep`: Perl grep, because 'grep -P' is terrible:
+  `prep <pattern> [<filename>]` Lets you work with pipes or files (if no
+  `<filename>` provided, use stdin).
 
 ## Requirements
 

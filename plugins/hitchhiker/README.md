@@ -11,8 +11,8 @@ plugins=(... hitchhiker)
 
 ## Aliases
 
--   `hitchhiker`: displays a quote from the book using `fortune`.
--   `hitchhiker_cow`: displays a quote from the book using `cowthink`.
+- `hitchhiker`: displays a quote from the book using `fortune`.
+- `hitchhiker_cow`: displays a quote from the book using `cowthink`.
 
 ```console
 $ hitchhiker_cow
@@ -30,8 +30,8 @@ $ hitchhiker_cow
 
 ## Requirements
 
--   `fortune` and `strfile`.
--   `cowthink` if using the `hitchhiker_cow` command.
+- `fortune` and `strfile`.
+- `cowthink` if using the `hitchhiker_cow` command.
 
 ## Credits
 
@@ -42,5 +42,5 @@ Spelling and formatting fixes: grok@resist.ca
 
 Original quotes from:
 
--   https://web.archive.org/web/20120106083254/HTTP://tatooine.fortunecity.com/vonnegut/29/hitch/parhaat.html
--   https://web.archive.org/web/20011112065737/HTTP://www-personal.umd.umich.edu/~nhughes/dna/faqs/quotedir.html
+- https://web.archive.org/web/20120106083254/HTTP://tatooine.fortunecity.com/vonnegut/29/hitch/parhaat.html
+- https://web.archive.org/web/20011112065737/HTTP://www-personal.umd.umich.edu/~nhughes/dna/faqs/quotedir.html

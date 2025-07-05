@@ -32,7 +32,7 @@ Last login: Fri Jan 30 23:12:26 on ttys001
 
 ## Requirements
 
--   `fortune`
--   `cowsay` if using `chuck_cow`
+- `fortune`
+- `cowsay` if using `chuck_cow`
 
 Available via homebrew, apt, ...

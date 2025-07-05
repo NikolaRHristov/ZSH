@@ -5,10 +5,10 @@ open frames, whether they are opened in a terminal via a ssh connection, or X
 frames opened on the same host. The plugin also provides some aliases for such
 operations.
 
--   You don't have the cost of starting Emacs all the time anymore
--   Opening a file is as fast as Emacs does not have anything else to do.
--   You can share opened buffered across opened frames.
--   Configuration changes made at runtime are applied to all frames.
+- You don't have the cost of starting Emacs all the time anymore
+- Opening a file is as fast as Emacs does not have anything else to do.
+- You can share opened buffered across opened frames.
+- Configuration changes made at runtime are applied to all frames.
 
 **NOTE:** requires Emacs 24 and newer.
 

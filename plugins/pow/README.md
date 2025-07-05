@@ -11,11 +11,11 @@ plugins=(... pow)
 
 ## Commands
 
--   `kapow` will restart an app.
+- `kapow` will restart an app.
 
     ```bash
     kapow myapp
     ```
 
--   `kaput` will show the standard output from any pow app.
--   `repow` will restart the pow process.
+- `kaput` will show the standard output from any pow app.
+- `repow` will restart the pow process.

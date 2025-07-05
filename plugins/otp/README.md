@@ -13,12 +13,12 @@ plugins=(... otp)
 
 Provided aliases:
 
--   `otp_add_device`: creates a new encrypted storage for an oathtool key and
-    stores it on the disk. For encrypting the key, it will ask for a GPG user ID
-    (your GPG key's email address). Then the OTP key needs to be pasted,
-    followed by a CTRL+D character inserted on an empty line.
+- `otp_add_device`: creates a new encrypted storage for an oathtool key and
+  stores it on the disk. For encrypting the key, it will ask for a GPG user ID
+  (your GPG key's email address). Then the OTP key needs to be pasted, followed
+  by a CTRL+D character inserted on an empty line.
 
--   `ot`: generates a MFA code based on the given key and copies it to the
-    clipboard (on Linux it relies on xsel, on MacOS X it uses pbcopy instead).
+- `ot`: generates a MFA code based on the given key and copies it to the
+  clipboard (on Linux it relies on xsel, on MacOS X it uses pbcopy instead).
 
 The plugin uses `$HOME/.otp` to store its internal files.

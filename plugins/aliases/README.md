@@ -15,15 +15,15 @@ Requirements: Python needs to be installed.
 
 ## 🛠️ Usage
 
--   `als`: show all aliases by group
+- `als`: show all aliases by group
 
--   `als -h/--help`: print help message
+- `als -h/--help`: print help message
 
--   `als <keyword(s)>`: filter and highlight aliases by `<keyword>`
+- `als <keyword(s)>`: filter and highlight aliases by `<keyword>`
 
--   `als -g <group>/--group <group>`: show only aliases for group `<group>`.
-    Multiple uses of the flag show all groups
+- `als -g <group>/--group <group>`: show only aliases for group `<group>`.
+  Multiple uses of the flag show all groups
 
--   `als --groups`: show only group names
+- `als --groups`: show only group names
 
     ![`screenshot`](https://GitHub.Com/ohmyzsh/ohmyzsh/assets/66907184/5bfa00ea-5fc3-4e97-8b22-2f74f6b948c7)

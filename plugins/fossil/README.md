@@ -5,4 +5,4 @@ prompt will display the current branch and status been dirty or clean.
 
 ### CONTRIBUTOR
 
--   Jefferson González ([`jgmdev`](https://GitHub.Com/jgmdev))
+- Jefferson González ([`jgmdev`](https://GitHub.Com/jgmdev))

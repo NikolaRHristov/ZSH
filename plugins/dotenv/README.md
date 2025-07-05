@@ -4,9 +4,9 @@ Automatically load your project ENV variables from `.env` file when you `cd`
 into project root directory.
 
 Storing configuration in the environment is one of the tenets of a
-[`twelve-factor app`](https://www.12factor.net). Anything that is likely to change
-between deployment environments, such as resource handles for databases or
-credentials for external services, should be extracted from the code into
+[`twelve-factor app`](https://www.12factor.net). Anything that is likely to
+change between deployment environments, such as resource handles for databases
+or credentials for external services, should be extracted from the code into
 environment variables.
 
 To use it, add `dotenv` to the plugins array in your zshrc file:
@@ -106,5 +106,5 @@ does the job.
 If you need more advanced and feature-rich ENV management, check out these
 awesome projects:
 
--   [`direnv`](https://GitHub.Com/direnv/direnv)
--   [`zsh-autoenv`](https://GitHub.Com/Tarrasch/zsh-autoenv)
+- [`direnv`](https://GitHub.Com/direnv/direnv)
+- [`zsh-autoenv`](https://GitHub.Com/Tarrasch/zsh-autoenv)

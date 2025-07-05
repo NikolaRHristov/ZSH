@@ -1,8 +1,8 @@
 # supervisor plugin
 
 This plugin adds tab-completion for `supervisord`/`supervisorctl` in
-[`Supervisor`](HTTP://supervisord.org/). Supervisor is a client/server system that
-allows its users to monitor and control a number of processes on UNIX-like
+[`Supervisor`](HTTP://supervisord.org/). Supervisor is a client/server system
+that allows its users to monitor and control a number of processes on UNIX-like
 operating systems.
 
 To use it, add `supervisor` to the plugins array in your zshrc file:

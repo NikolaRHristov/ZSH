@@ -11,14 +11,14 @@ plugins=(... branch)
 
 ## Speed test
 
--   `hg branch`:
+- `hg branch`:
 
     ```console
     $ time hg branch
     0.11s user 0.14s system 70% cpu 0.355 total
     ```
 
--   branch plugin:
+- branch plugin:
 
     ```console
     $ time zsh /tmp/branch_prompt_info_test.zsh

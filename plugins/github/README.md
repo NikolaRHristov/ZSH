@@ -3,19 +3,18 @@
 This plugin supports working with GitHub from the command line. It provides a
 few things:
 
--   Sets up the `hub` wrapper and completions for the `git` command if you have
-    [`hub`](https://GitHub.Com/github/hub) installed.
--   Completion for the
-    [`github` Ruby gem`](https://GitHub.Com/defunkt/github-gem).
--   Convenience functions for working with repos and URLs.
+- Sets up the `hub` wrapper and completions for the `git` command if you have
+  [`hub`](https://GitHub.Com/github/hub) installed.
+- Completion for the
+  [`github` Ruby gem`](https://GitHub.Com/defunkt/github-gem).
+- Convenience functions for working with repos and URLs.
 
 ### Functions
 
--   `empty_gh` - Creates a new empty repo (with a `README.md`) and pushes it to
-    GitHub
--   `new_gh` - Initializes an existing directory as a repo and pushes it to
-    GitHub
--   `exist_gh` - Takes an existing repo and pushes it to GitHub
+- `empty_gh` - Creates a new empty repo (with a `README.md`) and pushes it to
+  GitHub
+- `new_gh` - Initializes an existing directory as a repo and pushes it to GitHub
+- `exist_gh` - Takes an existing repo and pushes it to GitHub
 
 ## Installation 🚀
 
@@ -33,12 +32,12 @@ These settings affect `github`'s behavior.
 
 #### Environment variables
 
--   `$GITHUB_USER`
--   `$GITHUB_PASSWORD`
+- `$GITHUB_USER`
+- `$GITHUB_PASSWORD`
 
 #### Git configuration options
 
--   `github.user` - GitHub username for repo operations
+- `github.user` - GitHub username for repo operations
 
 See `man hub` for more details.
 

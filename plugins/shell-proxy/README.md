@@ -10,10 +10,10 @@ plugins=(... shell-proxy)
 
 ## Key features
 
--   Supports macOS and Linux (Ubuntu, Archlinux, etc.)
--   Supports git via setting `$GIT_SSH`
--   Supports ssh, sftp, scp, slogin and ssh-copy-id via setting aliases
--   Built-in autocomplete
+- Supports macOS and Linux (Ubuntu, Archlinux, etc.)
+- Supports git via setting `$GIT_SSH`
+- Supports ssh, sftp, scp, slogin and ssh-copy-id via setting aliases
+- Built-in autocomplete
 
 ## 🛠️ Usage
 
@@ -50,8 +50,8 @@ echo "localhost,127.0.0.1"
 
 ### Method 3
 
-Use [`method 2`](#method-2) but define the location of the program file by setting
-the `SHELLPROXY_CONFIG` environment variable:
+Use [`method 2`](#method-2) but define the location of the program file by
+setting the `SHELLPROXY_CONFIG` environment variable:
 
 ```sh
 SHELLPROXY_CONFIG="$HOME/.dotfiles/proxy-config"
@@ -59,10 +59,10 @@ SHELLPROXY_CONFIG="$HOME/.dotfiles/proxy-config"
 
 ## Reference
 
--   `$GIT_SSH`:
-    <https://www.git-scm.com/docs/git#Documentation/git.txt-codeGITSSHcode>
--   OpenSSH manual: <https://man.openbsd.org/ssh>
+- `$GIT_SSH`:
+  <https://www.git-scm.com/docs/git#Documentation/git.txt-codeGITSSHcode>
+- OpenSSH manual: <https://man.openbsd.org/ssh>
 
 ## Maintainer
 
--   [`@septs`](https://GitHub.Com/septs)
+- [`@septs`](https://GitHub.Com/septs)

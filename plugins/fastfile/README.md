@@ -34,25 +34,24 @@ named `"hello world"` corresponds with `§hello_world`.
 
 ## Functions
 
--   `fastfile <shortcut_name> [path/to/file/or/folder]`: generate a shortcut. If
-    the second argument is not provided, the current directory is used.
+- `fastfile <shortcut_name> [path/to/file/or/folder]`: generate a shortcut. If
+  the second argument is not provided, the current directory is used.
 
--   `fastfile_print <shortcut_name>`: prints a shortcut, with the format
-    `<prefix><shortcut_name> -> <shortcut_path>`.
+- `fastfile_print <shortcut_name>`: prints a shortcut, with the format
+  `<prefix><shortcut_name> -> <shortcut_path>`.
 
--   `fastfile_ls`: lists all shortcuts.
+- `fastfile_ls`: lists all shortcuts.
 
--   `fastfile_rm <shortcut_name>`: remove a shortcut.
+- `fastfile_rm <shortcut_name>`: remove a shortcut.
 
--   `fastfile_sync`: generates the global aliases for the shortcuts.
+- `fastfile_sync`: generates the global aliases for the shortcuts.
 
 ### Internal functions
 
--   `fastfile_resolv <shortcut_name>`: resolves the location of the shortcut
-    file, i.e., the file in the fastfile directory where the shortcut path is
-    stored.
+- `fastfile_resolv <shortcut_name>`: resolves the location of the shortcut file,
+  i.e., the file in the fastfile directory where the shortcut path is stored.
 
--   `fastfile_get <shortcut_name>`: get the real path of the shortcut.
+- `fastfile_get <shortcut_name>`: get the real path of the shortcut.
 
 ## Aliases
 
@@ -70,15 +69,15 @@ These are options you can set to change certain parts of the plugin. To change
 them, add `<variable>=<value>` to your zshrc file, before Oh My Zsh is sourced.
 For example: `fastfile_var_prefix='@'`.
 
--   `fastfile_var_prefix`: prefix for the global aliases created. Controls the
-    prefix of the created global aliases. **Default:** `§` (section sign), easy
-    to type in a german keyboard via the combination
-    [`⇧ Shift`+`3`](https://en.wikipedia.org/wiki/German_keyboard_layout#/media/File:KB_Germany.svg),
-    or using `⌥ Option`+`6` in macOS.
+- `fastfile_var_prefix`: prefix for the global aliases created. Controls the
+  prefix of the created global aliases. **Default:** `§` (section sign), easy to
+  type in a german keyboard via the combination
+  [`⇧ Shift`+`3`](https://en.wikipedia.org/wiki/German_keyboard_layout#/media/File:KB_Germany.svg),
+  or using `⌥ Option`+`6` in macOS.
 
--   `fastfile_dir`: directory where the fastfile shortcuts are stored. Needs to
-    end with a trailing slash. **Default:** `$HOME/.fastfile/`.
+- `fastfile_dir`: directory where the fastfile shortcuts are stored. Needs to
+  end with a trailing slash. **Default:** `$HOME/.fastfile/`.
 
 ## Author
 
--   [`Karolin Varner`](https://GitHub.Com/koraa)
+- [`Karolin Varner`](https://GitHub.Com/koraa)

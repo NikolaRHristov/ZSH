@@ -12,7 +12,7 @@ plugins=(... opentofu)
 
 ## Requirements
 
--   [`OpenTofu`](https://opentofu.org/)
+- [`OpenTofu`](https://opentofu.org/)
 
 ## Aliases
 
@@ -35,11 +35,10 @@ plugins=(... opentofu)
 
 ## Prompt functions
 
--   `tofu_prompt_info`: shows the current workspace when in an OpenTofu project
-    directory.
+- `tofu_prompt_info`: shows the current workspace when in an OpenTofu project
+  directory.
 
--   `tofu_version_prompt_info`: shows the current version of the `tofu`
-    commmand.
+- `tofu_version_prompt_info`: shows the current version of the `tofu` commmand.
 
 To use them, add them to a `PROMPT` variable in your theme or `.zshrc` file:
 

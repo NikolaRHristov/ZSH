@@ -11,7 +11,7 @@ plugins=(... ssh)
 
 ## Functions
 
--   `ssh_rmhkey`: remove host key from known hosts based on a host section name
-    from `.ssh/config`.
--   `ssh_load_key`: load SSH key into agent.
--   `ssh_unload_key`: remove SSH key from agent.
+- `ssh_rmhkey`: remove host key from known hosts based on a host section name
+  from `.ssh/config`.
+- `ssh_load_key`: load SSH key into agent.
+- `ssh_unload_key`: remove SSH key from agent.

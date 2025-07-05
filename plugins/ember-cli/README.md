@@ -28,7 +28,7 @@ plugins=(... ember-cli)
 
 ## Maintainers
 
--   [`BilalBudhani`](https://GitHub.Com/BilalBudhani)
--   [`eubenesa`](https://GitHub.Com/eubenesa)
--   [`scottkidder`](https://GitHub.Com/scottkidder]
--   [`t-sauer`](https://www.github.com/t-sauer)
+- [`BilalBudhani`](https://GitHub.Com/BilalBudhani)
+- [`eubenesa`](https://GitHub.Com/eubenesa)
+- [`scottkidder`](https://GitHub.Com/scottkidder]
+- [`t-sauer`](https://www.github.com/t-sauer)

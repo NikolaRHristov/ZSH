@@ -19,4 +19,4 @@ new terminal emulator.
 
 The cache is stored at:
 
--   `$ZSH_CACHE/completions/_argocd` completions script
+- `$ZSH_CACHE/completions/_argocd` completions script

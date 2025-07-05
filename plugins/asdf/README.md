@@ -34,4 +34,4 @@ asdf local nodejs latest
 
 ### Maintainer
 
--   [`@RobLoach`](https://GitHub.Com/RobLoach)
+- [`@RobLoach`](https://GitHub.Com/RobLoach)

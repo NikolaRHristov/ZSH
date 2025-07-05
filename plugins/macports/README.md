@@ -44,5 +44,5 @@ Checks whether updates are available for ports whose maintainer is the current
 user, or any of a specified list of maintainer expressions. The current user
 maintainer id is retrieved as follows:
 
--   The value of the `MACPORTS_MAINTAINER` variable, if set and not null.
--   The value of the `USER` variable.
+- The value of the `MACPORTS_MAINTAINER` variable, if set and not null.
+- The value of the `USER` variable.

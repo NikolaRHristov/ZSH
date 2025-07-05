@@ -1,8 +1,8 @@
 # Hanami Plugin
 
-This plugin adds convenient aliases to work with [`Hanami`](https://hanamirb.org/)
-via console. It's inspired by Rails plugin, so if you've used it, you'll feel
-like home.
+This plugin adds convenient aliases to work with
+[`Hanami`](https://hanamirb.org/) via console. It's inspired by Rails plugin, so
+if you've used it, you'll feel like home.
 
 To use it, add `hanami` to the plugins array in your zshrc file:
 

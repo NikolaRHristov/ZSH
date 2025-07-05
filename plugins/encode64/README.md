@@ -20,7 +20,7 @@ plugins=(... encode64)
 
 ### Encoding
 
--   From parameter
+- From parameter
 
     ```console
     $ encode64 "oh-my-zsh"
@@ -29,7 +29,7 @@ plugins=(... encode64)
     b2gtbXktenNo
     ```
 
--   From piping
+- From piping
 
     ```console
     $ echo "oh-my-zsh" | encode64
@@ -43,7 +43,7 @@ plugins=(... encode64)
 Encode a file's contents to base64 and save output to text file. **NOTE:** Takes
 provided file and saves encoded content as new file with `.txt` extension
 
--   From parameter
+- From parameter
 
     ```console
     $ encodefile64 ohmyzsh.icn
@@ -54,7 +54,7 @@ provided file and saves encoded content as new file with `.txt` extension
 
 ### Decoding
 
--   From parameter
+- From parameter
 
     ```console
     $ decode64 b2gtbXktenNo
@@ -63,7 +63,7 @@ provided file and saves encoded content as new file with `.txt` extension
     oh-my-zsh%
     ```
 
--   From piping
+- From piping
 
     ```console
     $ echo "b2gtbXktenNoCg==" | decode64

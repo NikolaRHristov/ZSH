@@ -21,14 +21,13 @@ BATTERY_CHARGING="⚡️"
 
 ## Requirements
 
--   On Linux, you must have the `acpi` or `acpitool` commands installed on your
-    operating system. On Debian/Ubuntu, you can do that with
-    `sudo apt install acpi` or `sudo apt install acpitool`.
+- On Linux, you must have the `acpi` or `acpitool` commands installed on your
+  operating system. On Debian/Ubuntu, you can do that with
+  `sudo apt install acpi` or `sudo apt install acpitool`.
 
--   On Android (via
-    [`Termux`](https://play.google.com/store/apps/details?id=com.termux)), you
-    must have:
-
+- On Android (via
+  [`Termux`](https://play.google.com/store/apps/details?id=com.termux)), you
+  must have:
     1. The `Termux:API` addon app installed:
        [`Google Play`](https://play.google.com/store/apps/details?id=com.termux.api)
        | [`F-Droid`](https://f-droid.org/packages/com.termux.api/)

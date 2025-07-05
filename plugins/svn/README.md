@@ -17,7 +17,7 @@ plugins=(... svn)
 | `svn_prompt_info`     | Shows svn prompt in themes                  |
 | `in_svn`              | Checks if we're in an svn repository        |
 | `svn_get_repo_name`   | Get repository name                         |
-| `svn_get_branch_name` | Get branch name (see [`caveats`](#caveats))   |
+| `svn_get_branch_name` | Get branch name (see [`caveats`](#caveats)) |
 | `svn_get_rev_nr`      | Get revision number                         |
 | `svn_dirty`           | Checks if there are changes in the svn repo |
 

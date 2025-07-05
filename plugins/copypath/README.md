@@ -10,6 +10,6 @@ plugins=(... copypath)
 
 ## 🛠️ Usage
 
--   `copypath`: copies the absolute path of the current directory.
+- `copypath`: copies the absolute path of the current directory.
 
--   `copypath <file_or_directory>`: copies the absolute path of the given file.
+- `copypath <file_or_directory>`: copies the absolute path of the given file.

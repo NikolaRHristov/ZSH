@@ -1,6 +1,7 @@
 # Ubuntu plugin
 
-This plugin adds completions and aliases for [`Ubuntu`](https://www.ubuntu.com/).
+This plugin adds completions and aliases for
+[`Ubuntu`](https://www.ubuntu.com/).
 
 To use it, add `ubuntu` to the plugins array in your zshrc file:
 
@@ -52,10 +53,10 @@ otherwise.
 
 ## Authors:
 
--   [`@AlexBio`](https://GitHub.Com/AlexBio)
--   [`@dbb`](https://GitHub.Com/dbb)
--   [`@Mappleconfusers`](https://GitHub.Com/Mappleconfusers)
--   [`@trinaldi`](https://GitHub.Com/trinaldi)
--   [`Nicolas Jonas`](https://nextgenthemes.com)
--   [`@loctauxphilippe`](https://GitHub.Com/loctauxphilippe)
--   [`@HaraldNordgren`](https://GitHub.Com/HaraldNordgren)
+- [`@AlexBio`](https://GitHub.Com/AlexBio)
+- [`@dbb`](https://GitHub.Com/dbb)
+- [`@Mappleconfusers`](https://GitHub.Com/Mappleconfusers)
+- [`@trinaldi`](https://GitHub.Com/trinaldi)
+- [`Nicolas Jonas`](https://nextgenthemes.com)
+- [`@loctauxphilippe`](https://GitHub.Com/loctauxphilippe)
+- [`@HaraldNordgren`](https://GitHub.Com/HaraldNordgren)

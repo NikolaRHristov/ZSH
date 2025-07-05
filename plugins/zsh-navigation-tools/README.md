@@ -25,8 +25,8 @@ and [`Zconvey`](https://GitHub.Com/zdharma-continuum/zconvey)
 
 Videos:
 
--   [`https://youtu.be/QwZ8IJEgXRE`](https://youtu.be/QwZ8IJEgXRE)
--   [`https://youtu.be/DN9QqssAYB8`](https://youtu.be/DN9QqssAYB8)
+- [`https://youtu.be/QwZ8IJEgXRE`](https://youtu.be/QwZ8IJEgXRE)
+- [`https://youtu.be/DN9QqssAYB8`](https://youtu.be/DN9QqssAYB8)
 
 Screenshots:
 
@@ -62,43 +62,43 @@ bindkey "^Y" znt-kill-widget
 
 The tools are:
 
--   `n-aliases` - browses aliases, relegates editing to `vared`
--   `n-cd` - browses dirstack and bookmarked directories, allows to enter
-    selected directory
--   `n-functions` - browses functions, relegates editing to `zed` or `vared`
--   `n-history` - browses history, allows to edit and run commands from it
--   `n-kill` - browses processes list, allows to send signal to selected process
--   `n-env` - browses environment, relegates editing to `vared`
--   `n-options` - browses options, allows to toggle their state
--   `n-panelize` - loads output of given command into the list for browsing
+- `n-aliases` - browses aliases, relegates editing to `vared`
+- `n-cd` - browses dirstack and bookmarked directories, allows to enter selected
+  directory
+- `n-functions` - browses functions, relegates editing to `zed` or `vared`
+- `n-history` - browses history, allows to edit and run commands from it
+- `n-kill` - browses processes list, allows to send signal to selected process
+- `n-env` - browses environment, relegates editing to `vared`
+- `n-options` - browses options, allows to toggle their state
+- `n-panelize` - loads output of given command into the list for browsing
 
 All tools support horizontal scroll with `<`,`>`, `{`,`}`, `h`,`l` or left and
 right cursors. Other keys are:
 
--   `H`, `?` (from n-history) - run n-help
--   `Ctrl-R` - start n-history, the incremental, multi-keyword history searcher
-    (Zsh binding)
--   `Ctrl-A` - rotate entered words (1+2+3 -> 3+1+2)
--   `Ctrl-F` - fix mode (approximate matching)
--   `Ctrl-L` - redraw of whole display
--   `Ctrl-T` - browse themes (next theme)
--   `Ctrl-G` - browse themes (previous theme)
--   `Ctrl-U` - half page up
--   `Ctrl-D` - half page down
--   `Ctrl-P` - previous element (also done with vim's k)
--   `Ctrl-N` - next element (also done with vim's j)
--   `[`, `]` - jump directory bookmarks in n-cd and typical signals in n-kill
--   `g`, `G` - beginning and end of the list
--   `/` - show incremental search
--   `F3` - show/hide incremental search
--   `Esc` - exit incremental search, clearing filter
--   `Ctrl-W` (in incremental search) - delete whole word
--   `Ctrl-K` (in incremental search) - delete whole line
--   `Ctrl-O`, `o` - enter uniq mode (no duplicate lines)
--   `Ctrl-E`, `e` - edit private history (when in private history view)
--   `F1` - (in n-history) - switch view
--   `F2`, `Ctrl-X`, `Ctrl-/` - search predefined keywords (defined in config
-    files)
+- `H`, `?` (from n-history) - run n-help
+- `Ctrl-R` - start n-history, the incremental, multi-keyword history searcher
+  (Zsh binding)
+- `Ctrl-A` - rotate entered words (1+2+3 -> 3+1+2)
+- `Ctrl-F` - fix mode (approximate matching)
+- `Ctrl-L` - redraw of whole display
+- `Ctrl-T` - browse themes (next theme)
+- `Ctrl-G` - browse themes (previous theme)
+- `Ctrl-U` - half page up
+- `Ctrl-D` - half page down
+- `Ctrl-P` - previous element (also done with vim's k)
+- `Ctrl-N` - next element (also done with vim's j)
+- `[`, `]` - jump directory bookmarks in n-cd and typical signals in n-kill
+- `g`, `G` - beginning and end of the list
+- `/` - show incremental search
+- `F3` - show/hide incremental search
+- `Esc` - exit incremental search, clearing filter
+- `Ctrl-W` (in incremental search) - delete whole word
+- `Ctrl-K` (in incremental search) - delete whole line
+- `Ctrl-O`, `o` - enter uniq mode (no duplicate lines)
+- `Ctrl-E`, `e` - edit private history (when in private history view)
+- `F1` - (in n-history) - switch view
+- `F2`, `Ctrl-X`, `Ctrl-/` - search predefined keywords (defined in config
+  files)
 
 ## Configuration
 
@@ -236,8 +236,8 @@ Zsh Navigation Tools installation.
 
 ## More
 
--   be aware of
-    [`this`](https://GitHub.Com/zdharma-continuum/zsh-navigation-tools/blob/f49f910d239ae5bc6e1a5bb34930307b4f4e3ffe/zsh-navigation-tools.plugin.zsh#L35-L49)
+- be aware of
+  [`this`](https://GitHub.Com/zdharma-continuum/zsh-navigation-tools/blob/f49f910d239ae5bc6e1a5bb34930307b4f4e3ffe/zsh-navigation-tools.plugin.zsh#L35-L49)
 
 # Fixing tmux, screen and linux vt
 

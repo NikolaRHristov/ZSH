@@ -11,11 +11,12 @@ plugins=(... per-directory-history)
 ```
 
 This is an implementation of per-directory history for zsh, some implementations
-of which exist in bash[1][],[`2`][]. It also implements a toggle-history function
-to change from using the directory history to using the global history. In both
-cases the history is always saved to both the global history and the directory
-history, so the toggle state will not effect the saved histories. Being able to
-switch between global and directory histories on the fly is a novel feature.
+of which exist in bash[1][],[`2`][]. It also implements a toggle-history
+function to change from using the directory history to using the global history.
+In both cases the history is always saved to both the global history and the
+directory history, so the toggle state will not effect the saved histories.
+Being able to switch between global and directory histories on the fly is a
+novel feature.
 
 ## 🛠️ Usage
 
@@ -27,21 +28,22 @@ toggle set the `PER_DIRECTORY_HISTORY_TOGGLE` environment variable.
 
 ## Configuration
 
--   `HISTORY_BASE` is a global variable that defines the base directory in which
-    the directory histories are stored (default `$HOME/.directory_history`).
--   `per-directory-history-toggle-history` is the function to toggle between
-    local and global histories.
--   `PER_DIRECTORY_HISTORY_TOGGLE` is the key binding used to run the
-    toggle-history function above (default `^G`)
--   `PER_DIRECTORY_HISTORY_PRINT_MODE_CHANGE` is a variable which toggles
-    whether the current mode is printed to the screen following a mode change
-    (default `true`)
+- `HISTORY_BASE` is a global variable that defines the base directory in which
+  the directory histories are stored (default `$HOME/.directory_history`).
+- `per-directory-history-toggle-history` is the function to toggle between local
+  and global histories.
+- `PER_DIRECTORY_HISTORY_TOGGLE` is the key binding used to run the
+  toggle-history function above (default `^G`)
+- `PER_DIRECTORY_HISTORY_PRINT_MODE_CHANGE` is a variable which toggles whether
+  the current mode is printed to the screen following a mode change (default
+  `true`)
 
 ## History
 
-The idea/inspiration for a per directory history is from [`Stewart MacArthur`][1]
-and [Dieter][2], the implementation idea is from [`Bart Schaefer`][3]. The
-implementation is by [`Jim Hester`][4] in September 2012.
+The idea/inspiration for a per directory history is from
+[`Stewart MacArthur`][1] and [Dieter][2], the implementation idea is from
+[`Bart Schaefer`][3]. The implementation is by [`Jim Hester`][4] in
+September 2012.
 
 [1]: HTTP://www.compbiome.com/2010/07/bash-per-directory-bash-history.html
 [2]: HTTP://dieter.plaetinck.be/per_directory_bash

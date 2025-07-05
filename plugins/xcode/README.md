@@ -46,16 +46,16 @@ Selects different Xcode installations by version name. This is like `xcsel`,
 except it takes just a version name as an argument instead of the full path to
 the Xcode installation. Uses the naming conventions described below.
 
--   `xcselv <version>` selects a version
--   Example: `xcselv 6.2`
--   `xcselv default` selects the default unversioned `Applications/Xcode.app`
--   `xcselv` with no argument lists the available Xcode versions in a
-    human-readable format
--   `xcselv -l` lists the installed Xcode versions
--   `xcselv -L` lists the installed Xcode versions in a short version-name-only
-    format
--   `xcselv -p` prints info about the active Xcode version
--   `xcselv -h` prints a help message
+- `xcselv <version>` selects a version
+- Example: `xcselv 6.2`
+- `xcselv default` selects the default unversioned `Applications/Xcode.app`
+- `xcselv` with no argument lists the available Xcode versions in a
+  human-readable format
+- `xcselv -l` lists the installed Xcode versions
+- `xcselv -L` lists the installed Xcode versions in a short version-name-only
+  format
+- `xcselv -p` prints info about the active Xcode version
+- `xcselv -h` prints a help message
 
 The option parsing for `xcselv` is naive. Options may not be combined, and only
 the first option is recognized.
@@ -76,33 +76,33 @@ styles show up in forum and blog discussions.
 
 We've adopted the following naming convention:
 
--   Versioned Xcode installations are identified by the name `Xcode-<version>`
-    or `Xcode<version>`.
--   The `-` separating `"Xcode"` and the version name is optional, and may be
-    replaced by a space.
--   The versioned name may be applied to the `Xcode.app` itself, or a
-    subdirectory underneath `Applications/` containing it.
--   You cannot version both the `Xcode.app` filename itself and the containing
-    subfolder.
--   Thus, all of the following are equivalent.
--   `Applications/Xcode-<version>.app`
--   `Applications/Xcode-<version>/Xcode.app`
--   `Applications/Xcode<version>.app`
--   `Applications/Xcode <version>.app`
--   `Applications/Xcode <version>/Xcode.app`
--   Both the system `/Applications/` and user `$HOME/Applications/` directories
-    are searched.
--   The user's `$HOME/Applications/` takes precedence over `/Applications` for a
-    given version.
--   If multiple naming variants within the same `Applications/` folder indicate
-    the same version (for example, `Xcode-3.2.1.app`, `Xcode3.2.1.app`, and
-    `Xcode-3.2.1/Xcode.app`), the precedence order is unspecified and
-    implementation-dependent.
--   The `<version>` may be any string that is valid in a filename.
--   The special version name `"default"` refers to the "default" unversioned
-    Xcode at `Applications/Xcode.app` (in either `/Applications/` or
-    `$HOME/Applications/`).
--   Version names may not start with `"-"` or whitespace.
+- Versioned Xcode installations are identified by the name `Xcode-<version>` or
+  `Xcode<version>`.
+- The `-` separating `"Xcode"` and the version name is optional, and may be
+  replaced by a space.
+- The versioned name may be applied to the `Xcode.app` itself, or a subdirectory
+  underneath `Applications/` containing it.
+- You cannot version both the `Xcode.app` filename itself and the containing
+  subfolder.
+- Thus, all of the following are equivalent.
+- `Applications/Xcode-<version>.app`
+- `Applications/Xcode-<version>/Xcode.app`
+- `Applications/Xcode<version>.app`
+- `Applications/Xcode <version>.app`
+- `Applications/Xcode <version>/Xcode.app`
+- Both the system `/Applications/` and user `$HOME/Applications/` directories
+  are searched.
+- The user's `$HOME/Applications/` takes precedence over `/Applications` for a
+  given version.
+- If multiple naming variants within the same `Applications/` folder indicate
+  the same version (for example, `Xcode-3.2.1.app`, `Xcode3.2.1.app`, and
+  `Xcode-3.2.1/Xcode.app`), the precedence order is unspecified and
+  implementation-dependent.
+- The `<version>` may be any string that is valid in a filename.
+- The special version name `"default"` refers to the "default" unversioned Xcode
+  at `Applications/Xcode.app` (in either `/Applications/` or
+  `$HOME/Applications/`).
+- Version names may not start with `"-"` or whitespace.
 
 The restrictions on the naming convention may need to be tightened in the
 future. In particular, if there are other well-known applications whose names

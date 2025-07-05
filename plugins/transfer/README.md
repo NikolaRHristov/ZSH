@@ -11,33 +11,33 @@ plugins=(... transfer)
 
 ## 🛠️ Usage
 
--   Transfer a file: `transfer file.txt`.
+- Transfer a file: `transfer file.txt`.
 
--   Transfer a whole directory (it will be automatically compressed):
-    `transfer dir`.
+- Transfer a whole directory (it will be automatically compressed):
+  `transfer dir`.
 
 ### Encryption / Decryption
 
--   Encrypt and upload a file with symmetric cipher and create ASCII armored
-    output:
+- Encrypt and upload a file with symmetric cipher and create ASCII armored
+  output:
 
     ```zsh
     transfer file -ca
     ```
 
--   Encrypt and upload directory with symmetric cipher and gpg output:
+- Encrypt and upload directory with symmetric cipher and gpg output:
 
     ```zsh
     transfer directory -ca
     ```
 
--   Decrypt file:
+- Decrypt file:
 
     ```zsh
     gpg -d file -ca
     ```
 
--   Decrypt directory:
+- Decrypt directory:
 
     ```zsh
     gpg -d your_archive.tgz.gpg | tar xz

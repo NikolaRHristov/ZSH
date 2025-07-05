@@ -36,12 +36,12 @@ plugins=(... mercurial)
 
 ## Prompt usage
 
--   Switch to a theme which uses `hg_prompt_info`
+- Switch to a theme which uses `hg_prompt_info`
 
--   Or customize the `$PROMPT` variable of your current theme to contain current
-    folder mercurial repo info. This can be done by putting a custom version of
-    the theme in `$ZSH_CUSTOM` or by changing `$PROMPT` in `.zshrc` after
-    loading the theme.
+- Or customize the `$PROMPT` variable of your current theme to contain current
+  folder mercurial repo info. This can be done by putting a custom version of
+  the theme in `$ZSH_CUSTOM` or by changing `$PROMPT` in `.zshrc` after loading
+  the theme.
 
     For example, for the `robbyrussell` theme you need to modify `$PROMPT` var
     by adding `$(hg_prompt_info)` after `$(git_prompt_info)`, so it looks like
@@ -69,5 +69,5 @@ this to work.
 
 ## Maintainers
 
--   [`ptrv`](https://GitHub.Com/ptrv): original creator
--   [`oshybystyi`](https://GitHub.Com/oshybystyi)
+- [`ptrv`](https://GitHub.Com/ptrv): original creator
+- [`oshybystyi`](https://GitHub.Com/oshybystyi)

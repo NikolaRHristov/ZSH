@@ -3,7 +3,8 @@
 Oh-My-Zsh is a community-driven project. Contribution is welcome, encouraged,
 and appreciated. It is also essential for the development of the project.
 
-First, please take a moment to review our [`code of conduct`](CODE_OF_CONDUCT.md).
+First, please take a moment to review our
+[`code of conduct`](CODE_OF_CONDUCT.md).
 
 These guidelines are an attempt at better addressing the huge amount of pending
 issues and pull requests. Please read them closely.
@@ -13,18 +14,18 @@ contribution you would make is not already covered.
 
 <!-- TOC updateonsave:true depthfrom:2 -->
 
--   [`Reporting Issues`](#reporting-issues)
-    -   [`You have a problem`](#you-have-a-problem)
-    -   [`You have a suggestion`](#you-have-a-suggestion)
--   [`Submitting Pull Requests`](#submitting-pull-requests)
-    -   [`Getting started`](#getting-started)
-    -   [`You have a solution`](#you-have-a-solution)
-    -   [`You have an addition`](#you-have-an-addition)
--   [`Use the Search, Luke`](#use-the-search-luke)
--   [`Commit Guidelines`](#commit-guidelines)
-    -   [`Format`](#format)
-    -   [`Style`](#style)
--   [`Volunteer`](#volunteer)
+- [`Reporting Issues`](#reporting-issues)
+    - [`You have a problem`](#you-have-a-problem)
+    - [`You have a suggestion`](#you-have-a-suggestion)
+- [`Submitting Pull Requests`](#submitting-pull-requests)
+    - [`Getting started`](#getting-started)
+    - [`You have a solution`](#you-have-a-solution)
+    - [`You have an addition`](#you-have-an-addition)
+- [`Use the Search, Luke`](#use-the-search-luke)
+- [`Commit Guidelines`](#commit-guidelines)
+    - [`Format`](#format)
+    - [`Style`](#style)
+- [`Volunteer`](#volunteer)
 
 <!-- /TOC -->
 
@@ -38,8 +39,8 @@ already covering your problem.
 If you find one, comment on it, so we know more people are experiencing it.
 
 If not, look at the
-[`Troubleshooting`](https://GitHub.Com/ohmyzsh/ohmyzsh/wiki/Troubleshooting) page
-for instructions on how to gather data to better debug your problem.
+[`Troubleshooting`](https://GitHub.Com/ohmyzsh/ohmyzsh/wiki/Troubleshooting)
+page for instructions on how to gather data to better debug your problem.
 
 Then, you can go ahead and create an issue with as much detail as you can
 provide. It should include the data gathered as indicated above, along with the
@@ -121,8 +122,8 @@ have +100 aliases!
 
 This has become an issue for two opposing reasons:
 
--   Some users want to have their personal aliases in Oh My Zsh.
--   Some users don't want any aliases at all and feel that there are too many.
+- Some users want to have their personal aliases in Oh My Zsh.
+- Some users don't want any aliases at all and feel that there are too many.
 
 Because of this, from now on, we require that new aliases follow these
 conditions:
@@ -150,8 +151,8 @@ search before making any contribution, it avoids duplicates and eases
 maintenance. Trust me, that works 90% of the time.
 
 You can also take a look at the
-[`FAQ`](https://GitHub.Com/ohmyzsh/ohmyzsh/wiki/FAQ) to be sure your contribution
-has not already come up.
+[`FAQ`](https://GitHub.Com/ohmyzsh/ohmyzsh/wiki/FAQ) to be sure your
+contribution has not already come up.
 
 If all fails, your thing has probably not been reported yet, so you can go ahead
 and [`create an issue`](#reporting-issues) or
@@ -173,33 +174,31 @@ message to allow this:
 type(scope)!: subject
 ```
 
--   `type`: the type of the commit is one of the following:
+- `type`: the type of the commit is one of the following:
+    - `feat`: new features.
+    - `fix`: bug fixes.
+    - `docs`: documentation changes.
+    - `refactor`: refactor of a particular code section without introducing new
+      features or bug fixes.
+    - `style`: code style improvements.
+    - `perf`: performance improvements.
+    - `test`: changes to the test suite.
+    - `ci`: changes to the CI system.
+    - `build`: changes to the build system (we don't yet have one so this
+      shouldn't apply).
+    - `chore`: for other changes that don't match previous types. This doesn't
+      appear in the changelog.
 
-    -   `feat`: new features.
-    -   `fix`: bug fixes.
-    -   `docs`: documentation changes.
-    -   `refactor`: refactor of a particular code section without introducing
-        new features or bug fixes.
-    -   `style`: code style improvements.
-    -   `perf`: performance improvements.
-    -   `test`: changes to the test suite.
-    -   `ci`: changes to the CI system.
-    -   `build`: changes to the build system (we don't yet have one so this
-        shouldn't apply).
-    -   `chore`: for other changes that don't match previous types. This doesn't
-        appear in the changelog.
-
--   `scope`: section of the codebase that the commit makes changes to. If it
-    makes changes to many sections, or if no section in particular is modified,
-    leave blank without the parentheses. Examples:
-
-    -   Commit that changes the `git` plugin:
+- `scope`: section of the codebase that the commit makes changes to. If it makes
+  changes to many sections, or if no section in particular is modified, leave
+  blank without the parentheses. Examples:
+    - Commit that changes the `git` plugin:
 
     ```
     feat(git): add alias for `git commit`
     ```
 
-    -   Commit that changes many plugins:
+    - Commit that changes many plugins:
 
     ```
     style: fix inline declaration of arrays
@@ -207,12 +206,11 @@ type(scope)!: subject
 
     For changes to plugins or themes, the scope should be the plugin or theme
     name:
+    - ✅ `fix(agnoster): commit subject`
+    - ❌ `fix(theme/agnoster): commit subject`
 
-    -   ✅ `fix(agnoster): commit subject`
-    -   ❌ `fix(theme/agnoster): commit subject`
-
--   `!`: this goes after the `scope` (or the `type` if scope is empty), to
-    indicate that the commit introduces breaking changes.
+- `!`: this goes after the `scope` (or the `type` if scope is empty), to
+  indicate that the commit introduces breaking changes.
 
     Optionally, you can specify a message that the changelog tool will display
     to the user to indicate what's changed and what they can do to deal with it.
@@ -234,21 +232,20 @@ type(scope)!: subject
     Co-authored-by: Username <email>
     ```
 
--   `subject`: a brief description of the changes. This will be displayed in the
-    changelog. If you need to specify other details, you can use the commit
-    body, but it won't be visible.
+- `subject`: a brief description of the changes. This will be displayed in the
+  changelog. If you need to specify other details, you can use the commit body,
+  but it won't be visible.
 
     Formatting tricks: the commit subject may contain:
-
-    -   Links to related issues or PRs by writing `#issue`. This will be
-        highlighted by the changelog tool:
+    - Links to related issues or PRs by writing `#issue`. This will be
+      highlighted by the changelog tool:
 
         ```
         feat(archlinux): add support for aura AUR helper (#9467)
         ```
 
-    -   Formatted inline code by using backticks: the text between backticks
-        will also be highlighted by the changelog tool:
+    - Formatted inline code by using backticks: the text between backticks will
+      also be highlighted by the changelog tool:
         ```
         feat(shell-proxy): enable unexported `DEFAULT_PROXY` setting (#9774)
         ```

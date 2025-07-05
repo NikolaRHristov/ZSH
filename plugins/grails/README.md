@@ -11,7 +11,7 @@ plugins=(... grails)
 
 It looks for scripts in the following paths:
 
--   `$GRAILS_HOME/scripts`
--   `~/.grails/scripts`
--   `./scripts`
--   `./plugins/*/scripts`
+- `$GRAILS_HOME/scripts`
+- `~/.grails/scripts`
+- `./scripts`
+- `./plugins/*/scripts`

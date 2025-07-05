@@ -1,7 +1,7 @@
 # rbfu plugin
 
-This plugin starts [`rbfu`](https://GitHub.Com/hmans/rbfu), a minimal Ruby version
-manager, and adds some useful functions.
+This plugin starts [`rbfu`](https://GitHub.Com/hmans/rbfu), a minimal Ruby
+version manager, and adds some useful functions.
 
 To use it, add `rbfu` to the plugins array in your zshrc file:
 
@@ -13,6 +13,6 @@ plugins=(... rbfu)
 
 ## Functions
 
--   `rbfu-rubies`: lists all installed rubies available to rbfu.
+- `rbfu-rubies`: lists all installed rubies available to rbfu.
 
--   `rvm_prompt_info`: shows the Ruby version being used with rbfu.
+- `rvm_prompt_info`: shows the Ruby version being used with rbfu.

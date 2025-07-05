@@ -69,19 +69,19 @@ The plugin will add the following to your prompt for each `$unit`.
 
 You can control these parts with the following variables:
 
--   `<prefix>`: Set `$ZSH_THEME_SYSTEMD_PROMPT_PREFIX`.
+- `<prefix>`: Set `$ZSH_THEME_SYSTEMD_PROMPT_PREFIX`.
 
--   `<suffix>`: Set `$ZSH_THEME_SYSTEMD_PROMPT_SUFFIX`.
+- `<suffix>`: Set `$ZSH_THEME_SYSTEMD_PROMPT_SUFFIX`.
 
--   `<unit>`: name passed as parameter to the function. If you want it to be in
-    ALL CAPS, you can set the variable `$ZSH_THEME_SYSTEMD_PROMPT_CAPS` to a
-    non-empty string.
+- `<unit>`: name passed as parameter to the function. If you want it to be in
+  ALL CAPS, you can set the variable `$ZSH_THEME_SYSTEMD_PROMPT_CAPS` to a
+  non-empty string.
 
--   `<active>`: shown if the systemd unit is active. Set
-    `$ZSH_THEME_SYSTEMD_PROMPT_ACTIVE`.
+- `<active>`: shown if the systemd unit is active. Set
+  `$ZSH_THEME_SYSTEMD_PROMPT_ACTIVE`.
 
--   `<notactive>`: shown if the systemd unit is _not_ active. Set
-    `$ZSH_THEME_SYSTEMD_PROMPT_NOTACTIVE`.
+- `<notactive>`: shown if the systemd unit is _not_ active. Set
+  `$ZSH_THEME_SYSTEMD_PROMPT_NOTACTIVE`.
 
 For example, if your prompt contains
 `PROMPT='$(systemd_prompt_info dhcpd httpd)'` and you set the following

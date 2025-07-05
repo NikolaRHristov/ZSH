@@ -2,8 +2,8 @@
 
 This plugin adds completion for
 [`Ruby On Rails Framework`](https://rubyonrails.org/) and
-[`Rake`](https://ruby.github.io/rake/) commands, as well as some aliases for logs
-and environment variables.
+[`Rake`](https://ruby.github.io/rake/) commands, as well as some aliases for
+logs and environment variables.
 
 To use it, add `rails` to the plugins array in your zshrc file:
 
@@ -121,5 +121,5 @@ v5][1], but are preserved under the prefix `rk` for backwards compatibility.
 | `ssp`   | `ruby script/spec`                 |
 | `sstat` | `thin --stats "/thin/stats" start` |
 
--   `remote_console <server> <directory>`: runs `ruby script/console production`
-    on a remote server.
+- `remote_console <server> <directory>`: runs `ruby script/console production`
+  on a remote server.

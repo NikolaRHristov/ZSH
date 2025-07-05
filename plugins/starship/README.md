@@ -1,7 +1,7 @@
 # starship plugin
 
-Initializes [`starship prompt`](https://starship.rs) - a minimal, blazing-fast and
-infinitely customizable cross-shell prompt.
+Initializes [`starship prompt`](https://starship.rs) - a minimal, blazing-fast
+and infinitely customizable cross-shell prompt.
 
 [`Demo`](https://user-images.githubusercontent.com/62098008/169764279-50b48262-9506-4651-ba89-f6611a88ebf0.mp4)
 
@@ -11,7 +11,8 @@ plugin.
 # Installation
 
 **Note:** you have to
-[`install starship`](https://starship.rs/guide/#%F0%9F%9A%80-installation) first.
+[`install starship`](https://starship.rs/guide/#%F0%9F%9A%80-installation)
+first.
 
 ## [`oh-my-zsh`](https://GitHub.Com/ohmyzsh/ohmyzsh)
 

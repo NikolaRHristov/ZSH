@@ -11,7 +11,7 @@ plugins=(... catimg)
 
 ## Requirements
 
--   `magick convert` (ImageMagick)
+- `magick convert` (ImageMagick)
 
 ## Functions
 

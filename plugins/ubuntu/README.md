@@ -11,7 +11,7 @@ plugins=(... ubuntu)
 
 ## Aliases
 
-Commands that use `$APT` will use `apt` if installed or defer to `apt-get`
+Commands that use `$APT` will use `apt-fast` if installed, or `apt` if installed, or defer to `apt-get`
 otherwise.
 
 | Alias   | Command                                                                  | Description                                                                                       |
@@ -28,7 +28,7 @@ otherwise.
 | agd     | `sudo $APT dselect-upgrade`                                              | Follows dselect choices for package installation                                                  |
 | agi     | `sudo $APT install <pkg>`                                                | Install the specified package                                                                     |
 | agli    | `apt list --installed`                                                   | List the installed packages                                                                       |
-| aglu    | `sudo apt-get -u upgrade --assume-no`                                    | Run an apt-get upgrade assuming no to all prompts                                                 |
+| aglu    | `apt list --upgradable`                                                  | List available updates only                                                                       |
 | agp     | `sudo $APT purge <pkg>`                                                  | Remove a package including any configuration files                                                |
 | agr     | `sudo $APT remove <pkg>`                                                 | Remove a package                                                                                  |
 | ags     | `$APT source <pkg>`                                                      | Fetch the source for the specified package                                                        |
@@ -51,12 +51,13 @@ otherwise.
 | apt-list-packages | `apt-list-packages`                   | List packages by size                                                    |
 | kerndeb           | `kerndeb`                             | Kernel-package building shortcut                                         |
 
-## Authors:
+## Authors
 
-- [`@AlexBio`](https://GitHub.Com/AlexBio)
-- [`@dbb`](https://GitHub.Com/dbb)
-- [`@Mappleconfusers`](https://GitHub.Com/Mappleconfusers)
-- [`@trinaldi`](https://GitHub.Com/trinaldi)
-- [`Nicolas Jonas`](https://nextgenthemes.com)
-- [`@loctauxphilippe`](https://GitHub.Com/loctauxphilippe)
-- [`@HaraldNordgren`](https://GitHub.Com/HaraldNordgren)
+- [@AlexBio](https://github.com/AlexBio)
+- [@dbb](https://github.com/dbb)
+- [@Mappleconfusers](https://github.com/Mappleconfusers)
+- [@trinaldi](https://github.com/trinaldi)
+- [Nicolas Jonas](https://nextgenthemes.com)
+- [@loctauxphilippe](https://github.com/loctauxphilippe)
+- [@HaraldNordgren](https://github.com/HaraldNordgren)
+- [@AmrElsayyad](https://github.com/AmrElsayyad)

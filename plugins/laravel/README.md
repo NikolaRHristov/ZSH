@@ -16,13 +16,14 @@ plugins=(... laravel)
 
 ## Database
 
-|  Alias  |            Description             |
-| :-----: | :--------------------------------: |
-|  `pam`  |       `php artisan migrate`        |
-| `pamf`  |    `php artisan migrate:fresh`     |
-| `pamfs` | `php artisan migrate:fresh --seed` |
-| `pamr`  |   `php artisan migrate:rollback`   |
-| `pads`  |       `php artisan db:seed`        |
+| Alias | Description |
+|:-:|:-:|
+| `pam`  |  `php artisan migrate` |
+| `pamf`  |  `php artisan migrate:fresh` |
+| `pamfs`  |  `php artisan migrate:fresh --seed` |
+| `pamr`  |  `php artisan migrate:rollback` |
+| `pads`  |  `php artisan db:seed` |
+| `padw`  |  `php artisan db:wipe` |
 
 ## Makers
 
@@ -45,12 +46,13 @@ plugins=(... laravel)
 
 ## Clears
 
-|  Alias  |        Description         |
-| :-----: | :------------------------: |
-| `pacac` | `php artisan cache:clear`  |
-| `pacoc` | `php artisan config:clear` |
-| `pavic` |  `php artisan view:clear`  |
-| `paroc` | `php artisan route:clear`  |
+| Alias | Description |
+|:-:|:-:|
+| `pacac`  |  `php artisan cache:clear` |
+| `pacoc`  |  `php artisan config:clear` |
+| `pavic`  |  `php artisan view:clear` |
+| `paroc`  |  `php artisan route:clear` |
+| `paopc`  |  `php artisan optimize:clear` |
 
 ## Queues
 

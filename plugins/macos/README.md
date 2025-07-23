@@ -10,11 +10,11 @@ plugins=(... macos)
 ```
 
 ## Supported Terminals
-
-- [`iTerm`](https://iterm.sourceforge.net/)
-- [`iTerm2`](https://iterm2.com/)
-- [`Hyper`](https://hyper.is/)
-- [`Tabby`](https://tabby.sh/)
+- [iTerm](https://iterm.sourceforge.net/)
+- [iTerm2](https://iterm2.com/)
+- [Hyper](https://hyper.is/)
+- [Tabby](https://tabby.sh/)
+- [Ghostty](https://ghostty.org)
 
 ## Commands
 

@@ -47,9 +47,9 @@ plugins=(... vi-mode)
 _Normal mode_ is indicated with a red `<<<` mark at the right prompt, when it
 hasn't been defined by theme, _Insert mode_ is not displayed by default.
 
-You can change these indicators by setting the `MODE_INDICATOR` (_Normal mode_)
-and `INSERT_MODE_INDICATORS` (_Insert mode_) variables. This settings support
-Prompt Expansion sequences. For example:
+You can change these indicators by setting the `MODE_INDICATOR` (*Normal mode*) and
+`INSERT_MODE_INDICATORS` (*Insert mode*) variables.
+These settings support Prompt Expansion sequences. For example:
 
 ```zsh
 MODE_INDICATOR="%F{white}+%f"
@@ -164,6 +164,27 @@ NOTE: this used to be bound to `v`. That is now the default (`visual-mode`).
 NOTE: delete/kill commands (`dd`, `D`, `c{motion}`, `C`, `x`,`X`) and yank
 commands (`y`, `Y`) will copy to the clipboard. Contents can then be put back
 using paste commands (`P`, `p`).
+
+## Text objects
+
+Standard text objects are supported with `i` ("inside") and `a` ("around"), e.g., for words; thus, you can select the word the cursor is in with `viw`, or delete the current word, including surrounding spaces, with `daw`.
+
+For other text objects, you can rely on the built-in functionality of Zsh and enable it accordingly.
+For example, for quoted strings, you can copy the commented snippet of <https://sourceforge.net/p/zsh/code/ci/master/tree/Functions/Zle/select-quoted>: place this in your `.zsrhc` file, e.g., after sourcing oh-my-zsh:
+
+```sh
+autoload -U select-quoted
+zle -N select-quoted
+for m in visual viopp; do
+    for c in {a,i}{\',\",\`}; do
+        bindkey -M $m $c select-quoted
+    done
+done
+```
+
+Now, in normal mode, you can select everything inside a double-quoted string with `vi"`.
+Note that this works even if you're not already inside a quoted string.
+For example, you can replace everything inside a single-quoted string in the current line, from wherever the cursor is, with `ci'`.
 
 ## Known issues
 

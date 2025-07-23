@@ -15,38 +15,40 @@ The plugin aliases mvn to a function that calls `mvnw` (the
 [`Maven Wrapper`](https://GitHub.Com/takari/maven-wrapper)) if it's found, or
 the mvn command otherwise.
 
-| Alias         | Command                                       |
-| :------------ | :-------------------------------------------- |
-| `mvn!`        | `mvn -f <root>/pom.xml`                       |
-| `mvnag`       | `mvn archetype:generate`                      |
-| `mvnboot`     | `mvn spring-boot:run`                         |
-| `mvnqdev`     | `mvn quarkus:dev`                             |
-| `mvnc`        | `mvn clean`                                   |
-| `mvncd`       | `mvn clean deploy`                            |
-| `mvnce`       | `mvn clean eclipse:clean eclipse:eclipse`     |
-| `mvnci`       | `mvn clean install`                           |
-| `mvncie`      | `mvn clean install eclipse:eclipse`           |
-| `mvncini`     | `mvn clean initialize`                        |
-| `mvncist`     | `mvn clean install -DskipTests`               |
-| `mvncisto`    | `mvn clean install -DskipTests --offline`     |
-| `mvncom`      | `mvn compile`                                 |
-| `mvncp`       | `mvn clean package`                           |
-| `mvnct`       | `mvn clean test`                              |
-| `mvncv`       | `mvn clean verify`                            |
-| `mvncvst`     | `mvn clean verify -DskipTests`                |
-| `mvndp`       | `mvn deploy`                                  |
-| `mvndocs`     | `mvn dependency:resolve -Dclassifier=javadoc` |
-| `mvndt`       | `mvn dependency:tree`                         |
-| `mvne`        | `mvn eclipse:eclipse`                         |
-| `mvnfmt`      | `mvn fmt:format`                              |
-| `mvnjetty`    | `mvn jetty:run`                               |
-| `mvnp`        | `mvn package`                                 |
-| `mvns`        | `mvn site`                                    |
-| `mvnsrc`      | `mvn dependency:sources`                      |
-| `mvnt`        | `mvn test`                                    |
-| `mvntc`       | `mvn tomcat:run`                              |
-| `mvntc7`      | `mvn tomcat7:run`                             |
-| `mvn-updates` | `mvn versions:display-dependency-updates`     |
+| Alias                | Command                                         |
+|:---------------------|:------------------------------------------------|
+| `mvn!`               | `mvn -f <root>/pom.xml`                         |
+| `mvnag`              | `mvn archetype:generate`                        |
+| `mvnboot`            | `mvn spring-boot:run`                           |
+| `mvnqdev`            | `mvn quarkus:dev`                               |
+| `mvnc`               | `mvn clean`                                     |
+| `mvncd`              | `mvn clean deploy`                              |
+| `mvnce`              | `mvn clean eclipse:clean eclipse:eclipse`       |
+| `mvnci`              | `mvn clean install`                             |
+| `mvncie`             | `mvn clean install eclipse:eclipse`             |
+| `mvncini`            | `mvn clean initialize`                          |
+| `mvncist`            | `mvn clean install -DskipTests`                 |
+| `mvncisto`           | `mvn clean install -DskipTests --offline`       |
+| `mvncom`             | `mvn compile`                                   |
+| `mvncp`              | `mvn clean package`                             |
+| `mvnct`              | `mvn clean test`                                |
+| `mvncv`              | `mvn clean verify`                              |
+| `mvncvst`            | `mvn clean verify -DskipTests`                  |
+| `mvnv`               | `mvn verify`                                    |
+| `mvnvst`             | `mvn verify -DskipTests`                        |
+| `mvndp`              | `mvn deploy`                                    |
+| `mvndocs`            | `mvn dependency:resolve -Dclassifier=javadoc`   |
+| `mvndt`              | `mvn dependency:tree`                           |
+| `mvne`               | `mvn eclipse:eclipse`                           |
+| `mvnfmt`             | `mvn fmt:format`                                |
+| `mvnjetty`           | `mvn jetty:run`                                 |
+| `mvnp`               | `mvn package`                                   |
+| `mvns`               | `mvn site`                                      |
+| `mvnsrc`             | `mvn dependency:sources`                        |
+| `mvnt`               | `mvn test`                                      |
+| `mvntc`              | `mvn tomcat:run`                                |
+| `mvntc7`             | `mvn tomcat7:run`                               |
+| `mvn-updates`        | `mvn versions:display-dependency-updates`       |
 
 ## mvn-color
 

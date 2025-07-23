@@ -32,11 +32,11 @@ toggle set the `PER_DIRECTORY_HISTORY_TOGGLE` environment variable.
   the directory histories are stored (default `$HOME/.directory_history`).
 - `per-directory-history-toggle-history` is the function to toggle between local
   and global histories.
-- `PER_DIRECTORY_HISTORY_TOGGLE` is the key binding used to run the
-  toggle-history function above (default `^G`)
-- `PER_DIRECTORY_HISTORY_PRINT_MODE_CHANGE` is a variable which toggles whether
-  the current mode is printed to the screen following a mode change (default
-  `true`)
+* `PER_DIRECTORY_HISTORY_TOGGLE` is the key binding used to run the toggle-history
+  function above (default `^G`)
+* `PER_DIRECTORY_HISTORY_PRINT_MODE_CHANGE` is a variable which toggles whether
+  the current mode is printed to the screen following a mode change (default `true`)
+* `HISTORY_START_WITH_GLOBAL` is a global variable that defines how to start the plugin: global or local (default `false`)
 
 ## History
 

@@ -86,7 +86,7 @@ function work_in_progress() {
 # Aliases
 # (sorted alphabetically by command)
 # (order should follow README)
-# (in some cases force the alisas order to match README, like for example gke and gk)
+# (in some cases force the alias order to match README, like for example gke and gk)
 #
 
 alias grt='cd "$(git rev-parse --show-toplevel || echo .)"'
@@ -197,8 +197,10 @@ alias gcan!='git commit --verbose --all --no-edit --amend'
 alias gcans!='git commit --verbose --all --signoff --no-edit --amend'
 alias gcann!='git commit --verbose --all --date=now --no-edit --amend'
 alias gc!='git commit --verbose --amend'
+alias gcn='git commit --verbose --no-edit'
 alias gcn!='git commit --verbose --no-edit --amend'
 alias gcf='git config --list'
+alias gcfu='git commit --fixup'
 alias gdct='git describe --tags $(git rev-list --tags --max-count=1)'
 alias gd='git diff'
 alias gdca='git diff --cached'
@@ -300,13 +302,10 @@ function ggf() {
 }
 compdef _git ggf=git-checkout
 
-alias 'gpf!'='git push --force'
+alias gpf!='git push --force'
 is-at-least 2.30 "$git_version" \
-  && alias gpf='read -k 1 -q "?Continue force-push? [y/N] " && echo && git push --force-with-lease --force-if-includes' \
-  || alias gpf='read -k 1 -q "?Continue force-push? [y/N] " && echo && git push --force-with-lease'
-is-at-least 2.30 "$git_version" \
-  && alias gpff='git push --force-with-lease --force-if-includes' \
-  || alias gpff='git push --force-with-lease'
+  && alias gpf='git push --force-with-lease --force-if-includes' \
+  || alias gpf='git push --force-with-lease'
 
 function ggfl() {
   [[ "$#" != 1 ]] && local b="$(git_current_branch)"

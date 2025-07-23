@@ -8,6 +8,12 @@ To use it, add `perl` to the plugins array in your zshrc file:
 plugins=(... perl)
 ```
 
+## Perlbrew activation
+
+If the plugin detects that `perlbrew` hasn't been activated, yet there is an installation of it in
+`$PERLBREW_ROOT`, it'll initialize by default. To avoid this behaviour, set `ZSH_PERLBREW_ACTIVATE=false`
+before `source oh-my-zsh.sh` in your zshrc.
+
 ## Aliases
 
 | Aliases     | Command            | Description                            |
@@ -25,15 +31,13 @@ plugins=(... perl)
 
 - `newpl`: creates a basic Perl script file and opens it with $EDITOR.
 
-- `pgs`: Perl Global Substitution:
-  `pgs <find_pattern> <replace_pattern> <filename>` Looks for `<find_pattern>`
-  and replaces it with `<replace_pattern>` in `<filename>`.
+- `pgs`: Perl Global Substitution: `pgs <find_pattern> <replace_pattern> <filename>` Looks for
+  `<find_pattern>` and replaces it with `<replace_pattern>` in `<filename>`.
 
-- `prep`: Perl grep, because 'grep -P' is terrible:
-  `prep <pattern> [<filename>]` Lets you work with pipes or files (if no
-  `<filename>` provided, use stdin).
+- `prep`: Perl grep, because 'grep -P' is terrible: `prep <pattern> [<filename>]` Lets you work with pipes or
+  files (if no `<filename>` provided, use stdin).
 
 ## Requirements
 
-In order to make this work, you will need to have perl installed. More info on
-the usage and install: https://www.perl.org/get.html
+In order to make this work, you will need to have perl installed. More info on the usage and install:
+https://www.perl.org/get.html

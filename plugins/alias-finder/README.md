@@ -13,6 +13,8 @@ plugins=(... alias-finder)
 
 To enable it for every single command, set zstyle in your `~/.zshrc`.
 
+If the user has installed `rg`([ripgrep](https://github.com/BurntSushi/ripgrep)), it will be used because it's faster. Otherwise, it will use the `grep` command.
+
 ```zsh
 # ~/.zshrc
 

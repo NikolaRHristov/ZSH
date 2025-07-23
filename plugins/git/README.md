@@ -74,11 +74,13 @@ plugins=(... git)
 | `gcans!`               | `git commit --verbose --all --signoff --no-edit --amend`                                                                        |
 | `gcann!`               | `git commit --verbose --all --date=now --no-edit --amend`                                                                       |
 | `gc!`                  | `git commit --verbose --amend`                                                                                                  |
+| `gcn`                  | `git commit --verbose --no-edit`                                                                                                |
 | `gcn!`                 | `git commit --verbose --no-edit --amend`                                                                                        |
 | `gcs`                  | `git commit -S`                                                                                                                 |
 | `gcss`                 | `git commit -S -s`                                                                                                              |
 | `gcssm`                | `git commit -S -s -m`                                                                                                           |
 | `gcf`                  | `git config --list`                                                                                                             |
+| `gcfu`                 | `git commit --fixup`                                                                                                            |
 | `gdct`                 | `git describe --tags $(git rev-list --tags --max-count=1)`                                                                      |
 | `gd`                   | `git diff`                                                                                                                      |
 | `gdca`                 | `git diff --cached`                                                                                                             |
@@ -90,7 +92,7 @@ plugins=(... git)
 | `gdnolock`             | `git diff $@ ":(exclude)package-lock.json" ":(exclude)\*.lock"`                                                                 |
 | `gdt`                  | `git diff-tree --no-commit-id --name-only -r`                                                                                   |
 | `gf`                   | `git fetch`                                                                                                                     |
-| `gfa`                  | `git fetch --all --tags --prune`                                                                                                |
+| `gfa`                  | `git fetch --all --tags --prune`                                                                                                       |
 | `gfo`                  | `git fetch origin`                                                                                                              |
 | `gg`                   | `git gui citool`                                                                                                                |
 | `gga`                  | `git gui citool --amend`                                                                                                        |
@@ -137,10 +139,8 @@ plugins=(... git)
 | `gpd`                  | `git push --dry-run`                                                                                                            |
 | `gpf!`                 | `git push --force`                                                                                                              |
 | `ggf`                  | `git push --force origin $(current_branch)`                                                                                     |
-| `gpf`                  | On Git >= 2.30: after confirmation, `git push --force-with-lease --force-if-includes`                                           |
-| `gpf`                  | On Git < 2.30: after confirmation, `git push --force-with-lease`                                                                |
-| `gpff`                 | On Git >= 2.30: `git push --force-with-lease --force-if-includes`                                                               |
-| `gpff`                 | On Git < 2.30: `git push --force-with-lease`                                                                                    |
+| `gpf`                  | On Git >= 2.30: `git push --force-with-lease --force-if-includes`                                                               |
+| `gpf`                  | On Git < 2.30: `git push --force-with-lease`                                                                                    |
 | `ggfl`                 | `git push --force-with-lease origin $(current_branch)`                                                                          |
 | `gpsup`                | `git push --set-upstream origin $(git_current_branch)`                                                                          |
 | `gpsupf`               | On Git >= 2.30: `git push --set-upstream origin $(git_current_branch) --force-with-lease --force-if-includes`                   |

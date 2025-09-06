@@ -23,8 +23,8 @@ zstyle :omz:plugins:ssh-agent agent-forwarding yes
 
 ### `helper`
 
-To set an **external helper** to ask for the passwords and possibly store
-them in the system keychain use the `helper` style. For example:
+To set an **external helper** to ask for the passwords and possibly store them
+in the system keychain use the `helper` style. For example:
 
 ```zsh
 zstyle :omz:plugins:ssh-agent helper ksshaskpass
@@ -39,8 +39,8 @@ if the `lazy` setting is enabled**). For example:
 zstyle :omz:plugins:ssh-agent identities id_rsa id_rsa2 id_github
 ```
 
-**NOTE:** the identities may be an absolute path if they are somewhere other than
-`~/.ssh`. For example:
+**NOTE:** the identities may be an absolute path if they are somewhere other
+than `~/.ssh`. For example:
 
 ```zsh
 zstyle :omz:plugins:ssh-agent identities ~/.config/ssh/id_rsa ~/.config/ssh/id_rsa2 ~/.config/ssh/id_github
@@ -50,24 +50,24 @@ zstyle :omz:plugins:ssh-agent identities ~/.config/ssh/{id_rsa,id_rsa2,id_github
 
 ### `lazy`
 
-To **NOT load any identities on start** use the `lazy` setting. This is particularly
-useful when combined with the `AddKeysToAgent` setting (available since OpenSSH 7.2),
-since it allows to enter the password only on first use. _NOTE: you can know your
-OpenSSH version with `ssh -V`._
+To **NOT load any identities on start** use the `lazy` setting. This is
+particularly useful when combined with the `AddKeysToAgent` setting (available
+since OpenSSH 7.2), since it allows to enter the password only on first use.
+_NOTE: you can know your OpenSSH version with `ssh -V`._
 
 ```zsh
 zstyle :omz:plugins:ssh-agent lazy yes
 ```
 
-You can enable `AddKeysToAgent` by passing `-o AddKeysToAgent=yes` to the `ssh` command,
-or by adding `AddKeysToAgent yes` to your `~/.ssh/config` file [1].
-See the [OpenSSH 7.2 Release Notes](http://www.openssh.com/txt/release-7.2).
+You can enable `AddKeysToAgent` by passing `-o AddKeysToAgent=yes` to the `ssh`
+command, or by adding `AddKeysToAgent yes` to your `~/.ssh/config` file [1]. See
+the [OpenSSH 7.2 Release Notes](http://www.openssh.com/txt/release-7.2).
 
 ### `lifetime`
 
-To **set the maximum lifetime of the identities**, use the `lifetime` style.
-The lifetime may be specified in seconds or as described in sshd_config(5)
-(see _TIME FORMATS_). If left unspecified, the default lifetime is forever.
+To **set the maximum lifetime of the identities**, use the `lifetime` style. The
+lifetime may be specified in seconds or as described in sshd*config(5) (see
+\_TIME FORMATS*). If left unspecified, the default lifetime is forever.
 
 ```zsh
 zstyle :omz:plugins:ssh-agent lifetime 4h
@@ -83,8 +83,9 @@ zstyle :omz:plugins:ssh-agent quiet yes
 
 ### `ssh-add-args`
 
-To **pass arguments to the `ssh-add` command** that adds the identities on startup,
-use the `ssh-add-args` setting. You can pass multiple arguments separated by spaces:
+To **pass arguments to the `ssh-add` command** that adds the identities on
+startup, use the `ssh-add-args` setting. You can pass multiple arguments
+separated by spaces:
 
 ```zsh
 zstyle :omz:plugins:ssh-agent ssh-add-args -K -c -a /run/user/1000/ssh-auth
@@ -119,8 +120,8 @@ to the ssh-agent.
 ssh-add --apple-use-keychain ~/.ssh/id_rsa ...
 ```
 
-
-This plugin can be configured to use the keychain when loading using the following:
+This plugin can be configured to use the keychain when loading using the
+following:
 
 ```
 zstyle :omz:plugins:ssh-agent ssh-add-args --apple-load-keychain
@@ -128,6 +129,7 @@ zstyle :omz:plugins:ssh-agent ssh-add-args --apple-load-keychain
 
 ## Credits
 
-Based on code from Joseph M. Reagle: https://www.cygwin.com/ml/cygwin/2001-06/msg00537.html
+Based on code from Joseph M. Reagle:
+https://www.cygwin.com/ml/cygwin/2001-06/msg00537.html
 
 Agent-forwarding support based on ideas from Florent Thoumie and Jonas Pfenniger

@@ -1,7 +1,9 @@
 # Colemak plugin
 
-This plugin remaps keys in `zsh`'s [`vi`-style navigation mode](http://zsh.sourceforge.net/Doc/Release/Zsh-Line-Editor.html#Keymaps)
-for a [Colemak](https://colemak.com/) keyboard layout, to match the QWERTY position:
+This plugin remaps keys in `zsh`'s
+[`vi`-style navigation mode](http://zsh.sourceforge.net/Doc/Release/Zsh-Line-Editor.html#Keymaps)
+for a [Colemak](https://colemak.com/) keyboard layout, to match the QWERTY
+position:
 
 ![Colemak layout on a US keyboard](https://colemak.com/wiki/images/6/6c/Colemak2.png)
 
@@ -12,17 +14,18 @@ plugins=(... colemak)
 ```
 
 You will also need to enable `vi` mode, so add another line to `~/.zshrc`:
+
 ```
 bindkey -v
 ```
 
-Restart your shell and hit the `<ESC>` key to activate `vicmd` (navigation) mode,
-and start navigating `zsh` with your new keybindings!
+Restart your shell and hit the `<ESC>` key to activate `vicmd` (navigation)
+mode, and start navigating `zsh` with your new keybindings!
 
 ## Key bindings for vicmd
 
 | Old        | New        | Binding                   | Description                                        |
-|------------|------------|---------------------------|----------------------------------------------------|
+| ---------- | ---------- | ------------------------- | -------------------------------------------------- |
 | `CTRL`+`j` | `CTRL`+`n` | accept-line               | Insert new line                                    |
 | `j`        | `n`        | down-line-or-history      | Move one line down or command history forwards     |
 | `k`        | `e`        | up-line-or-history        | Move one line up or command history backwards      |
@@ -39,7 +42,7 @@ and start navigating `zsh` with your new keybindings!
 ## Key bindings for less
 
 | Keyboard shortcut | `less` key binding |
-|-------------------|--------------------|
+| ----------------- | ------------------ |
 | `n`               | forw-line          |
 | `e`               | back-line          |
 | `k`               | repeat-search      |

@@ -8,9 +8,9 @@ local vcs_branch='$(git_prompt_info)$(hg_prompt_info)'
 local rvm_ruby='$(ruby_prompt_info)'
 local venv_prompt='$(virtualenv_prompt_info)'
 if [[ "${plugins[@]}" =~ 'kube-ps1' ]]; then
-    local kube_prompt='$(kube_ps1)'
+  local kube_prompt='$(kube_ps1)'
 else
-    local kube_prompt=''
+  local kube_prompt=''
 fi
 
 ZSH_THEME_RVM_PROMPT_OPTIONS="i v g"

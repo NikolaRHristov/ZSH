@@ -3,12 +3,12 @@
 # If tm is passed anything else (i.e., a list of files and/or options), pass them all along
 #    This allows easy opening of multiple files.
 function tm() {
-	if [[ -z $1 ]]; then
-		mate .
-	elif [[ -d $1 ]]; then
-		mate $1
-		cd $1
-	else
-		mate "$@"
-	fi
+  if [[ -z $1 ]]; then
+    mate .
+  elif [[ -d $1 ]]; then
+    mate $1
+    cd $1
+  else
+    mate "$@"
+  fi
 }

@@ -2,7 +2,8 @@
 
 Expands all glob expressions, subcommands and aliases (including global).
 
-Idea from: https://blog.patshead.com/2012/11/automatically-expaning-zsh-global-aliases---simplified.html.
+Idea from:
+https://blog.patshead.com/2012/11/automatically-expaning-zsh-global-aliases---simplified.html.
 
 ## Usage
 
@@ -17,8 +18,9 @@ Then just press `SPACE` to trigger the expansion of a command you've written.
 If you only want to insert a space without expanding the command line, press
 `CTRL`+`SPACE`.
 
-if you would like to filter out any values from expanding set `GLOBALIAS_FILTER_VALUES` to
-an array of said values. See [Filtered values](#filtered-values).
+if you would like to filter out any values from expanding set
+`GLOBALIAS_FILTER_VALUES` to an array of said values. See
+[Filtered values](#filtered-values).
 
 ## Examples
 

@@ -1,11 +1,11 @@
 function prompt_char {
-    git branch >/dev/null 2>/dev/null && echo '±' && return
-    hg root >/dev/null 2>/dev/null && echo 'Hg' && return
-    echo '○'
+  git branch >/dev/null 2>/dev/null && echo '±' && return
+  hg root >/dev/null 2>/dev/null && echo 'Hg' && return
+  echo '○'
 }
 
 function virtualenv_info {
-    [ $VIRTUAL_ENV ] && echo '('`basename $VIRTUAL_ENV`') '
+  [ $VIRTUAL_ENV ] && echo '('$(basename $VIRTUAL_ENV)') '
 }
 
 PROMPT='

@@ -2,6 +2,7 @@
 Update Emoji.py
 Refreshes OMZ emoji database based on the latest Unicode spec
 """
+
 import re
 import json
 
@@ -72,18 +73,21 @@ typeset -gAH emoji_groups
 # Helper functions
 #######
 
+
 def code_to_omz(_code_points):
-    """ Returns a ZSH-compatible Unicode string from the code point(s) """
-    return r'\U' + r'\U'.join(_code_points.split(' '))
+    """Returns a ZSH-compatible Unicode string from the code point(s)"""
+    return r"\U" + r"\U".join(_code_points.split(" "))
+
 
 def name_to_omz(_name, _group, _subgroup, _status):
-    """ Returns a reasonable snake_case name for the emoji. """
+    """Returns a reasonable snake_case name for the emoji."""
+
     def snake_case(_string):
-        """ Does the regex work of snake_case """
-        remove_dots = re.sub(r'\.\(\)', r'', _string)
-        replace_ands = re.sub(r'\&', r'and', remove_dots)
-        remove_whitespace = re.sub(r'[^\#\*\w]', r'_', replace_ands)
-        return re.sub(r'__', r'_', remove_whitespace)
+        """Does the regex work of snake_case"""
+        remove_dots = re.sub(r"\.\(\)", r"", _string)
+        replace_ands = re.sub(r"\&", r"and", remove_dots)
+        remove_whitespace = re.sub(r"[^\#\*\w]", r"_", replace_ands)
+        return re.sub(r"__", r"_", remove_whitespace)
 
     shortname = ""
     split_at_colon = lambda s: s.split(": ")
@@ -103,16 +107,18 @@ def name_to_omz(_name, _group, _subgroup, _status):
         shortname += "_minimally"
     return shortname
 
+
 def increment_name(_shortname):
-    """ Increment the short name by 1. If you get, say,
+    """Increment the short name by 1. If you get, say,
     'woman_detective_unqualified', it returns
     'woman_detective_unqualified_1', and then
-    'woman_detective_unqualified_2', etc. """
+    'woman_detective_unqualified_2', etc."""
     last_char = _shortname[-1]
     if last_char.isdigit():
         num = int(last_char)
         return _shortname[:-1] + str(num + 1)
     return _shortname + "_1"
+
 
 ########
 # Going through every line
@@ -129,7 +135,7 @@ for line in spec:
             group = name
         elif gr_or_sub == "subgroup":
             subgroup = name
-        continue # Moving on...
+        continue  # Moving on...
     # Second, test if this line references one emoji
     emoji_match = re.findall(regex_emoji, line)
     if emoji_match != []:
@@ -140,8 +146,7 @@ for line in spec:
         if omz_name in short_name_buffer:
             omz_name = increment_name(short_name_buffer)
         short_name_buffer = omz_name
-        emoji_database.append(
-            [omz_codes, status, emoji, omz_name, group, subgroup])
+        emoji_database.append([omz_codes, status, emoji, omz_name, group, subgroup])
 spec.close()
 
 ########
@@ -154,20 +159,25 @@ spec.close()
 
 gemoji_db = open("gemoji_db.json")
 j = json.load(gemoji_db)
-aliases_map = {entry['emoji']: entry['aliases'] for entry in j}
+aliases_map = {entry["emoji"]: entry["aliases"] for entry in j}
 all_omz_names = [emoji_data[3] for emoji_data in emoji_database]
 
 # Let's begin writing to this file
 output = open("emoji-char-definitions.zsh", "w")
 output.write(headers)
 
-emoji_groups = {"fruits": "\n", "vehicles": "\n", "hands": "\n",
-                "people": "\n", "animals": "\n", "faces": "\n",
-                "flags": "\n"}
+emoji_groups = {
+    "fruits": "\n",
+    "vehicles": "\n",
+    "hands": "\n",
+    "people": "\n",
+    "animals": "\n",
+    "faces": "\n",
+    "flags": "\n",
+}
 
 # First, write every emoji down
 for _omz_codes, _status, _emoji, _omz_name, _group, _subgroup in emoji_database:
-
     # One emoji can be mapped to multiple names (aliases or country codes)
     names_for_this_emoji = [_omz_name]
 

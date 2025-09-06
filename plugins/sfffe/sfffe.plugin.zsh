@@ -6,23 +6,23 @@
 #       REQUIRE:  ack
 # ------------------------------------------------------------------------------
 
-if (( ! $+commands[ack] )); then
-    echo "'ack' is not installed!"
-    return
+if ((!$ + commands[ack])); then
+  echo "'ack' is not installed!"
+  return
 fi
 
 ajs() {
-    ack "$@" --type js
+  ack "$@" --type js
 }
 
 acss() {
-    ack "$@" --type css
+  ack "$@" --type css
 }
 
 fjs() {
-    find ./ -name "$@*" -type f | grep '\.js'
+  find ./ -name "$@*" -type f | grep '\.js'
 }
 
 fcss() {
-    find ./ -name "$@*" -type f | grep '\.css'
+  find ./ -name "$@*" -type f | grep '\.css'
 }

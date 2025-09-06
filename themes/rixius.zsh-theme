@@ -1,12 +1,12 @@
 # name in folder (github)
 # ± if in github repo, or ≥ if otherwise Time in 24-hour format is on right.
 function collapse_pwd {
-    echo $(pwd | sed -e "s,^$HOME,~,")
+  echo $(pwd | sed -e "s,^$HOME,~,")
 }
 function prompt_char {
-    echo -n "%{$bg[white]%}%{$fg[red]%}"
-    git branch >/dev/null 2>/dev/null && echo "±%{$reset_color%}" && return
-    echo "≥%{$reset_color%}"
+  echo -n "%{$bg[white]%}%{$fg[red]%}"
+  git branch >/dev/null 2>/dev/null && echo "±%{$reset_color%}" && return
+  echo "≥%{$reset_color%}"
 }
 RIXIUS_PRE="%{$bg[white]%}%{$fg[red]%}"
 

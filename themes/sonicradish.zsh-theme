@@ -16,8 +16,8 @@ GIT_PROMPT_INFO=$FG[148]
 
 # Hash
 ROOT_ICON="# "
-if [[ $EUID -ne 0 ]] ; then
-	ROOT_ICON=""
+if [[ $EUID -ne 0 ]]; then
+  ROOT_ICON=""
 fi
 
 PROMPT='%{$ROOT_ICON_COLOR%}$ROOT_ICON%{$reset_color%}%{$MACHINE_NAME_COLOR%}%m➜  %{$reset_color%}%{$PROMPT_SUCCESS_COLOR%}%c%{$reset_color%} %{$GIT_PROMPT_INFO%}$(git_prompt_info)%{$GIT_DIRTY_COLOR%}$(git_prompt_status) %{$reset_color%}%{$PROMPT_PROMPT%}ᐅ %{$reset_color%} '

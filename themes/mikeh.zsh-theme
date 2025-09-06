@@ -10,7 +10,7 @@ zstyle ':vcs_info:*:prompt:*' check-for-changes true
 add-zsh-hook precmd mikeh_precmd
 
 mikeh_precmd() {
-    vcs_info
+  vcs_info
 }
 
 # user, host, full path, and time/date

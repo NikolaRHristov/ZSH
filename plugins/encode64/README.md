@@ -22,52 +22,52 @@ plugins=(... encode64)
 
 - From parameter
 
-    ```console
-    $ encode64 "oh-my-zsh"
-    b2gtbXktenNo
-    $ e64 "oh-my-zsh"
-    b2gtbXktenNo
-    ```
+  ```console
+  $ encode64 "oh-my-zsh"
+  b2gtbXktenNo
+  $ e64 "oh-my-zsh"
+  b2gtbXktenNo
+  ```
 
 - From piping
 
-    ```console
-    $ echo "oh-my-zsh" | encode64
-    b2gtbXktenNo==
-    $ echo "oh-my-zsh" | e64
-    b2gtbXktenNo==
-    ```
+  ```console
+  $ echo "oh-my-zsh" | encode64
+  b2gtbXktenNo==
+  $ echo "oh-my-zsh" | e64
+  b2gtbXktenNo==
+  ```
 
 ### Encoding a file
 
-Encode a file's contents to base64 and save output to text file. **NOTE:** Takes
-provided file and saves encoded content as new file with `.txt` extension
+Encode a file's contents to base64 and save output to text file.
+**NOTE:** Takes provided file and saves encoded content as new file with `.txt` extension
 
 - From parameter
 
-    ```console
-    $ encodefile64 ohmyzsh.icn
-    ohmyzsh.icn's content encoded in base64 and saved as ohmyzsh.icn.txt
-    $ ef64 "oh-my-zsh"
-    ohmyzsh.icn's content encoded in base64 and saved as ohmyzsh.icn.txt
-    ```
+  ```console
+  $ encodefile64 ohmyzsh.icn
+  ohmyzsh.icn's content encoded in base64 and saved as ohmyzsh.icn.txt
+  $ ef64 "oh-my-zsh"
+  ohmyzsh.icn's content encoded in base64 and saved as ohmyzsh.icn.txt
+  ```
 
 ### Decoding
 
 - From parameter
 
-    ```console
-    $ decode64 b2gtbXktenNo
-    oh-my-zsh%
-    $ d64 b2gtbXktenNo
-    oh-my-zsh%
-    ```
+  ```console
+  $ decode64 b2gtbXktenNo
+  oh-my-zsh%
+  $ d64 b2gtbXktenNo
+  oh-my-zsh%
+  ```
 
 - From piping
 
-    ```console
-    $ echo "b2gtbXktenNoCg==" | decode64
-    oh-my-zsh
-    $ echo "b2gtbXktenNoCg==" | d64
-    oh-my-zsh
-    ```
+  ```console
+  $ echo "b2gtbXktenNoCg==" | decode64
+  oh-my-zsh
+  $ echo "b2gtbXktenNoCg==" | d64
+  oh-my-zsh
+  ```

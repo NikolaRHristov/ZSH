@@ -1,12 +1,9 @@
 # Cloudfoundry Plugin
 
-This plugin is intended to offer a few simple aliases for regular users of the
-[Cloud Foundry Cli][1]. Most are just simple aliases that will save a bit of
-typing. Others include mini functions and or accept parameters. Take a look at
-the table below for details.
+This plugin is intended to offer a few simple aliases for regular users of the [Cloud Foundry Cli][1]. Most are just simple aliases that will save a bit of typing. Others include mini functions and or accept parameters. Take a look at the table below for details.
 
 | Alias    | Command                     | Description                                                              |
-| -------- | --------------------------- | ------------------------------------------------------------------------ |
+|----------|-----------------------------|--------------------------------------------------------------------------|
 | cfl      | `cf login`                  | Login to Cloud Foundry                                                   |
 | cft      | `cf target`                 | Target the cli at a specific Org/Space in Cloud Foundry                  |
 | cfa      | `cf apps`                   | List all applications in the current Org/Space                           |
@@ -41,18 +38,15 @@ the table below for details.
 | cfsrtall | -                           | Start all apps that are currently in the "Stopped" state                 |
 | cfstpall | -                           | Stop all apps that are currently in the "Started" state                  |
 
-For help and advice on what any of the commands does, consult the built in `cf`
-help functions as follows:-
+For help and advice on what any of the commands does, consult the built in `cf` help functions as follows:-
 
 ```bash
-cf help                    # List the most popular and commonly used commands
-cf help -a                 # Complete list of all possible commands
-cf < COMMAND_NAME > --help # Help on a specific command including arguments and examples
+cf help # List the most popular and commonly used commands
+cf help -a # Complete list of all possible commands
+cf <COMMAND_NAME> --help # Help on a specific command including arguments and examples
 ```
 
-Alternatively, seek out the [online documentation][3]. And don't forget, there
-are loads of great [community plugins for the cf-cli][4] command line tool that
-can greatly extend its power and usefulness.
+Alternatively, seek out the [online documentation][3]. And don't forget, there are loads of great [community plugins for the cf-cli][4] command line tool that can greatly extend its power and usefulness.
 
 ## Contributors
 

@@ -5,9 +5,9 @@
 # and rename it _lein
 
 _lein() {
-  if ((CURRENT > 2)); then
+  if (( CURRENT > 2 )); then
     # shift words so _arguments doesn't have to be concerned with second command
-    ((CURRENT--))
+    (( CURRENT-- ))
     shift words
     # use _call_function here in case it doesn't exist
     _call_function 1 _lein_${words[1]}
@@ -51,12 +51,14 @@ _lein_plugin() {
     "uninstall[Delete the plugin jarfile: \[GROUP/\]ARTIFACT-ID VERSION]"
 }
 
+
 _lein_namespaces() {
   if [ -f "./project.clj" -a -d "$1" ]; then
     _values "lein valid namespaces" \
       $(find "$1" -type f -name "*.clj" -exec awk '/^\(ns */ {gsub("\\)", "", $2); print $2}' '{}' '+')
   fi
 }
+
 
 _lein_run() {
   _lein_namespaces "src/"

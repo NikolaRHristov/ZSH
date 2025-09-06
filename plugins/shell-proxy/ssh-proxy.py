@@ -20,20 +20,18 @@ proxy_protocols = {
 if parsed.scheme not in proxy_protocols:
     raise TypeError('unsupported proxy protocol: "{}"'.format(parsed.scheme))
 
-
 def make_argv():
     yield "nc"
-    if sys.platform in {"linux", "cygwin"}:
+    if sys.platform in {'linux', 'cygwin'}:
         # caveats: the built-in netcat of most linux distributions and cygwin support proxy type
         # caveats: macOS built-in netcat command not supported proxy-type
-        yield "-X"  # --proxy-type
+        yield "-X" # --proxy-type
         # Supported protocols are 4 (SOCKS v4), 5 (SOCKS v5) and connect (HTTP proxy).
         # Default SOCKS v5 is used.
         yield proxy_protocols[parsed.scheme]
-    yield "-x"  # --proxy
-    yield parsed.netloc  # proxy-host:proxy-port
-    yield sys.argv[1]  # host
-    yield sys.argv[2]  # port
-
+    yield "-x" # --proxy
+    yield parsed.netloc # proxy-host:proxy-port
+    yield sys.argv[1] # host
+    yield sys.argv[2] # port
 
 subprocess.call(make_argv())

@@ -11,7 +11,7 @@ plugins=(... systemd)
 ## Aliases
 
 | Alias                  | Command                            | Description                                                      |
-| :--------------------- | :--------------------------------- | :--------------------------------------------------------------- |
+|:-----------------------|:-----------------------------------|:-----------------------------------------------------------------|
 | `sc-failed`            | `systemctl --failed`               | List failed systemd units                                        |
 | `sc-list-units`        | `systemctl list-units`             | List all units systemd has in memory                             |
 | `sc-is-active`         | `systemctl is-active`              | Show whether a unit is active                                    |
@@ -24,7 +24,7 @@ plugins=(... systemd)
 | `sc-show-environment`  | `systemctl show-environment`       | Dump the systemd manager environment block                       |
 | `sc-cat`               | `systemctl cat`                    | Show backing files of one or more units                          |
 | `sc-list-timers`       | `systemctl list-timers`            | List timer units currently in memory                             |
-| **Aliases with sudo**  |                                    |                                                                  |
+| **Aliases with sudo**                                                                                                        |||
 | `sc-start`             | `sudo systemctl start`             | Start Unit(s)                                                    |
 | `sc-stop`              | `sudo systemctl stop`              | Stop Unit(s)                                                     |
 | `sc-reload`            | `sudo systemctl reload`            | Reload Unit(s)                                                   |
@@ -51,15 +51,14 @@ plugins=(... systemd)
 
 ### User aliases
 
-You can use the above aliases as `--user` by using the prefix `scu` instead of
-`sc`. For example: `scu-list-units` will be aliased to
-`systemctl --user list-units`.
+You can use the above aliases as `--user` by using the prefix `scu` instead of `sc`.
+For example: `scu-list-units` will be aliased to `systemctl --user list-units`.
 
 ### Unit Status Prompt
 
-You can add a token to your prompt in a similar way to the gitfast plugin. To
-add the token to your prompt, drop `$(systemd_prompt_info [unit]...)` into your
-prompt (more than one unit may be specified).
+You can add a token to your prompt in a similar way to the gitfast plugin. To add the token
+to your prompt, drop `$(systemd_prompt_info [unit]...)` into your prompt (more than one unit
+may be specified).
 
 The plugin will add the following to your prompt for each `$unit`.
 
@@ -73,19 +72,16 @@ You can control these parts with the following variables:
 
 - `<suffix>`: Set `$ZSH_THEME_SYSTEMD_PROMPT_SUFFIX`.
 
-- `<unit>`: name passed as parameter to the function. If you want it to be in
-  ALL CAPS, you can set the variable `$ZSH_THEME_SYSTEMD_PROMPT_CAPS` to a
-  non-empty string.
+- `<unit>`: name passed as parameter to the function. If you want it to be in ALL CAPS,
+  you can set the variable `$ZSH_THEME_SYSTEMD_PROMPT_CAPS` to a non-empty string.
 
-- `<active>`: shown if the systemd unit is active. Set
-  `$ZSH_THEME_SYSTEMD_PROMPT_ACTIVE`.
+- `<active>`: shown if the systemd unit is active.
+  Set `$ZSH_THEME_SYSTEMD_PROMPT_ACTIVE`.
 
-- `<notactive>`: shown if the systemd unit is _not_ active. Set
-  `$ZSH_THEME_SYSTEMD_PROMPT_NOTACTIVE`.
+- `<notactive>`: shown if the systemd unit is *not* active.
+  Set `$ZSH_THEME_SYSTEMD_PROMPT_NOTACTIVE`.
 
-For example, if your prompt contains
-`PROMPT='$(systemd_prompt_info dhcpd httpd)'` and you set the following
-variables:
+For example, if your prompt contains `PROMPT='$(systemd_prompt_info dhcpd httpd)'` and you set the following variables:
 
 ```sh
 ZSH_THEME_SYSTEMD_PROMPT_PREFIX="["

@@ -7,3 +7,4 @@ To use it, add `invoke` to the plugins array in your `~/.zshrc` file:
 ```zsh
 plugins=(... invoke)
 ```
+

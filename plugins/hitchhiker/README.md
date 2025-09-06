@@ -1,7 +1,6 @@
 # hitchhiker
 
-This plugin adds quotes from The Hitchhiker's Guide to the Galaxy, from Douglas
-Adams.
+This plugin adds quotes from The Hitchhiker's Guide to the Galaxy, from Douglas Adams.
 
 To use it, add `hitchhiker` to the plugins array in your zshrc file:
 
@@ -35,8 +34,7 @@ $ hitchhiker_cow
 
 ## Credits
 
-Fortune file: Andreas Gohr <andi@splitbrain.org>
-([splitbrain.org](https://www.splitbrain.org/projects/fortunes/hg2g))
+Fortune file: Andreas Gohr <andi@splitbrain.org> ([splitbrain.org](https://www.splitbrain.org/projects/fortunes/hg2g))
 
 Spelling and formatting fixes: grok@resist.ca
 

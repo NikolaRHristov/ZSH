@@ -1,7 +1,6 @@
 ## arcanist
 
-This plugin adds many useful aliases for
-[arcanist](https://github.com/phacility/arcanist).
+This plugin adds many useful aliases for [arcanist](https://github.com/phacility/arcanist).
 
 To use it, add `arcanist` to the plugins array of your zshrc file:
 
@@ -34,10 +33,9 @@ plugins=(... arcanist)
 
 ## Functions
 
-The following functions make copy pasting revision ids from the URL bar of your
-browser easier, as they allow for copy pasting the whole URL. For example:
-`ardu` accepts both `https://arcanist-url.com/<REVISION>` as well as
-`<REVISION>`.
+The following functions make copy pasting revision ids from the URL bar of your browser
+easier, as they allow for copy pasting the whole URL. For example: `ardu` accepts
+both `https://arcanist-url.com/<REVISION>` as well as `<REVISION>`.
 
 | Function                  | Command                           |
 | ------------------------- | --------------------------------- |

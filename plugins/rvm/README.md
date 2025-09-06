@@ -1,7 +1,6 @@
 # Ruby Version Manager plugin
 
-This plugin adds some utility functions and completions for
-[Ruby Version Manager](https://rvm.io/).
+This plugin adds some utility functions and completions for [Ruby Version Manager](https://rvm.io/).
 
 To use it, add `rvm` to the plugins array in your zshrc file:
 

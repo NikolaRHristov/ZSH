@@ -10,10 +10,9 @@ magic-enter() {
     return
   fi
 
-  # needs to be before git to handle colocated repositories
-  if (( $+commands[jj] )) && command jj st >/dev/null 2>&1; then
+  if command jj st >/dev/null 2>&1; then # needs to be before git to handle colocated repositories
     BUFFER="$MAGIC_ENTER_JJ_COMMAND"
-  elif (( $+commands[git] )) && command git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+  elif command git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
     BUFFER="$MAGIC_ENTER_GIT_COMMAND"
   else
     BUFFER="$MAGIC_ENTER_OTHER_COMMAND"

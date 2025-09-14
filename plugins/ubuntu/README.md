@@ -1,6 +1,7 @@
 # Ubuntu plugin
 
-This plugin adds completions and aliases for [Ubuntu](https://www.ubuntu.com/).
+This plugin adds completions and aliases for
+[`Ubuntu`](https://www.ubuntu.com/).
 
 To use it, add `ubuntu` to the plugins array in your zshrc file:
 

@@ -1,7 +1,8 @@
 # Macports plugin
 
-This plugin adds completion for the package manager [Macports](https://macports.com/),
-as well as some aliases for common Macports commands.
+This plugin adds completion for the package manager
+[`Macports`](https://macports.com/), as well as some aliases for common Macports
+commands.
 
 To use it, add `macports` to the plugins array in your zshrc file:
 
@@ -40,8 +41,8 @@ Options:
 ```
 
 Checks whether updates are available for ports whose maintainer is the current
-user, or any of a specified list of maintainer expressions.  The current user
+user, or any of a specified list of maintainer expressions. The current user
 maintainer id is retrieved as follows:
 
-* The value of the `MACPORTS_MAINTAINER` variable, if set and not null.
-* The value of the `USER` variable.
+- The value of the `MACPORTS_MAINTAINER` variable, if set and not null.
+- The value of the `USER` variable.

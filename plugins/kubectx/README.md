@@ -11,7 +11,7 @@ To use this plugin, add `kubectx` to the plugins array in your zshrc file:
 plugins=(... kubectx)
 ```
 
-### Usage
+### 🛠️ Usage
 
 Add to **.zshrc**:
 
@@ -24,9 +24,11 @@ PROMPT="$PROMPT"'$(kubectx_prompt_info)'
 
 ### Custom context names
 
-You can rename the default context name for better readability or additional formatting.
-These values accept [prompt expansion sequences](http://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html)
-such as `%F{color}`, `%f`, `%K{color}`, `%k`, `%B`, `%b`, `%U`, `%u`, `%S`, `%s`, `%{...%}`.
+You can rename the default context name for better readability or additional
+formatting. These values accept
+[`prompt expansion sequences`](HTTP://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html)
+such as `%F{color}`, `%f`, `%K{color}`, `%k`, `%B`, `%b`, `%U`, `%u`, `%S`,
+`%s`, `%{...%}`.
 
 **Example**: add this to your .zshrc file:
 
@@ -45,12 +47,11 @@ You can also define the whole mapping array at once:
 ```zsh
 typeset -A kubectx_mapping
 kubectx_mapping=(
-  minikube                      "mini"
-  context_name_from_kubeconfig  "$emoji[wolf_face]"
-  production_cluster            "%{$fg[yellow]%}prod!%{$reset_color%}"
-  "context with spaces"         "%F{red}spaces%f"
+	minikube "mini"
+	context_name_from_kubeconfig "$emoji[wolf_face]"
+	production_cluster "%{$fg[yellow]%}prod!%{$reset_color%}"
+	"context with spaces" "%F{red}spaces%f"
 )
 ```
 
-![staging](stage.png)
-![production](prod.png)
+![`staging](stage.png) ![production`](prod.png)

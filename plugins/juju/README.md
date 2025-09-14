@@ -1,7 +1,8 @@
 # juju plugin
 
-This plugin provides useful aliases and functions for [juju](https://juju.is/) (for TAB completion,
-refer to the [official repo](https://github.com/juju/juju/blob/develop/etc/bash_completion.d/juju)).
+This plugin provides useful aliases and functions for [`juju`](https://juju.is/)
+(for TAB completion, refer to the
+[`official repo`](https://GitHub.Com/juju/juju/blob/develop/etc/bash_completion.d/juju)).
 
 To use this plugin, add `juju` to the plugins array in your zshrc file.
 
@@ -20,7 +21,7 @@ Naming convention:
 ### General
 
 | Alias   | Command                                     | Description                                            |
-|---------|---------------------------------------------|--------------------------------------------------------|
+| ------- | ------------------------------------------- | ------------------------------------------------------ |
 | `j`     | `juju`                                      | The juju command                                       |
 | `jcld`  | `juju clouds`                               | Lists all clouds with registered credentials           |
 | `jclda` | `juju clouds --all`                         | Lists all clouds available to Juju                     |
@@ -35,7 +36,7 @@ Naming convention:
 ### Bootstrap
 
 | Alias   | Command                             | Description                                           |
-|---------|-------------------------------------|-------------------------------------------------------|
+| ------- | ----------------------------------- | ----------------------------------------------------- |
 | `jb`    | `juju bootstrap`                    | Initializing a Juju cloud environment                 |
 | `jbng`  | `juju bootstrap --no-gui`           | Initializing a Juju cloud environment without GUI     |
 | `jbl`   | `juju bootstrap localhost`          | Initializing an lxd cloud environment                 |
@@ -46,7 +47,7 @@ Naming convention:
 ### Controller
 
 | Alias    | Command                                                                               | Description                                                       |
-|----------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| -------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | `jctl`   | `juju controllers`                                                                    | List all controllers                                              |
 | `jctlr`  | `juju controllers --refresh`                                                          | List all controllers (download latest details)                    |
 | `jdc`    | `juju destroy-controller --destroy-all-models`                                        | Destroy a controller                                              |
@@ -54,13 +55,13 @@ Naming convention:
 | `jdcds`  | `juju destroy-controller --destroy-all-models --destroy-storage`                      | Destroy a controller and associated storage                       |
 | `jdcds!` | `juju destroy-controller --destroy-all-models --destroy-storage --force --no-wait -y` | Destroy a controller and associated storage                       |
 | `jkc`    | `juju kill-controller -y -t 0`                                                        | Forcibly terminate all associated resources for a Juju controller |
-| `jshc`   | `juju show-controller`                                                                | Shows detailed information of a controller                    |
+| `jshc`   | `juju show-controller`                                                                | Shows detailed information of a controller                        |
 | `jsw`    | `juju switch`                                                                         | Select or identify the current controller and model               |
 
 ### Model
 
 | Alias    | Command                                                     | Description                                           |
-|----------|-------------------------------------------------------------|-------------------------------------------------------|
+| -------- | ----------------------------------------------------------- | ----------------------------------------------------- |
 | `jam`    | `juju add-model`                                            | Add a hosted model                                    |
 | `jdm`    | `juju destroy-model`                                        | Non-recoverable, complete removal of a model          |
 | `jdm!`   | `juju destroy-model --force --no-wait -y`                   | Non-recoverable, complete removal of a model          |
@@ -74,7 +75,7 @@ Naming convention:
 ### Application / unit
 
 | Alias    | Command                                                       | Description                                                               |
-|----------|---------------------------------------------------------------|---------------------------------------------------------------------------|
+| -------- | ------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | `jc`     | `juju config`                                                 | Get, set, or reset configuration for a deployed application               |
 | `jde`    | `juju deploy --channel=edge`                                  | Deploy a new application or bundle from the edge channel                  |
 | `jd`     | `juju deploy`                                                 | Deploy a new application or bundle                                        |
@@ -92,15 +93,15 @@ Naming convention:
 
 ### Storage
 
-| Alias   | Command                       | Description                                     |
-|---------|-------------------------------|-------------------------------------------------|
-| `jrs`   | `juju remove-storage`         | Remove storage                                  |
-| `jrs!`  | `juju remove-storage --force` | Remove storage even if it is currently attached |
+| Alias  | Command                       | Description                                     |
+| ------ | ----------------------------- | ----------------------------------------------- |
+| `jrs`  | `juju remove-storage`         | Remove storage                                  |
+| `jrs!` | `juju remove-storage --force` | Remove storage even if it is currently attached |
 
 ### Relation
 
 | Alias     | Command                        | Description                                                       |
-|-----------|--------------------------------|-------------------------------------------------------------------|
+| --------- | ------------------------------ | ----------------------------------------------------------------- |
 | `jrel`    | `juju relate`                  | Relate two applications                                           |
 | `jrmrel`  | `juju remove-relation`         | Remove an existing relation between two applications.             |
 | `jrmrel!` | `juju remove-relation --force` | Remove an existing relation between two applications, forcefully. |
@@ -108,7 +109,7 @@ Naming convention:
 ### Cross-model relation (CMR)
 
 | Alias    | Command            | Description                                                    |
-|----------|--------------------|----------------------------------------------------------------|
+| -------- | ------------------ | -------------------------------------------------------------- |
 | `jex`    | `juju expose`      | Make an application publicly available over the network        |
 | `jof`    | `juju offer`       | Offer application endpoints for use in other models            |
 | `jcon`   | `juju consume`     | Add a remote offer to the model                                |
@@ -118,15 +119,16 @@ Naming convention:
 ### Bundle
 
 | Alias | Command              | Description                                                 |
-|-------|----------------------|-------------------------------------------------------------|
+| ----- | -------------------- | ----------------------------------------------------------- |
 | `jeb` | `juju export-bundle` | Export the current model configuration as a reusable bundle |
 
 ## Functions
 
 - `jaddr <app_name> [unit_num]`: display app or unit IP address.
-- `jreld <relation_name> <app_name> <unit_num>`: display app and unit relation data.
+- `jreld <relation_name> <app_name> <unit_num>`: display app and unit relation
+  data.
 - `jclean`: destroy all controllers
 - `jcontroller`: display the controller your are connected to.
 - `jmodel`: display the model your are connected to.
-- `wjst [interval_secs] [args_for_watch]`: watch juju status, with optional interval
-  (default: 5s); you may pass additional arguments to `watch`.
+- `wjst [interval_secs] [args_for_watch]`: watch juju status, with optional
+  interval (default: 5s); you may pass additional arguments to `watch`.

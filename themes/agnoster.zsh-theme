@@ -6,13 +6,13 @@
 # # README
 #
 # In order for this theme to render correctly, you will need a
-# [Powerline-patched font](https://github.com/Lokaltog/powerline-fonts).
+# [Powerline-patched font](https://GitHub.Com/Lokaltog/powerline-fonts).
 # Make sure you have a recent version: the code points that Powerline
 # uses changed in 2012, and older versions will display incorrectly,
 # in confusing ways.
 #
 # In addition, I recommend the
-# [Solarized theme](https://github.com/altercation/solarized/) and, if you're
+# [Solarized theme](https://GitHub.Com/altercation/solarized/) and, if you're
 # using it on Mac OS X, [iTerm 2](https://iterm2.com/) over Terminal.app -
 # it has significantly better color fidelity.
 #

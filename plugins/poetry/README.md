@@ -1,6 +1,7 @@
 # Poetry Plugin
 
-This plugin automatically installs [Poetry](https://python-poetry.org/)'s completions for you, and keeps them up to date as your Poetry version changes.
+This plugin automatically installs [`Poetry`](https://python-poetry.org/)'s
+completions for you, and keeps them up to date as your Poetry version changes.
 
 To use it, add `poetry` to the plugins array in your zshrc file:
 
@@ -10,8 +11,8 @@ plugins=(... poetry)
 
 ## Aliases
 
-| Alias | Command                                            | Description    
-|:----- |--------------------------------------------------- |:--------------------------------------------------------------------------------------- |
+| Alias | Command                                            | Description                                                                             |
+| :---- | -------------------------------------------------- | :-------------------------------------------------------------------------------------- |
 | pad   | `poetry add`                                       | Add packages to `pyproject.toml` and install them                                       |
 | pbld  | `poetry build`                                     | Build the source and wheels archives                                                    |
 | pch   | `poetry check`                                     | Validate the content of the `pyproject.toml` and its consistency with the `poetry.lock` |

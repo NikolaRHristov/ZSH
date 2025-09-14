@@ -15,22 +15,22 @@ plugins=(... shell-proxy)
 - Supports ssh, sftp, scp, slogin and ssh-copy-id via setting aliases
 - Built-in autocomplete
 
-## Usage
+## 🛠️ Usage
 
 ### Method 1
 
 Set `SHELLPROXY_URL` environment variable to the URL of the proxy server:
 
 ```sh
-SHELLPROXY_URL="http://127.0.0.1:8123"
+SHELLPROXY_URL="HTTP://127.0.0.1:8123"
 SHELLPROXY_NO_PROXY="localhost,127.0.0.1"
 proxy enable
 ```
 
 ### Method 2
 
-Write a program file in `$HOME/.config/proxy` so that the proxy URL is defined dynamically.
-Note that the program file must be executable.
+Write a program file in `$HOME/.config/proxy` so that the proxy URL is defined
+dynamically. Note that the program file must be executable.
 
 Example:
 
@@ -39,9 +39,9 @@ Example:
 
 # HTTP Proxy
 if [[ "$(uname)" = Darwin ]]; then
-  echo "http://127.0.0.1:6152" # Surge Mac
+	echo "HTTP://127.0.0.1:6152" # Surge Mac
 else
-  echo "http://127.0.0.1:8123" # polipo
+	echo "HTTP://127.0.0.1:8123" # polipo
 fi
 
 # No Proxy
@@ -50,8 +50,8 @@ echo "localhost,127.0.0.1"
 
 ### Method 3
 
-Use [method 2](#method-2) but define the location of the program file by setting the
-`SHELLPROXY_CONFIG` environment variable:
+Use [`method 2`](#method-2) but define the location of the program file by
+setting the `SHELLPROXY_CONFIG` environment variable:
 
 ```sh
 SHELLPROXY_CONFIG="$HOME/.dotfiles/proxy-config"
@@ -59,9 +59,10 @@ SHELLPROXY_CONFIG="$HOME/.dotfiles/proxy-config"
 
 ## Reference
 
-- `$GIT_SSH`: <https://www.git-scm.com/docs/git#Documentation/git.txt-codeGITSSHcode>
+- `$GIT_SSH`:
+  <https://www.git-scm.com/docs/git#Documentation/git.txt-codeGITSSHcode>
 - OpenSSH manual: <https://man.openbsd.org/ssh>
 
 ## Maintainer
 
-- [@septs](https://github.com/septs)
+- [`@septs`](https://GitHub.Com/septs)

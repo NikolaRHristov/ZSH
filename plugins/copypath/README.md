@@ -8,7 +8,7 @@ To use it, add `copypath` to the plugins array in your zshrc file:
 plugins=(... copypath)
 ```
 
-## Usage
+## 🛠️ Usage
 
 - `copypath`: copies the absolute path of the current directory.
 

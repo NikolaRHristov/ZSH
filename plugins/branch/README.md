@@ -1,7 +1,7 @@
 # Branch plugin
 
-This plugin displays the current Git or Mercurial branch, fast. If in a Mercurial repository,
-also display the current bookmark, if present.
+This plugin displays the current Git or Mercurial branch, fast. If in a
+Mercurial repository, also display the current bookmark, if present.
 
 To use it, add `branch` to the plugins array in your zshrc file:
 
@@ -13,22 +13,23 @@ plugins=(... branch)
 
 - `hg branch`:
 
-  ```console
-  $ time hg branch
-  0.11s user 0.14s system 70% cpu 0.355 total
-  ```
+    ```console
+    $ time hg branch
+    0.11s user 0.14s system 70% cpu 0.355 total
+    ```
 
 - branch plugin:
 
-  ```console
-  $ time zsh /tmp/branch_prompt_info_test.zsh
-  0.00s user 0.01s system 78% cpu 0.014 total
-  ```
+    ```console
+    $ time zsh /tmp/branch_prompt_info_test.zsh
+    0.00s user 0.01s system 78% cpu 0.014 total
+    ```
 
-## Usage
+## 🛠️ Usage
 
-Copy your theme to `$ZSH_CUSTOM/themes/` and modify it to add `$(branch_prompt_info)` in your prompt.
-This example is for the `robbyrussell` theme:
+Copy your theme to `$ZSH_CUSTOM/themes/` and modify it to add
+`$(branch_prompt_info)` in your prompt. This example is for the `robbyrussell`
+theme:
 
 ```diff
 diff --git a/themes/robbyrussell.zsh-theme b/themes/robbyrussell.zsh-theme

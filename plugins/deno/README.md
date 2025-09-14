@@ -1,6 +1,6 @@
 # Deno Plugin
 
-This plugin sets up completion and aliases for [Deno](https://deno.land).
+This plugin sets up completion and aliases for [`Deno`](https://deno.land).
 
 ## Aliases
 

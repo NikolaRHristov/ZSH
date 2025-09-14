@@ -8,11 +8,10 @@ To use it, add `themes` to the plugins array in your zshrc file:
 plugins=(... themes)
 ```
 
-## Usage
+## 🛠️ Usage
 
 `theme <theme_name>` - Changes the ZSH theme to specified theme.
 
 `theme ` - Changes the ZSH theme to some random theme.
 
 `lstheme ` - Lists installed ZSH themes.
-

@@ -19,7 +19,7 @@ passwords in a script:
 ## genpass-apple
 
 Generates a pronounceable pseudoword passphrase of the "cvccvc" consonant/vowel
-syntax, inspired by [Apple's iCloud Keychain password generator][1]. Each
+syntax, inspired by [`Apple's iCloud Keychain password generator`][1]. Each
 password has exactly 1 digit placed at the edge of a "word" and exactly 1
 capital letter to satisfy most password security requirements.
 

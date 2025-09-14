@@ -1,6 +1,7 @@
 # eza plugin
 
-This provides aliases that invoke the [`eza`](https://github.com/eza-community/eza) utility rather than `ls`
+This provides aliases that invoke the
+[`eza`](https://GitHub.Com/eza-community/eza) utility rather than `ls`
 
 To use it add `eza` to the plugins array in your zshrc file:
 
@@ -10,15 +11,16 @@ plugins=(... eza)
 
 ## Configuration
 
-All configurations are done using the `zstyle` command in the `:omz:plugins:eza` namespace.
+All configurations are done using the `zstyle` command in the `:omz:plugins:eza`
+namespace.
 
-**NOTE:** The configuring needs to be done prior to OMZ loading the plugins. When the plugin is loaded,
-changing the `zstyle` won't have any effect.
+**NOTE:** The configuring needs to be done prior to OMZ loading the plugins.
+When the plugin is loaded, changing the `zstyle` won't have any effect.
 
 ### `dirs-first`
 
 ```zsh
-zstyle ':omz:plugins:eza' 'dirs-first' yes|no
+zstyle ':omz:plugins:eza' 'dirs-first' yes | no
 ```
 
 If `yes`, directories will be grouped first.
@@ -28,17 +30,18 @@ Default: `no`
 ### `git-status`
 
 ```zsh
-zstyle ':omz:plugins:eza' 'git-status' yes|no
+zstyle ':omz:plugins:eza' 'git-status' yes | no
 ```
 
-If `yes`, always add `--git` flag to indicate git status (if tracked / in a git repo).
+If `yes`, always add `--git` flag to indicate git status (if tracked / in a git
+repo).
 
 Default: `no`
 
 ### `header`
 
 ```zsh
-zstyle ':omz:plugins:eza' 'header' yes|no
+zstyle ':omz:plugins:eza' 'header' yes | no
 ```
 
 If `yes`, always add `-h` flag to add a header row for each column.
@@ -48,7 +51,7 @@ Default: `no`
 ### `show-group`
 
 ```zsh
-zstyle ':omz:plugins:eza' 'show-group' yes|no
+zstyle ':omz:plugins:eza' 'show-group' yes | no
 ```
 
 If `yes` (default), always add `-g` flag to show the group ownership.
@@ -58,10 +61,11 @@ Default: `yes`
 ### `icons`
 
 ```zsh
-zstyle ':omz:plugins:eza' 'icons' yes|no
+zstyle ':omz:plugins:eza' 'icons' yes | no
 ```
 
-If `yes`, sets the `--icons` option of `eza`, adding icons for files and folders.
+If `yes`, sets the `--icons` option of `eza`, adding icons for files and
+folders.
 
 Default: `no`
 
@@ -96,10 +100,12 @@ zstyle ':omz:plugins:eza' 'size-prefix' (binary|none|si)
 
 Choose the prefix to be used in displaying file size:
 
-- `binary` -- use [binary prefixes](https://en.wikipedia.org/wiki/Binary_prefix) such as "Ki", "Mi", "Gi" and
-  so on
-- `none` -- don't use any prefix, show size in bytes
-- `si` (default) -- use [Metric/S.I. prefixes](https://en.wikipedia.org/wiki/Metric_prefix)
+-   `binary` -- use
+    [`binary prefixes`](https://en.wikipedia.org/wiki/Binary_prefix) such as "Ki",
+    "Mi", "Gi" and so on
+-   `none` -- don't use any prefix, show size in bytes
+-   `si` (default) -- use
+    [`Metric/S.I. prefixes`](https://en.wikipedia.org/wiki/Metric_prefix)
 
 Default: `si`
 
@@ -116,7 +122,7 @@ Default: Not set, which means the default behavior of `eza` will take place.
 ### `hyperlink`
 
 ```zsh
-zstyle ':omz:plugins:eza' 'hyperlink' yes|no
+zstyle ':omz:plugins:eza' 'hyperlink' yes | no
 ```
 
 If `yes`, always add `--hyperlink` flag to create hyperlink with escape codes.
@@ -127,8 +133,8 @@ Default: `no`
 
 **Notes:**
 
-- Aliases may be modified by Configuration
-- The term "files" without "only" qualifier means both files & directories
+-   Aliases may be modified by Configuration
+-   The term "files" without "only" qualifier means both files & directories
 
 | Alias  | Command           | Description                                                                |
 | ------ | ----------------- | -------------------------------------------------------------------------- |

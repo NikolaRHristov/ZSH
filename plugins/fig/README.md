@@ -1,6 +1,6 @@
 # Fig plugin
 
-This plugin sets up completion for [Fig](https://fig.io/).
+This plugin sets up completion for [`Fig`](https://fig.io/).
 
 To use it, add `fig` to the plugins array in your zshrc file:
 

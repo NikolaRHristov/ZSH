@@ -16,8 +16,8 @@ plugins=(... keychain)
 
 **IMPORTANT: put these settings _before_ the line that sources oh-my-zsh**
 
-**To adjust the agents** that keychain manages, use the `agents` style as
-shown below. By default, only the `gpg` agent is managed.
+**To adjust the agents** that keychain manages, use the `agents` style as shown
+below. By default, only the `gpg` agent is managed.
 
 ```zsh
 zstyle :omz:plugins:keychain agents gpg,ssh
@@ -29,8 +29,8 @@ To **load multiple identities** use the `identities` style, For example:
 zstyle :omz:plugins:keychain identities id_ed25519 id_github 2C5879C2
 ```
 
-**To pass additional options** to the `keychain` program, use the
-`options` style; for example:
+**To pass additional options** to the `keychain` program, use the `options`
+style; for example:
 
 ```zsh
 zstyle :omz:plugins:keychain options --quiet
@@ -42,4 +42,4 @@ Based on code from the `ssh-agent` plugin.
 
 ## References
 
-- [Keychain](https://www.funtoo.org/Keychain)
+- [`Keychain`](https://www.funtoo.org/Keychain)

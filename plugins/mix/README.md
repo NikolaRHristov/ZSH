@@ -1,12 +1,14 @@
 # Mix plugin
 
-This plugin adds completions for the [Elixir's Mix build tool](https://hexdocs.pm/mix/Mix.html).
+This plugin adds completions for the
+[`Elixir's Mix build tool`](https://hexdocs.pm/mix/Mix.html).
 
 To use it, add `mix` to the plugins array in your zshrc file:
 
 ```zsh
 plugins=(... mix)
 ```
+
 ## Supported Task Types
 
 | Task Type                | Documentation                                            |

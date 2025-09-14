@@ -20,7 +20,7 @@ To learn more, visit [ohmyz.sh](https://ohmyz.sh), follow
 [@ohmyzsh](https://x.com/ohmyzsh) on X (formerly Twitter), and join us on
 [Discord](https://discord.gg/ohmyzsh).
 
-[![CI](https://github.com/ohmyzsh/ohmyzsh/workflows/CI/badge.svg)](https://github.com/ohmyzsh/ohmyzsh/actions?query=workflow%3ACI)
+[![CI](https://GitHub.Com/ohmyzsh/ohmyzsh/workflows/CI/badge.svg)](https://GitHub.Com/ohmyzsh/ohmyzsh/actions?query=workflow%3ACI)
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/ohmyzsh?label=%40ohmyzsh&logo=x&style=flat)](https://twitter.com/intent/follow?screen_name=ohmyzsh)
 [![Mastodon Follow](https://img.shields.io/mastodon/follow/111169632522566717?label=%40ohmyzsh&domain=https%3A%2F%2Fmstdn.social&logo=mastodon&style=flat)](https://mstdn.social/@ohmyzsh)
 [![Discord server](https://img.shields.io/discord/642496866407284746)](https://discord.gg/ohmyzsh)
@@ -220,7 +220,7 @@ ZSH_THEME="agnoster" # (this is one of the fancy ones)
 
 Open up a new terminal window and your prompt should look something like this:
 
-![Agnoster theme](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)
+![`Agnoster theme`](https://cloud.githubusercontent.com/assets/2618447/6316862/70f58fb6-ba03-11e4-82c9-c083bf9a6574.png)
 
 In case you did not find a suitable theme for your needs, please have a look at
 the wiki for
@@ -562,7 +562,7 @@ We also need people to test out pull requests. So take a look through
 [the open issues](https://github.com/ohmyzsh/ohmyzsh/issues) and help where you
 can.
 
-See [Contributing](CONTRIBUTING.md) for more details.
+See [`Contributing`](CONTRIBUTING.md) for more details.
 
 ### Do Not Send Us Themes
 
@@ -577,7 +577,7 @@ Without all the time and help from our contributors, it wouldn't be so awesome.
 
 Thank you so much!
 
-<a href="https://github.com/ohmyzsh/ohmyzsh/graphs/contributors">
+<a href="https://GitHub.Com/ohmyzsh/ohmyzsh/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ohmyzsh/ohmyzsh" width="100%"/>
 </a>
 
@@ -605,7 +605,7 @@ Oh My Zsh is released under the [MIT license](LICENSE.txt).
 
 ## About Planet Argon
 
-![Planet Argon](https://pa-github-assets.s3.amazonaws.com/PARGON_logo_digital_COL-small.jpg)
+![`Planet Argon`](https://pa-github-assets.s3.amazonaws.com/PARGON_logo_digital_COL-small.jpg)
 
 Oh My Zsh was started by the team at
 [Planet Argon](https://www.planetargon.com/?utm_source=github), a

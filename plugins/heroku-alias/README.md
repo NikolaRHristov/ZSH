@@ -10,11 +10,11 @@ plugins=(... heroku-alias)
 
 ## Requirements
 
-- [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+- [`Heroku CLI`](https://devcenter.heroku.com/articles/heroku-cli)
 
-| 🚀 last maj | 📡 source                                                                    |
-| ---------- | --------------------------------------------------------------------------- |
-| 02/06/2020 | [heroku cli doc](https://devcenter.heroku.com/articles/heroku-cli-commands) |
+| 🚀 last maj | 📡 source                                                                     |
+| ----------- | ----------------------------------------------------------------------------- |
+| 02/06/2020  | [`heroku cli doc`](https://devcenter.heroku.com/articles/heroku-cli-commands) |
 
 ## Aliases
 
@@ -28,16 +28,17 @@ plugins=(... heroku-alias)
 
 ### config
 
-| Alias  | Command                |
-| ------ | ---------------------- |
-| hc     | heroku config          |
-| hca    | heroku config -a       |
-| hcr    | heroku config -r       |
-| hcs    | heroku config:set      |
-| hcu    | heroku config:unset    |
+| Alias | Command             |
+| ----- | ------------------- |
+| hc    | heroku config       |
+| hca   | heroku config -a    |
+| hcr   | heroku config -r    |
+| hcs   | heroku config:set   |
+| hcu   | heroku config:unset |
 
-Also, you can use the `hcfile` function to set multiple config variables from a file,
-which asks you for a platform and a config file to read the configuration from.
+Also, you can use the `hcfile` function to set multiple config variables from a
+file, which asks you for a platform and a config file to read the configuration
+from.
 
 ### apps and favorites
 

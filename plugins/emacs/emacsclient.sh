@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 emacsfun() {
   local cmd frames

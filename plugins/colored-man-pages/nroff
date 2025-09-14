@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # The whole point of this wrapper is to replace emboldening factor -u0 with
 # -u1 under certain circumstances on Solaris.

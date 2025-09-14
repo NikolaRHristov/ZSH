@@ -155,7 +155,7 @@ alias mydeb='time dpkg-buildpackage -rfakeroot -us -uc'
 # Functions #################################################################
 # create a simple script that can be used to 'duplicate' a system
 function apt-copy() {
-    print '#!/bin/sh'"\n" > apt-copy.sh
+    print '#!/bin/bash'"\n" > apt-copy.sh
 
     cmd='$apt_pref install'
 

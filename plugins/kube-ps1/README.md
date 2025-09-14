@@ -15,20 +15,26 @@ Homebrew package manager:
 $ brew update
 $ brew install kube-ps1
 ```
+
 ### From Source
 
 1. Clone this repository
 2. Source the kube-ps1.sh in your `~/.zshrc` or your `~/.bashrc`
 
 ### Arch Linux
-AUR Package available at [https://aur.archlinux.org/packages/kube-ps1/](https://aur.archlinux.org/packages/kube-ps1/).
+
+AUR Package available at
+[`https://aur.archlinux.org/packages/kube-ps1/`](https://aur.archlinux.org/packages/kube-ps1/).
 
 #### Zsh
+
 ```sh
 source /path/to/kube-ps1.sh
 PROMPT='$(kube_ps1)'$PROMPT
 ```
+
 #### Bash
+
 ```sh
 source /path/to/kube-ps1.sh
 PS1='[\u@\h \W $(kube_ps1)]\$ '
@@ -36,9 +42,10 @@ PS1='[\u@\h \W $(kube_ps1)]\$ '
 
 ### Zsh Plugin Managers
 
-#### Using [zplugin](https://github.com/zdharma/zplugin)
+#### Using [`zplugin`](https://GitHub.Com/zdharma/zplugin)
 
 Update `.zshrc` with:
+
 ```sh
 zplugin light jonmosco/kube-ps1
 PROMPT='$(kube_ps1)'$PROMPT
@@ -46,20 +53,21 @@ PROMPT='$(kube_ps1)'$PROMPT
 
 ## Requirements
 
-The default prompt assumes you have the `kubectl` command line utility installed.
-Official installation instructions and binaries are available:
+The default prompt assumes you have the `kubectl` command line utility
+installed. Official installation instructions and binaries are available:
 
-[Install and Set up kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+[`Install and Set up kubectl`](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
-If using this with OpenShift, the `oc` tool needs installed.  It can be obtained
+If using this with OpenShift, the `oc` tool needs installed. It can be obtained
 from brew ports:
 
 ```
 brew install openshift-cli
 ```
+
 or the source can be downloaded:
 
-[OC Client Tools](https://www.openshift.org/download.html)
+[`OC Client Tools`](https://www.openshift.org/download.html)
 
 Set the binary to `oc` with the following environment variable:
 
@@ -77,14 +85,14 @@ If neither binary is available, the prompt will print the following:
 
 There are several great tools that make using kubectl very enjoyable:
 
-- [`kubectx` and `kubens`](https://github.com/ahmetb/kubectx) are great for
-fast switching between clusters and namespaces.
+- [`kubectx` and `kubens`](https://GitHub.Com/ahmetb/kubectx) are great for fast
+  switching between clusters and namespaces.
 
 ## Tmux port
 
-I have begun porting kube-ps1 to tmux as a status line plugin.  If you prefer
+I have begun porting kube-ps1 to tmux as a status line plugin. If you prefer
 tmux, and like the functionality provided by kube-ps1, checkout the
-[kube-tmux](https://github.com/jonmosco/kube-tmux) project
+[`kube-tmux`](https://GitHub.Com/jonmosco/kube-tmux) project
 
 ## Prompt Structure
 
@@ -121,21 +129,21 @@ kubeoff -g : turn off kube-ps1 status globally
 The default settings can be overridden in `~/.bashrc` or `~/.zshrc` by setting
 the following environment variables:
 
-| Variable | Default | Meaning |
-| :------- | :-----: | ------- |
-| `KUBE_PS1_BINARY` | `kubectl` | Default Kubernetes binary |
-| `KUBE_PS1_NS_ENABLE` | `true` | Display the namespace. If set to `false`, this will also disable `KUBE_PS1_DIVIDER` |
-| `KUBE_PS1_PREFIX` | `(` | Prompt opening character  |
-| `KUBE_PS1_SYMBOL_ENABLE` | `true ` | Display the prompt Symbol. If set to `false`, this will also disable `KUBE_PS1_SEPARATOR` |
-| `KUBE_PS1_SYMBOL_PADDING` | `false` | Adds a space (padding) after the symbol to prevent clobbering prompt characters |
-| `KUBE_PS1_SYMBOL_DEFAULT` | `⎈ ` | Default prompt symbol. Unicode `\u2388` |
-| `KUBE_PS1_SYMBOL_USE_IMG` | `false` | ☸️  ,  Unicode `\u2638` as the prompt symbol |
-| `KUBE_PS1_SEPARATOR` | &#124; | Separator between symbol and context name |
-| `KUBE_PS1_DIVIDER` | `:` | Separator between context and namespace |
-| `KUBE_PS1_SUFFIX` | `)` | Prompt closing character |
-| `KUBE_PS1_CLUSTER_FUNCTION` | No default, must be user supplied | Function to customize how cluster is displayed |
-| `KUBE_PS1_NAMESPACE_FUNCTION` | No default, must be user supplied | Function to customize how namespace is displayed |
-| `KUBE_PS1_KUBECONFIG_SYMLINK` | `false` | Treat `KUBECONFIG` and `~/.kube/config` files as symbolic links |
+| Variable                      |              Default              | Meaning                                                                                   |
+| :---------------------------- | :-------------------------------: | ----------------------------------------------------------------------------------------- |
+| `KUBE_PS1_BINARY`             |             `kubectl`             | Default Kubernetes binary                                                                 |
+| `KUBE_PS1_NS_ENABLE`          |              `true`               | Display the namespace. If set to `false`, this will also disable `KUBE_PS1_DIVIDER`       |
+| `KUBE_PS1_PREFIX`             |                `(`                | Prompt opening character                                                                  |
+| `KUBE_PS1_SYMBOL_ENABLE`      |              `true `              | Display the prompt Symbol. If set to `false`, this will also disable `KUBE_PS1_SEPARATOR` |
+| `KUBE_PS1_SYMBOL_PADDING`     |              `false`              | Adds a space (padding) after the symbol to prevent clobbering prompt characters           |
+| `KUBE_PS1_SYMBOL_DEFAULT`     |               `⎈ `                | Default prompt symbol. Unicode `\u2388`                                                   |
+| `KUBE_PS1_SYMBOL_USE_IMG`     |              `false`              | ☸️ , Unicode `\u2638` as the prompt symbol                                                |
+| `KUBE_PS1_SEPARATOR`          |              &#124;               | Separator between symbol and context name                                                 |
+| `KUBE_PS1_DIVIDER`            |                `:`                | Separator between context and namespace                                                   |
+| `KUBE_PS1_SUFFIX`             |                `)`                | Prompt closing character                                                                  |
+| `KUBE_PS1_CLUSTER_FUNCTION`   | No default, must be user supplied | Function to customize how cluster is displayed                                            |
+| `KUBE_PS1_NAMESPACE_FUNCTION` | No default, must be user supplied | Function to customize how namespace is displayed                                          |
+| `KUBE_PS1_KUBECONFIG_SYMLINK` |              `false`              | Treat `KUBECONFIG` and `~/.kube/config` files as symbolic links                           |
 
 For terminals that do not support UTF-8, the symbol will be replaced with the
 string `k8s`.
@@ -150,21 +158,21 @@ KUBE_PS1_SEPARATOR=''
 
 The default colors are set with the following environment variables:
 
-| Variable | Default | Meaning |
-| :------- | :-----: | ------- |
-| `KUBE_PS1_PREFIX_COLOR` | `null` | Set default color of the prompt prefix |
-| `KUBE_PS1_SYMBOL_COLOR` | `blue` | Set default color of the Kubernetes symbol |
-| `KUBE_PS1_CTX_COLOR` | `red` | Set default color of the context |
-| `KUBE_PS1_SUFFIX_COLOR` | `null` | Set default color of the prompt suffix |
-| `KUBE_PS1_NS_COLOR` | `cyan` | Set default color of the namespace |
-| `KUBE_PS1_BG_COLOR` | `null` | Set default color of the prompt background |
+| Variable                | Default | Meaning                                    |
+| :---------------------- | :-----: | ------------------------------------------ |
+| `KUBE_PS1_PREFIX_COLOR` | `null`  | Set default color of the prompt prefix     |
+| `KUBE_PS1_SYMBOL_COLOR` | `blue`  | Set default color of the Kubernetes symbol |
+| `KUBE_PS1_CTX_COLOR`    |  `red`  | Set default color of the context           |
+| `KUBE_PS1_SUFFIX_COLOR` | `null`  | Set default color of the prompt suffix     |
+| `KUBE_PS1_NS_COLOR`     | `cyan`  | Set default color of the namespace         |
+| `KUBE_PS1_BG_COLOR`     | `null`  | Set default color of the prompt background |
 
-Blue was used for the default symbol to match the Kubernetes color as closely
-as possible. Red was chosen as the context name to stand out, and cyan for the
+Blue was used for the default symbol to match the Kubernetes color as closely as
+possible. Red was chosen as the context name to stand out, and cyan for the
 namespace.
 
-Set the variable to an empty string if you do not want color for each
-prompt section:
+Set the variable to an empty string if you do not want color for each prompt
+section:
 
 ```
 KUBE_PS1_CTX_COLOR=''
@@ -187,16 +195,15 @@ respectively.
 
 For the following examples let's assume the following:
 
-cluster name: `sandbox.k8s.example.com`
-namespace: `alpha`
+cluster name: `sandbox.k8s.example.com` namespace: `alpha`
 
-If you're using domain style cluster names, your prompt will get quite long
-very quickly. Let's say you only want to display the first portion of the
-cluster name (`sandbox`), you could do that by adding the following:
+If you're using domain style cluster names, your prompt will get quite long very
+quickly. Let's say you only want to display the first portion of the cluster
+name (`sandbox`), you could do that by adding the following:
 
 ```sh
 function get_cluster_short() {
-  echo "$1" | cut -d . -f1
+	echo "$1" | cut -d . -f1
 }
 
 KUBE_PS1_CLUSTER_FUNCTION=get_cluster_short
@@ -208,13 +215,15 @@ Let's say you would prefer the namespace to be displayed in all uppercase
 
 ```sh
 function get_namespace_upper() {
-    echo "$1" | tr '[:lower:]' '[:upper:]'
+	echo "$1" | tr '[:lower:]' '[:upper:]'
 }
 
 export KUBE_PS1_NAMESPACE_FUNCTION=get_namespace_upper
 ```
 
-In both cases, the variable is set to the name of the function, and you must have defined the function in your shell configuration before kube_ps1 is called. The function must accept a single parameter and echo out the final value.
+In both cases, the variable is set to the name of the function, and you must
+have defined the function in your shell configuration before kube_ps1 is called.
+The function must accept a single parameter and echo out the final value.
 
 ### Bug Reports and shell configuration
 
@@ -224,11 +233,13 @@ minimal configuration before submitting a bug report.
 This can be done as follows for each shell before loading kube-ps1:
 
 Bash:
+
 ```bash
 bash --norc
 ```
 
 Zsh:
+
 ```bash
 zsh -f
 or
@@ -237,5 +248,5 @@ zsh --no-rcs
 
 ## Contributors
 
-* [Ahmet Alp Balkan](https://github.com/ahmetb)
-* Jared Yanovich
+- [`Ahmet Alp Balkan`](https://GitHub.Com/ahmetb)
+- Jared Yanovich

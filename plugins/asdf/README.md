@@ -1,6 +1,7 @@
 # asdf
 
-Adds integration with [asdf](https://github.com/asdf-vm/asdf), the extendable version manager, with support for Ruby, Node.js, Elixir, Erlang and more.
+Adds integration with [`asdf`](https://GitHub.Com/asdf-vm/asdf), the extendable
+version manager, with support for Ruby, Node.js, Elixir, Erlang and more.
 
 ## Installation
 
@@ -45,4 +46,4 @@ For more commands, run `asdf help` or refer to the
 
 ## Maintainer
 
-- [@RobLoach](https://github.com/RobLoach)
+- [`@RobLoach`](https://GitHub.Com/RobLoach)

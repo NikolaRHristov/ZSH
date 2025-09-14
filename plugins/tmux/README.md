@@ -1,7 +1,7 @@
 # tmux
 
-This plugin provides aliases for [tmux](https://tmux.github.io/), the terminal multiplexer. To use it add
-`tmux` to the plugins array in your zshrc file.
+This plugin provides aliases for [`tmux`](https://tmux.github.io/), the terminal
+multiplexer. To use it add `tmux` to the plugins array in your zshrc file.
 
 ```zsh
 plugins=(... tmux)
@@ -10,7 +10,8 @@ plugins=(... tmux)
 The plugin also supports the following:
 
 - determines if tmux is installed or not, if not, prompts user to install tmux
-- determines if the terminal supports the 256 colors or not, sets the appropriate configuration variable
+- determines if the terminal supports the 256 colors or not, sets the
+  appropriate configuration variable
 - sets the correct local config file to use
 
 ## Aliases

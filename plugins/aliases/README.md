@@ -1,7 +1,7 @@
 # Aliases cheatsheet
 
-With lots of 3rd-party amazing aliases installed, this plugin helps list the shortcuts
-that are currently available based on the plugins you have enabled.
+With lots of 3rd-party amazing aliases installed, this plugin helps list the
+shortcuts that are currently available based on the plugins you have enabled.
 
 To use it, add `aliases` to the plugins array in your zshrc file:
 
@@ -11,9 +11,9 @@ plugins=(aliases)
 
 Requirements: Python needs to be installed.
 
-**Maintainer:** [@hqingyi](https://github.com/hqingyi)
+**Maintainer:** [`@hqingyi`](https://GitHub.Com/hqingyi)
 
-## Usage
+## 🛠️ Usage
 
 - `als`: show all aliases by group
 
@@ -21,8 +21,9 @@ Requirements: Python needs to be installed.
 
 - `als <keyword(s)>`: filter and highlight aliases by `<keyword>`
 
-- `als -g <group>/--group <group>`: show only aliases for group `<group>`. Multiple uses of the flag show all groups
+- `als -g <group>/--group <group>`: show only aliases for group `<group>`.
+  Multiple uses of the flag show all groups
 
 - `als --groups`: show only group names
 
-  ![screenshot](https://github.com/ohmyzsh/ohmyzsh/assets/66907184/5bfa00ea-5fc3-4e97-8b22-2f74f6b948c7)
+    ![`screenshot`](https://GitHub.Com/ohmyzsh/ohmyzsh/assets/66907184/5bfa00ea-5fc3-4e97-8b22-2f74f6b948c7)

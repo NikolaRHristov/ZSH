@@ -1,6 +1,6 @@
 # Perl
 
-This plugin adds [perl](https://www.perl.org/) useful aliases/functions.
+This plugin adds [`perl`](https://www.perl.org/) useful aliases/functions.
 
 To use it, add `perl` to the plugins array in your zshrc file:
 

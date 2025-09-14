@@ -1,9 +1,12 @@
-This plugin allows to display command's execution time in a very nonintrusive way.
+This plugin allows to display command's execution time in a very nonintrusive
+way.
 
 Timer can be tuned by these two variables:
-* `TIMER_PRECISION` allows to control number of decimal places (default `1`)
-* `TIMER_FORMAT` allows to adjust display format (default `'/%d'`)
-* `TIMER_THRESHOLD` allows to set the minimum execution time that causes the timer to be shown (default `0`)
+
+- `TIMER_PRECISION` allows to control number of decimal places (default `1`)
+- `TIMER_FORMAT` allows to adjust display format (default `'/%d'`)
+- `TIMER_THRESHOLD` allows to set the minimum execution time that causes the
+  timer to be shown (default `0`)
 
 Sample session:
 

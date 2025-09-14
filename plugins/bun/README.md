@@ -1,6 +1,6 @@
 # Bun Plugin
 
-This plugin sets up completion for [Bun](https://bun.sh).
+This plugin sets up completion for [`Bun`](https://bun.sh).
 
 To use it, add `bun` to the plugins array in your zshrc file:
 

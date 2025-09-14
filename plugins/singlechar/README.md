@@ -3,6 +3,7 @@
 This plugin adds single char shortcuts (and combinations) for some commands.
 
 To use it, add `singlechar` to the plugins array of your zshrc file:
+
 ```
 plugins=(... singlechar)
 ```
@@ -11,8 +12,8 @@ plugins=(... singlechar)
 
 ### CAT, GREP, CURL, WGET
 
-| Alias | Command          | Description |
-|-------|------------------|-------------|
+| Alias | Command          | Description                                                                               |
+| ----- | ---------------- | ----------------------------------------------------------------------------------------- |
 | y     | `grep -Ri`       | Find case-insensitive string in all files and directories, recursively. Follows symlinks. |
 | n     | `grep -Rvi`      | Same as above but only show lines that don't match the string.                            |
 | f     | `grep -Rli`      | Same as 'y' but only print the filenames where the string is found.                       |
@@ -31,11 +32,11 @@ plugins=(... singlechar)
 
 ### XARGS
 
-These aliases are versions of the aliases above but using xargs. This can be used
-by piping the arguments to the xargs aliases.
+These aliases are versions of the aliases above but using xargs. This can be
+used by piping the arguments to the xargs aliases.
 
 | Alias | Command              | Description                     |
-|-------|----------------------|---------------------------------|
+| ----- | -------------------- | ------------------------------- |
 | x     | `xargs`              | 'xargs' command                 |
 | xy    | `xargs grep -Ri`     | Same as 'y' alias using xargs.  |
 | xn    | `xargs grep -Rvi`    | Same as 'n' alias using xargs.  |
@@ -55,11 +56,12 @@ by piping the arguments to the xargs aliases.
 
 ### SUDO
 
-These aliases are versions of the aliases above in [CAT, GREP, CURL, WGET](#cat-grep-curl-wget)
-but using sudo to run them with root permission.
+These aliases are versions of the aliases above in
+[`CAT, GREP, CURL, WGET`](#cat-grep-curl-wget) but using sudo to run them with
+root permission.
 
 | Alias | Command               | Description                    |
-|-------|-----------------------|--------------------------------|
+| ----- | --------------------- | ------------------------------ |
 | s     | `sudo`                | 'sudo' command                 |
 | sy    | `sudo grep -Ri`       | Same as 'y' alias using sudo.  |
 | sn    | `sudo grep -Riv`      | Same as 'n' alias using sudo.  |
@@ -81,7 +83,7 @@ but using sudo to run them with root permission.
 Same as above but using both sudo and xargs.
 
 | Alias | Command                   | Description                     |
-|-------|---------------------------|---------------------------------|
+| ----- | ------------------------- | ------------------------------- |
 | sx    | `sudo xargs`              | 'sudo xargs' command            |
 | sxy   | `sudo xargs grep -Ri`     | Same as 'xy' alias using sudo.  |
 | sxn   | `sudo xargs grep -Riv`    | Same as 'xn' alias using sudo.  |
@@ -101,12 +103,12 @@ Same as above but using both sudo and xargs.
 
 ## Options
 
-The commands `grep`, `sudo`, `wget`, `curl`, and `less` can be configured to use other commands
-via the setup variables below, before Oh My Zsh is sourced. If they are not set yet, they will
-use their default values:
+The commands `grep`, `sudo`, `wget`, `curl`, and `less` can be configured to use
+other commands via the setup variables below, before Oh My Zsh is sourced. If
+they are not set yet, they will use their default values:
 
 | Setup variable | Default value |
-|----------------|---------------|
+| -------------- | ------------- |
 | GREP           | `grep`        |
 | ROOT           | `sudo`        |
 | WGET           | `wget`        |
@@ -115,4 +117,4 @@ use their default values:
 
 ## Author
 
-- [Karolin Varner](https://github.com/koraa)
+- [`Karolin Varner`](https://GitHub.Com/koraa)

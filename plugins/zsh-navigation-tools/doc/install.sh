@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if ! type git 2>/dev/null 1>&2; then
     echo "Please install GIT first"

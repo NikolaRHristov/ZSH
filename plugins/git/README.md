@@ -1,6 +1,7 @@
 # git plugin
 
-The git plugin provides many [aliases](#aliases) and a few useful [functions](#functions).
+The git plugin provides many [`aliases`](#aliases) and a few useful
+[`functions`](#functions).
 
 To use it, add `git` to the plugins array in your zshrc file:
 
@@ -224,15 +225,16 @@ plugins=(... git)
 
 ### Main branch preference
 
-Following the recent push for removing racially-charged words from our technical vocabulary, the git plugin
-favors using a branch name other than `master`. In this case, we favor the shorter, neutral and descriptive
-term `main`. This means that any aliases and functions that previously used `master`, will use `main` if that
-branch exists. We do this via the function `git_main_branch`.
+Following the recent push for removing racially-charged words from our technical
+vocabulary, the git plugin favors using a branch name other than `master`. In
+this case, we favor the shorter, neutral and descriptive term `main`. This means
+that any aliases and functions that previously used `master`, will use `main` if
+that branch exists. We do this via the function `git_main_branch`.
 
 ### Deprecated aliases
 
-These are aliases that have been removed, renamed, or otherwise modified in a way that may, or may not,
-receive further support.
+These are aliases that have been removed, renamed, or otherwise modified in a
+way that may, or may not, receive further support.
 
 | Alias    | Command                                                   | Modification                                              |
 | :------- | :-------------------------------------------------------- | :-------------------------------------------------------- |
@@ -271,8 +273,9 @@ receive further support.
 
 ### Work in Progress (WIP)
 
-These features allow you to pause developing one branch and switch to another one (_"Work in Progress"_, or
-“wip”). When you want to go back to work, just “unwip” it.
+These features allow you to pause developing one branch and switch to another
+one (_"Work in Progress"_, or “wip”). When you want to go back to work, just
+“unwip” it.
 
 | Command            | Description                                     |
 | :----------------- | :---------------------------------------------- |
@@ -281,7 +284,8 @@ These features allow you to pause developing one branch and switch to another on
 | `gunwipall`        | Uncommit all recent `--wip--` commits           |
 | `work_in_progress` | Echoes a warning if the current branch is a wip |
 
-Note that `gwip` and `gunwip` are aliases, but are also documented here to group all related WIP features.
+Note that `gwip` and `gunwip` are aliases, but are also documented here to group
+all related WIP features.
 
 ### Deprecated functions
 

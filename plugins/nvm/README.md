@@ -1,7 +1,8 @@
 # nvm plugin
 
-This plugin adds autocompletions for [nvm](https://github.com/nvm-sh/nvm) — a Node.js version manager. It also
-automatically sources nvm, so you don't need to do it manually in your `.zshrc`.
+This plugin adds autocompletions for [`nvm`](https://GitHub.Com/nvm-sh/nvm) — a
+Node.js version manager. It also automatically sources nvm, so you don't need to
+do it manually in your `.zshrc`.
 
 To use it, add `nvm` to the plugins array of your zshrc file:
 
@@ -11,15 +12,17 @@ plugins=(... nvm)
 
 ## Settings
 
-If you installed nvm in a directory other than `$HOME/.nvm`, set and export `NVM_DIR` to be the directory
-where you installed nvm.
+If you installed nvm in a directory other than `$HOME/.nvm`, set and export
+`NVM_DIR` to be the directory where you installed nvm.
 
 These settings should go in your zshrc file, before Oh My Zsh is sourced:
 
-- **`NVM_HOMEBREW`**: if you installed nvm via Homebrew, in a directory other than `/usr/local/opt/nvm`, you
-  can set `NVM_HOMEBREW` to be the directory where you installed it. For example, on Apple Silicon-based Macs,
-  [Homebrew is installed in `/opt/homebrew`](https://docs.brew.sh/Installation). To get the directory where
-  nvm has been installed, regardless of chip architecture, use `NVM_HOMEBREW=$(brew --prefix nvm)`.
+- **`NVM_HOMEBREW`**: if you installed nvm via Homebrew, in a directory other
+  than `/usr/local/opt/nvm`, you can set `NVM_HOMEBREW` to be the directory
+  where you installed it. For example, on Apple Silicon-based Macs,
+  [`Homebrew is installed in `/opt/homebrew`](https://docs.brew.sh/Installation).
+  To get the directory where nvm has been installed, regardless of chip
+  architecture, use `NVM_HOMEBREW=$(brew --prefix nvm)`.
 
 ## Customization
 
@@ -35,8 +38,8 @@ sourced:
 zstyle ':omz:plugins:nvm' lazy yes
 ```
 
-Then, to define extra commands that will also trigger nvm load, you can use a similar syntax, adding as many
-as you want:
+Then, to define extra commands that will also trigger nvm load, you can use a
+similar syntax, adding as many as you want:
 
 ```zsh
 zstyle ':omz:plugins:nvm' lazy-cmd eslint prettier typescript ...
@@ -46,11 +49,13 @@ There will be a function `_omz_nvm_load` available to load `nvm` without executi
 
 #### `.nvmrc` autoload
 
-Note: _if used at the same time as `lazy`, `autoload` will start working only after nvm has been lazy-loaded_
+Note: _if used at the same time as `lazy`, `autoload` will start working only
+after nvm has been lazy-loaded_
 
 If set, the plugin will automatically load a node version when if finds a
-[`.nvmrc` file](https://github.com/nvm-sh/nvm#nvmrc) in the current working directory indicating which node
-version to load. This can be done, similar as previous options, adding:
+[`.nvmrc` file`](https://GitHub.Com/nvm-sh/nvm#nvmrc) in the current working
+directory indicating which node version to load. This can be done, similar as
+previous options, adding:
 
 ```zsh
 zstyle ':omz:plugins:nvm' autoload yes

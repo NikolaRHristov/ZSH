@@ -1,6 +1,7 @@
 # Systemadmin plugin
 
-This plugin adds a series of aliases and functions which make a System Administrator's life easier.
+This plugin adds a series of aliases and functions which make a System
+Administrator's life easier.
 
 To use it, add `systemadmin` to the plugins array in your zshrc file:
 
@@ -11,7 +12,7 @@ plugins=(... systemadmin)
 ## Aliases
 
 | Alias   | Command                                                                    | Description                                                        |
-|---------|----------------------------------------------------------------------------|--------------------------------------------------------------------|
+| ------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | ping    | `ping -c 5`                                                                | Sends only 5 ICMP Messages                                         |
 | ping6   | `ping6 -c 5`                                                               | Sends only 5 ICMPv6 Messages                                       |
 | clr     | `clear; echo Currently logged in on $TTY, as $USERNAME in directory $PWD.` | Clears the screen and prints the current user, TTY, and directory  |
@@ -25,8 +26,8 @@ plugins=(... systemadmin)
 
 ## Functions
 
-| Function    |  Description                                                                                                          |
-|-------------|-----------------------------------------------------------------------------------------------------------------------|
+| Function    | Description                                                                                                           |
+| ----------- | --------------------------------------------------------------------------------------------------------------------- |
 | dls         | List only directories in the current directory                                                                        |
 | psgrep      | List all processes that match the pattern input after the command                                                     |
 | killit      | Kills any process that matches a regular expression passed to it                                                      |
@@ -46,7 +47,7 @@ plugins=(... systemadmin)
 | c404        | List statistics on 404 connections in the nginx/access.log file or another log file if specified                      |
 | httpstatus  | List statistics based on http status in the nginx/access.log file or another log file if specified                    |
 | d0          | Delete 0 byte files recursively in the current directory or another if specified                                      |
-| geteip      | Gather information regarding an external IP address using [icanhazip.com](https://icanhazip.com)                      |
+| geteip      | Gather information regarding an external IP address using [`icanhazip.com`](https://icanhazip.com)                    |
 | getip       | Determine the local IP Address with `ip addr` or `ifconfig`                                                           |
 | clrz        | Clear zombie processes                                                                                                |
 | conssec     | Show number of concurrent connections per second based on nginx/access.log file or another log file if specified      |

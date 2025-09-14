@@ -1,6 +1,7 @@
 # Jira plugin
 
-This plugin provides command line tools for interacting with Atlassian's [JIRA](https://www.atlassian.com/software/jira) bug tracking software.
+This plugin provides command line tools for interacting with Atlassian's
+[`JIRA`](https://www.atlassian.com/software/jira) bug tracking software.
 
 To use it, add `jira` to the plugins array in your zshrc file:
 
@@ -8,13 +9,16 @@ To use it, add `jira` to the plugins array in your zshrc file:
 plugins=(... jira)
 ```
 
-The interaction is all done through the web. No local installation of JIRA is necessary.
+The interaction is all done through the web. No local installation of JIRA is
+necessary.
 
-In this document, "JIRA" refers to the JIRA issue tracking server, and `jira` refers to the command this plugin supplies.
+In this document, "JIRA" refers to the JIRA issue tracking server, and `jira`
+refers to the command this plugin supplies.
 
-## Usage
+## 🛠️ Usage
 
-This plugin supplies one command, `jira`, through which all its features are exposed. Most forms of this command open a JIRA page in your web browser.
+This plugin supplies one command, `jira`, through which all its features are
+exposed. Most forms of this command open a JIRA page in your web browser.
 
 ## Commands
 
@@ -34,7 +38,6 @@ This plugin supplies one command, `jira`, through which all its features are exp
 | `jira assigned [username]`    | Queries for issues assigned to a user                    |
 | `jira branch`                 | Opens an existing issue matching the current branch name |
 | `jira help`                   | Prints usage instructions                                |
-
 
 ### Jira Branch usage notes
 
@@ -61,6 +64,9 @@ function jira_branch() {
 }
 ```
 
+This is also checks if the prefix is in the name, and adds it if not, so:
+"MP-1234" opens the issue "MP-1234", "mp-1234" opens the issue "mp-1234", and
+"1234" opens the issue "MP-1234".
 
 #### Debugging usage
 
@@ -74,9 +80,13 @@ jira dumpconfig   # displays the effective configuration
 
 The URL for your JIRA instance is set by `$JIRA_URL` or a `.jira_url` file.
 
-Add a `.jira-url` file in the base of your project. You can also set `$JIRA_URL` in your `~/.zshrc` or put a `.jira-url` in your home directory. A `.jira-url` in the current directory takes precedence, so you can make per-project customizations.
+Add a `.jira-url` file in the base of your project. You can also set `$JIRA_URL`
+in your `~/.zshrc` or put a `.jira-url` in your home directory. A `.jira-url` in
+the current directory takes precedence, so you can make per-project
+customizations.
 
-The same goes with `.jira-prefix` and `$JIRA_PREFIX`. These control the prefix added to all issue IDs, which differentiates projects within a JIRA instance.
+The same goes with `.jira-prefix` and `$JIRA_PREFIX`. These control the prefix
+added to all issue IDs, which differentiates projects within a JIRA instance.
 
 For example:
 
@@ -85,19 +95,27 @@ cd to/my/project
 echo "https://jira.atlassian.com" >> .jira-url
 ```
 
-(Note: The current implementation only looks in the current directory for `.jira-url` and `.jira-prefix`, not up the path, so if you are in a subdirectory of your project, it will fall back to your default JIRA URL. This will probably change in the future though.)
+(Note: The current implementation only looks in the current directory for
+`.jira-url` and `.jira-prefix`, not up the path, so if you are in a subdirectory
+of your project, it will fall back to your default JIRA URL. This will probably
+change in the future though.)
 
 ### Variables
 
-* `$JIRA_URL` - Your JIRA instance's URL
-* `$JIRA_NAME` - Your JIRA username; used as the default user for `assigned`/`reported` searches
-* `$JIRA_PREFIX` - Prefix added to issue ID arguments
-* `$JIRA_RAPID_BOARD` - Set to `true` if you use Rapid Board
-* `$JIRA_RAPID_VIEW` - Set the default rapid view; it doesn't work if `$JIRA_RAPID_BOARD` is set to false
-* `$JIRA_DEFAULT_ACTION` - Action to do when `jira` is called with no arguments; defaults to "new"
-* `$JIRA_TEMPO_PATH` - Your JIRA tempo url path; defaults to "/secure/Tempo.jspa"
-
+- `$JIRA_URL` - Your JIRA instance's URL
+- `$JIRA_NAME` - Your JIRA username; used as the default user for
+  `assigned`/`reported` searches
+- `$JIRA_PREFIX` - Prefix added to issue ID arguments
+- `$JIRA_RAPID_BOARD` - Set to `true` if you use Rapid Board
+- `$JIRA_RAPID_VIEW` - Set the default rapid view; it doesn't work if
+  `$JIRA_RAPID_BOARD` is set to false
+- `$JIRA_DEFAULT_ACTION` - Action to do when `jira` is called with no arguments;
+  defaults to "new"
+- `$JIRA_TEMPO_PATH` - Your JIRA tempo url path; defaults to
+  "/secure/Tempo.jspa"
 
 ### Browser
 
-Your default web browser, as determined by how `open_command` handles `http://` URLs, is used for interacting with the JIRA instance. If you change your system's URL handler associations, it will change the browser that `jira` uses.
+Your default web browser, as determined by how `open_command` handles `HTTP://`
+URLs, is used for interacting with the JIRA instance. If you change your
+system's URL handler associations, it will change the browser that `jira` uses.

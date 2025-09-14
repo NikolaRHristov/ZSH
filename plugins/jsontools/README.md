@@ -21,7 +21,8 @@ prematurely and the functions will not be available.
 
 ## Usage
 
-Usage is simple... just take your json data and pipe it into the appropriate jsontool:
+Usage is simple... just take your json data and pipe it into the appropriate
+jsontool:
 
 - `pp_json`: pretty prints json.
 - `is_json`: returns true if valid json; false otherwise.
@@ -78,13 +79,13 @@ $ echo '%7B%22b%22:2,%20%22a%22:1%7D' | urldecode_json
 # echo two separate json objects and pretty print both
 $ echo '{"a": "b"}\n{"c": [1,2,3]}' | pp_ndjson
 {
-    "a": "b"
+	"a": "b"
 }
 {
-    "c": [
-        1,
-        2,
-        3
-    ]
+	"c": [
+	1,
+	2,
+	3
+	]
 }
 ```

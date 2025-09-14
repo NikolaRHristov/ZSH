@@ -1,7 +1,8 @@
 # wakeonlan
 
 This plugin provides a wrapper around the "wakeonlan" tool available from most
-distributions' package repositories, or from [the following website](https://github.com/jpoliv/wakeonlan).
+distributions' package repositories, or from
+[`the following website`](https://GitHub.Com/jpoliv/wakeonlan).
 
 To use it, add `wakeonlan` to the plugins array in your zshrc file:
 
@@ -9,7 +10,7 @@ To use it, add `wakeonlan` to the plugins array in your zshrc file:
 plugins=(... wakeonlan)
 ```
 
-## Usage
+## 🛠️ Usage
 
 In order to use this wrapper, create the `~/.wakeonlan` directory, and place in
 that directory one file for each device you would like to be able to wake. Give

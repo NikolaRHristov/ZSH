@@ -38,7 +38,7 @@ plugins=(... common-aliases)
 | duf\* | `du -sh`              | Display the size of files in current location in human-readable form            |
 | t     | `tail -f`             | Shorthand for tail which outputs the last part of a file                        |
 
-\* Only if the [`duf`](https://github.com/muesli/duf) command isn't installed.
+\* Only if the [`duf`](https://GitHub.Com/muesli/duf) command isn't installed.
 
 ### find and grep
 
@@ -49,7 +49,7 @@ plugins=(... common-aliases)
 | grep  | `grep --color`                                     | Searches for a query string          |
 | sgrep | `grep -R -n -H -C 5 --exclude-dir={.git,.svn,CVS}` | Useful for searching within files    |
 
-\* Only if the [`fd`](https://github.com/sharkdp/fd) command isn't installed.
+\* Only if the [`fd`](https://GitHub.Com/sharkdp/fd) command isn't installed.
 
 ### Other Aliases
 
@@ -64,8 +64,8 @@ plugins=(... common-aliases)
 
 ## Global aliases
 
-These aliases are expanded in any position in the command line, meaning you can use them even at the
-end of the command you've typed. Examples:
+These aliases are expanded in any position in the command line, meaning you can
+use them even at the end of the command you've typed. Examples:
 
 Quickly pipe to less:
 
@@ -80,7 +80,7 @@ Silences stderr output:
 ```zsh
 $ find . -type f NE
 # will run
-$ find . -type f 2>/dev/null
+$ find . -type f 2> /dev/null
 ```
 
 | Alias | Command                     | Description                                                 |
@@ -98,9 +98,10 @@ $ find . -type f 2>/dev/null
 
 ## File extension aliases
 
-These are special aliases that are triggered when a file name is passed as the command. For example,
-if the pdf file extension is aliased to `acroread` (a popular Linux pdf reader), when running `file.pdf`
-that file will be open with `acroread`.
+These are special aliases that are triggered when a file name is passed as the
+command. For example, if the pdf file extension is aliased to `acroread` (a
+popular Linux pdf reader), when running `file.pdf` that file will be open with
+`acroread`.
 
 ### Reading Docs
 
@@ -125,6 +126,7 @@ that file will be open with `acroread`.
 ### Some other features
 
 - Opens urls in terminal using browser specified by the variable `$BROWSER`
-- Opens C, C++, Tex and text files using editor specified by the variable `$EDITOR`
+- Opens C, C++, Tex and text files using editor specified by the variable
+  `$EDITOR`
 - Opens images using image viewer specified by the variable `$XIVIEWER`
 - Opens videos and other media using mplayer

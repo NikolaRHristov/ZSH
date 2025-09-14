@@ -1,6 +1,8 @@
 # conda plugin
 
-The conda plugin provides [aliases](#aliases) for `conda`, usually installed via [anaconda](https://www.anaconda.com/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html).
+The conda plugin provides [`aliases`](#aliases) for `conda`, usually installed
+via [`anaconda`](https://www.anaconda.com/) or
+[`miniconda`](https://docs.conda.io/en/latest/miniconda.html).
 
 To use it, add `conda` to the plugins array in your zshrc file:
 

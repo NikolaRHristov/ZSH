@@ -1,6 +1,7 @@
 # Kubectl plugin
 
-This plugin adds completion for the [Kubernetes cluster manager](https://kubernetes.io/docs/reference/kubectl/kubectl/),
+This plugin adds completion for the
+[`Kubernetes cluster manager`](https://kubernetes.io/docs/reference/kubectl/kubectl/),
 as well as some aliases for common kubectl commands.
 
 To use it, add `kubectl` to the plugins array in your zshrc file:
@@ -134,8 +135,9 @@ plugins=(... kubectl)
 
 ## Wrappers
 
-This plugin provides 3 wrappers to colorize kubectl output in JSON and YAML using various tools (which must be installed):
+This plugin provides 3 wrappers to colorize kubectl output in JSON and YAML
+using various tools (which must be installed):
 
 - `kj`: JSON, colorized with [`jq`](https://stedolan.github.io/jq/).
-- `kjx`: JSON, colorized with [`fx`](https://github.com/antonmedv/fx).
-- `ky`: YAML, colorized with [`yh`](https://github.com/andreazorzetto/yh).
+- `kjx`: JSON, colorized with [`fx`](https://GitHub.Com/antonmedv/fx).
+- `ky`: YAML, colorized with [`yh`](https://GitHub.Com/andreazorzetto/yh).

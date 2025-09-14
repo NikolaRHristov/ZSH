@@ -1,9 +1,7 @@
-[![License (GPL version 3)](https://img.shields.io/badge/license-GNU%20GPL%20version%203-blue.svg?style=flat-square)](./LICENSE)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](./LICENSE)
-![ZSH 5.0.0](https://img.shields.io/badge/zsh-v5.0.0-orange.svg?style=flat-square)
-[![Gitter][gitter-image]][gitter-link]
+![`ZSH 5.0.0`](https://img.shields.io/badge/zsh-v5.0.0-orange.svg?style=flat-square)
+[![Gitter][`gitter-image]`][gitter-link]
 
-![znt logo](https://imageshack.com/a/img905/2629/WK9qjN.png)
+![`znt logo`](https://imageshack.com/a/img905/2629/WK9qjN.png)
 
 # Zsh Navigation Tools
 
@@ -11,9 +9,9 @@ Set of tools like `n-history` – multi-word history searcher, `n-cd` – direct
 bookmark manager, `n-kill` – `htop` like kill utility, and more. Based on
 `n-list`, a tool generating selectable curses-based list of elements that has
 access to current `Zsh` session, i.e. has broad capabilities to work together
-with it. Feature highlights include incremental multi-word searching, approximate
-matching, ANSI coloring, themes, unique mode, horizontal scroll, grepping, advanced
-history management and various integrations with `Zsh`.
+with it. Feature highlights include incremental multi-word searching,
+approximate matching, ANSI coloring, themes, unique mode, horizontal scroll,
+grepping, advanced history management and various integrations with `Zsh`.
 
 To use it, add `zsh-navigation-tools` to the plugins array in your zshrc file:
 
@@ -21,21 +19,20 @@ To use it, add `zsh-navigation-tools` to the plugins array in your zshrc file:
 plugins=(... zsh-navigation-tools)
 ```
 
-Also check out [![ZCA](https://imageshack.com/a/img911/8084/qSpO8a.png) Zsh Command Architect](https://github.com/zdharma-continuum/zsh-cmd-architect)
-and [Zconvey](https://github.com/zdharma-continuum/zconvey)
-
-
+Also check out
+[![ZCA](https://imageshack.com/a/img911/8084/qSpO8a.png) Zsh Command Architect`](https://GitHub.Com/zdharma-continuum/zsh-cmd-architect)
+and [`Zconvey`](https://GitHub.Com/zdharma-continuum/zconvey)
 
 Videos:
-- [https://youtu.be/QwZ8IJEgXRE](https://youtu.be/QwZ8IJEgXRE)
-- [https://youtu.be/DN9QqssAYB8](https://youtu.be/DN9QqssAYB8)
+
+- [`https://youtu.be/QwZ8IJEgXRE`](https://youtu.be/QwZ8IJEgXRE)
+- [`https://youtu.be/DN9QqssAYB8`](https://youtu.be/DN9QqssAYB8)
 
 Screenshots:
 
-![n-history](https://imageshack.com/a/img921/5046/bqr0mk.png)
+![`n-history`](https://imageshack.com/a/img921/5046/bqr0mk.png)
 
-![n-history](https://imageshack.com/a/img633/9905/WzfSdl.gif)
-
+![`n-history`](https://imageshack.com/a/img633/9905/WzfSdl.gif)
 
 ## History Widget
 
@@ -51,8 +48,8 @@ bindkey "^R" znt-history-widget
 
 to `.zshrc`. This is done automatically when using the installer, zgen, antigen
 or single file install. Two other widgets exist, `znt-cd-widget` and
-`znt-kill-widget`, they too can be assigned to key combinations (`autoload` is done
-in `.zshrc` so no need of it):
+`znt-kill-widget`, they too can be assigned to key combinations (`autoload` is
+done in `.zshrc` so no need of it):
 
 ```zsh
 zle -N znt-cd-widget
@@ -66,7 +63,8 @@ bindkey "^Y" znt-kill-widget
 The tools are:
 
 - `n-aliases` - browses aliases, relegates editing to `vared`
-- `n-cd` - browses dirstack and bookmarked directories, allows to enter selected directory
+- `n-cd` - browses dirstack and bookmarked directories, allows to enter selected
+  directory
 - `n-functions` - browses functions, relegates editing to `zed` or `vared`
 - `n-history` - browses history, allows to edit and run commands from it
 - `n-kill` - browses processes list, allows to send signal to selected process
@@ -74,10 +72,12 @@ The tools are:
 - `n-options` - browses options, allows to toggle their state
 - `n-panelize` - loads output of given command into the list for browsing
 
-All tools support horizontal scroll with `<`,`>`, `{`,`}`, `h`,`l` or left and right cursors. Other keys are:
+All tools support horizontal scroll with `<`,`>`, `{`,`}`, `h`,`l` or left and
+right cursors. Other keys are:
 
 - `H`, `?` (from n-history) - run n-help
-- `Ctrl-R` - start n-history, the incremental, multi-keyword history searcher (Zsh binding)
+- `Ctrl-R` - start n-history, the incremental, multi-keyword history searcher
+  (Zsh binding)
 - `Ctrl-A` - rotate entered words (1+2+3 -> 3+1+2)
 - `Ctrl-F` - fix mode (approximate matching)
 - `Ctrl-L` - redraw of whole display
@@ -97,7 +97,8 @@ All tools support horizontal scroll with `<`,`>`, `{`,`}`, `h`,`l` or left and r
 - `Ctrl-O`, `o` - enter uniq mode (no duplicate lines)
 - `Ctrl-E`, `e` - edit private history (when in private history view)
 - `F1` - (in n-history) - switch view
-- `F2`, `Ctrl-X`, `Ctrl-/` - search predefined keywords (defined in config files)
+- `F2`, `Ctrl-X`, `Ctrl-/` - search predefined keywords (defined in config
+  files)
 
 ## Configuration
 
@@ -130,12 +131,13 @@ local border=1
 # Combinations of colors to try out with Ctrl-T and Ctrl-G
 # The last number is the bold option, 0 or 1
 local -a themes
-themes=( "white/black/1" "green/black/0" "green/black/1" "white/blue/0" "white/blue/1"
-         "magenta/black/0" "magenta/black/1" )
+themes=("white/black/1" "green/black/0" "green/black/1" "white/blue/0" "white/blue/1"
+	"magenta/black/0" "magenta/black/1")
 ```
 
-Read remaining configuration files to see what's in them. Nevertheless, configuration
-can be also set from `zshrc`. There are `5` standard `zshrc` configuration variables:
+Read remaining configuration files to see what's in them. Nevertheless,
+configuration can be also set from `zshrc`. There are `5` standard `zshrc`
+configuration variables:
 
 ```
 znt_history_active_text - underline or reverse - how should be active element highlighted
@@ -145,8 +147,9 @@ znt_history_nlist_coloring_match_multiple - should multiple matches be colorized
 znt_history_keywords (array) - search keywords activated with `Ctrl-X`, `F2` or `Ctrl-/`, e.g. ( "git" "vim" )
 ```
 
-Above variables will work for `n-history` tool. For other tools, change `_history_` to
-e.g. `_cd_`, for the `n-cd` tool. The same works for all `8` tools.
+Above variables will work for `n-history` tool. For other tools, change
+`_history_` to e.g. `_cd_`, for the `n-cd` tool. The same works for all `8`
+tools.
 
 Common configuration of the tools uses variables with `_list_` in them:
 
@@ -158,9 +161,10 @@ znt_list_themes (array) - list of themes to try out with Ctrl-T, e.g. ( "white/b
 znt_list_instant_select - should pressing enter in search mode leave tool (0 or 1)
 ```
 
-If you used `ZNT` before `v2.1.12`, remove old configuration files `~/.config/znt/*.conf` so that `ZNT`
-can update them to the latest versions that support integration with `Zshrc`. If you used installer
-then run it again (after the remove of configuration files).
+If you used `ZNT` before `v2.1.12`, remove old configuration files
+`~/.config/znt/*.conf` so that `ZNT` can update them to the latest versions that
+support integration with `Zshrc`. If you used installer then run it again (after
+the remove of configuration files).
 
 ## Programming
 
@@ -178,11 +182,11 @@ done). To set up non-selectable entries add their indices into array
 
 ```zsh
 typeset -a NLIST_NONSELECTABLE_ELEMENTS
-NLIST_NONSELECTABLE_ELEMENTS=( 1 )
+NLIST_NONSELECTABLE_ELEMENTS=(1)
 ```
 
-Result is stored as `$reply[REPLY]` (`$` isn't needed before `REPLY` because
-of arithmetic context inside `[]`). The returned array might be different from
+Result is stored as `$reply[REPLY]` (`$` isn't needed before `REPLY` because of
+arithmetic context inside `[]`). The returned array might be different from
 input arguments as `n-list` can process them via incremental search or uniq
 mode. `$REPLY` is the index in that possibly processed array. If `$REPLY`
 equals `-1` it means that no selection have been made (user quit via `q`
@@ -193,7 +197,7 @@ To set up entries that can be jumped to with `[`,`]` keys add their indices to
 
 ```zsh
 typeset -a NLIST_HOP_INDEXES
-NLIST_HOP_INDEXES=( 1 10 )
+NLIST_HOP_INDEXES=(1 10)
 ```
 
 `n-list` can automatically colorize entries according to a `Zsh` pattern.
@@ -208,12 +212,12 @@ local NLIST_COLORING_MATCH_MULTIPLE=1
 n-list "This is a number 123" "This line too has a number: 456"
 ```
 
-Blue is the default color, it doesn't have to be set. See `zshexpn` man page
-for more information on `Zsh` patterns. Briefly, comparing to regular
-expressions, `(#s)` is `^`, `(#e)` is `$`, `#` is `*`, `##` is `+`. Alternative
-will work when in parenthesis, i.e. `(a|b)`. BTW by using this method you can
-colorize output of the tools, via their config files (check out e.g. n-cd.conf,
-it is using this).
+Blue is the default color, it doesn't have to be set. See `zshexpn` man page for
+more information on `Zsh` patterns. Briefly, comparing to regular expressions,
+`(#s)` is `^`, `(#e)` is `$`, `#` is `*`, `##` is `+`. Alternative will work
+when in parenthesis, i.e. `(a|b)`. BTW by using this method you can colorize
+output of the tools, via their config files (check out e.g. n-cd.conf, it is
+using this).
 
 ## Performance
 
@@ -221,34 +225,43 @@ it is using this).
 
 ## A tip
 
-Zsh plugins may look scary, as they seem to have some "architecture". In fact, what a plugin really is, is that:
+Zsh plugins may look scary, as they seem to have some "architecture". In fact,
+what a plugin really is, is that:
 
 1. It has its directory added to `fpath`
 2. It has any first `*.plugin.zsh` file sourced
 
-That's it. When one contributes to Oh-My-Zsh or creates a plugin for any plugin manager, they only need to account for this.
-The same with doing any non-typical Zsh Navigation Tools installation.
+That's it. When one contributes to Oh-My-Zsh or creates a plugin for any plugin
+manager, they only need to account for this. The same with doing any non-typical
+Zsh Navigation Tools installation.
 
 ## More
 
-- be aware of [this](https://github.com/zdharma-continuum/zsh-navigation-tools/blob/f49f910d239ae5bc6e1a5bb34930307b4f4e3ffe/zsh-navigation-tools.plugin.zsh#L35-L49)
+- be aware of
+  [`this`](https://GitHub.Com/zdharma-continuum/zsh-navigation-tools/blob/f49f910d239ae5bc6e1a5bb34930307b4f4e3ffe/zsh-navigation-tools.plugin.zsh#L35-L49)
 
 # Fixing tmux, screen and linux vt
 
 If `TERM=screen-256color` (often a case for `tmux` and `screen` sessions) then
-`ncv` terminfo capability will have `2`nd bit set.  This in general means that
-underline won't work. To fix this by creating your own `ncv=0`-equipped
-terminfo file, run:
+`ncv` terminfo capability will have `2`nd bit set. This in general means that
+underline won't work. To fix this by creating your own `ncv=0`-equipped terminfo
+file, run:
 
 ```zsh
-{ infocmp -x screen-256color; printf '\t%s\n' 'ncv@,'; } > /tmp/t && tic -x /tmp/t
+{
+	infocmp -x screen-256color
+	printf '\t%s\n' 'ncv@,'
+} > /tmp/t && tic -x /tmp/t
 ```
 
 A file will be created in directory `~/.terminfo` and will be automatically
 used, `tmux` and `screen` will work. Similar is for Linux virtual terminal:
 
 ```zsh
-{ infocmp -x linux; printf '\t%s\n' 'ncv@,'; } > /tmp/t && tic -x /tmp/t
+{
+	infocmp -x linux
+	printf '\t%s\n' 'ncv@,'
+} > /tmp/t && tic -x /tmp/t
 ```
 
 It will not display underline properly, but will instead highlight by a color,

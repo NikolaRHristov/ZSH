@@ -1,7 +1,7 @@
 # mvn plugin
 
-The mvn plugin provides many [useful aliases](#aliases) as well as completion for
-the [Apache Maven](https://maven.apache.org/) command (`mvn`).
+The mvn plugin provides many [`useful aliases`](#aliases) as well as completion
+for the [`Apache Maven`](https://maven.apache.org/) command (`mvn`).
 
 Enable it by adding `mvn` to the plugins array in your zshrc file:
 
@@ -11,8 +11,9 @@ plugins=(... mvn)
 
 ## Aliases
 
-The plugin aliases mvn to a function that calls `mvnw` (the [Maven Wrapper](https://github.com/takari/maven-wrapper))
-if it's found, or the mvn command otherwise.
+The plugin aliases mvn to a function that calls `mvnw` (the
+[`Maven Wrapper`](https://GitHub.Com/takari/maven-wrapper)) if it's found, or
+the mvn command otherwise.
 
 | Alias                | Command                                         |
 |:---------------------|:------------------------------------------------|
@@ -51,13 +52,16 @@ if it's found, or the mvn command otherwise.
 
 ## mvn-color
 
-It's a function that wraps the mvn command to colorize it's output. You can use it in place
-of the `mvn` command. For example: instead of `mvn test`, use `mvn-color test`.
+It's a function that wraps the mvn command to colorize it's output. You can use
+it in place of the `mvn` command. For example: instead of `mvn test`, use
+`mvn-color test`.
 
-Since [Maven 3.5.0](https://maven.apache.org/docs/3.5.0/release-notes.html) the mvn command
-has colored output, so this function will be soon removed from the plugin.
+Since [`Maven 3.5.0`](https://maven.apache.org/docs/3.5.0/release-notes.html)
+the mvn command has colored output, so this function will be soon removed from
+the plugin.
 
 ### Known bugs
 
 It has a bug where it will swallow mvn prompts for user input, _e.g._ when using
-`archetype:generate`. See [#5052](https://github.com/ohmyzsh/ohmyzsh/issues/5052).
+`archetype:generate`. See
+[`#5052`](https://GitHub.Com/ohmyzsh/ohmyzsh/issues/5052).

@@ -8,7 +8,7 @@ To use it add `chucknorris` to the plugins array in you zshrc file.
 plugins=(... chucknorris)
 ```
 
-## Usage
+## 🛠️ Usage
 
 | Command     | Description                     |
 | ----------- | ------------------------------- |

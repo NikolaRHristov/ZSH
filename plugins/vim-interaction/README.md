@@ -1,12 +1,11 @@
-# Vim Interaction #
+# Vim Interaction
 
 The idea for this script is to give you some decent interaction with a running
-GVim session.  Normally you'll be running around your filesystem doing any
-number of amazing things and you'll need to load some files into GVim for
-editing, inspecting, destruction, or other bits of mayhem.  This script lets you
-do that.
+GVim session. Normally you'll be running around your filesystem doing any number
+of amazing things and you'll need to load some files into GVim for editing,
+inspecting, destruction, or other bits of mayhem. This script lets you do that.
 
-## Usage
+## 🛠️ Usage
 
 The plugin presents a function called `callvim` whose usage is:
 
@@ -17,18 +16,18 @@ The plugin presents a function called `callvim` whose usage is:
       file       The file to edit
       ... fileN  The other files to add to the argslist
 
-## Aliases ##
+## Aliases
 
 There are a few aliases presented as well:
 
-* `v` A shorthand for `callvim`
-* `vvsp` Edits the passed in file but first makes a vertical split
-* `vhsp` Edits the passed in file but first makes a horizontal split
+- `v` A shorthand for `callvim`
+- `vvsp` Edits the passed in file but first makes a vertical split
+- `vhsp` Edits the passed in file but first makes a horizontal split
 
-## Post Callout ##
+## Post Callout
 
 At the end of the `callvim` function we invoke the `postCallVim` function if it
-exists.  If you're using MacVim, for example, you could define a function that
+exists. If you're using MacVim, for example, you could define a function that
 brings window focus to it after the file is loaded:
 
     function postCallVim
@@ -38,7 +37,7 @@ brings window focus to it after the file is loaded:
 
 This'll be different depending on your OS / Window Manager.
 
-## Examples ##
+## Examples
 
 This will load `/tmp/myfile.scala` into the running GVim session:
 

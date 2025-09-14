@@ -11,7 +11,7 @@ plugins=(... vagrant-prompt)
 
 **Alberto Re <alberto.re@gmail.com>**
 
-## Usage
+## 🛠️ Usage
 
 To display Vagrant info on your prompt add the `vagrant_prompt_info` to the
 `$PROMPT` or `$RPROMPT` variable in your theme. Example:
